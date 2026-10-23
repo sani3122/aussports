@@ -1,0 +1,35 @@
+name: Scrape Football Schedule
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Runs every 6 hours
+  workflow_dispatch:      # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push the updated JSON back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run scraper script
+        run: node index.js
+
+      - name: Commit and push changes if schedule updated
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add ausport_football_schedule_bd.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update football schedule [skip ci]" && git push)
+          
