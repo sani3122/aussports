@@ -38,7 +38,7 @@ const FOOTBALL_CONFIG = {
                        'manchester united', 'newcastle', 'nottingham forest', 'sunderland', 'tottenham hotspur',
                        'hull city', 'ipswich town', 'coventry city'],
     'Serie A': ['inter milan', 'ac milan', 'napoli', 'juventus', 'roma', 'atalanta', 'lazio'],
-    'La Liga': ['barcelona', 'real madrid', 'atlético'],
+    'La Liga': 'all',
     'Bundesliga': ['bayern', 'borussia dortmund', 'bayer leverkusen'],
     'Ligue 1': ['psg', 'olympique marseille'],
     'UEFA Champions League': 'all',
