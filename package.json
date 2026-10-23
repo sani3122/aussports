@@ -1,0 +1,14 @@
+{
+  "name": "ausport-football-scraper",
+  "version": "1.0.0",
+  "description": "Scrape live football schedule for Bangladesh time",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "dayjs": "^1.11.10"
+  }
+}
