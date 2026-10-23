@@ -1,15 +1,6 @@
 [
   {
     "Date": "2026-10-24",
-    "Time": "00:55",
-    "League": "Football",
-    "Matchup": "Alavés vs Málaga CF",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-10-24",
     "Time": "01:00",
     "League": "PREMIER LEAGUE",
     "Matchup": "IPSWICH TOWN vs NOTTINGHAM FOREST",
@@ -432,6 +423,15 @@
     "Services": [
       "Ziggo Sport 1",
       "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Time": "01:55",
+    "League": "Football",
+    "Matchup": "Villarreal CF vs RCD Espanyol",
+    "Services": [
+      "Ziggo Sport 2"
     ]
   }
 ]
