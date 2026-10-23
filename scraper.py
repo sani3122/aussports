@@ -23,10 +23,10 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 OUTPUT_FILE = "football_schedule_bd.json"
 
 ALLOWED_FOOTBALL_LEAGUES = {
-    "Premier League", "Serie A", "La Liga", "Bundesliga", "Ligue 1",
-    "UEFA Champions League", "UEFA Europa League", "UEFA Europa Conference League",
-    "UEFA Euro", "FA Cup", "League Cup", "EFL Cup", "FIFA World Cup", "International Friendly",
-    "MLS", "Saudi Pro League", "Copa America", "AFC Champions League"
+    "Premier League", "Serie A", "La Liga", "Ligue 1",
+    "UEFA Champions League", "UEFA Europa League",
+    "FA Cup", "FIFA World Cup", "International Friendly",
+    "MLS", "Saudi Pro League", "Copa America",
 }
 
 # নারীদের ম্যাচ এবং বয়সভিত্তিক ফুটবল ফিল্টার আউট করার কি-ওয়ার্ড
