@@ -1,0 +1,56 @@
+[
+  {
+    "competition": "Premier League",
+    "home": "Aston Villa",
+    "away": "Manchester City",
+    "match_time": "17:30",
+    "match_date": "24/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Arsenal",
+    "away": "Everton",
+    "match_time": "20:00",
+    "match_date": "24/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Coventry",
+    "away": "Fulham",
+    "match_time": "20:00",
+    "match_date": "24/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Napoli",
+    "away": "AS Roma",
+    "match_time": "22:00",
+    "match_date": "24/10/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Chelsea",
+    "away": "Tottenham",
+    "match_time": "22:30",
+    "match_date": "24/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Lazio",
+    "away": "Parma",
+    "match_time": "00:45",
+    "match_date": "25/10/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  }
+]
