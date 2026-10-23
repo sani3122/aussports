@@ -1,11 +1,29 @@
 [
   {
+    "competition": "La Liga",
+    "home": "Alaves",
+    "away": "Malaga",
+    "match_time": "01:00",
+    "match_date": "24/10/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
     "competition": "Premier League",
     "home": "Aston Villa",
     "away": "Manchester City",
     "match_time": "17:30",
     "match_date": "24/10/2026",
     "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Rayo Vallecano",
+    "away": "Elche",
+    "match_time": "18:00",
+    "match_date": "24/10/2026",
+    "channels": "beIN Sports Connect",
     "sport": "Soccer"
   },
   {
@@ -27,12 +45,30 @@
     "sport": "Soccer"
   },
   {
+    "competition": "La Liga",
+    "home": "Racing Santander",
+    "away": "Espanyol",
+    "match_time": "20:15",
+    "match_date": "24/10/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
     "competition": "Serie A",
     "home": "Napoli",
     "away": "AS Roma",
     "match_time": "22:00",
     "match_date": "24/10/2026",
     "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Valencia",
+    "away": "Villarreal",
+    "match_time": "22:30",
+    "match_date": "24/10/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
     "sport": "Soccer"
   },
   {
@@ -51,6 +87,15 @@
     "match_time": "00:45",
     "match_date": "25/10/2026",
     "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Atletico Madrid",
+    "away": "Deportivo La Coruna",
+    "match_time": "01:00",
+    "match_date": "25/10/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
     "sport": "Soccer"
   }
 ]
