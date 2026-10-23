@@ -97,5 +97,59 @@
     "match_date": "25/10/2026",
     "channels": "beIN Sports Connect | beIN SPORTS 3",
     "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Athletic Bilbao",
+    "away": "Getafe",
+    "match_time": "19:00",
+    "match_date": "25/10/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Atalanta",
+    "away": "Frosinone",
+    "match_time": "20:00",
+    "match_date": "25/10/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Liverpool",
+    "away": "Brighton & Hove Albion",
+    "match_time": "20:00",
+    "match_date": "25/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Manchester United",
+    "away": "Bournemouth",
+    "match_time": "20:00",
+    "match_date": "25/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Hull City",
+    "away": "Brentford",
+    "match_time": "20:00",
+    "match_date": "25/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Crystal Palace",
+    "away": "Newcastle Utd",
+    "match_time": "20:00",
+    "match_date": "25/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
   }
 ]
