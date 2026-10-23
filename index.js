@@ -47,6 +47,7 @@ const FOOTBALL_CONFIG = {
     'World Cup': 'all',
     'EURO': 'all',
     'UEFA European Championship': 'all',
+    'Saudi Pro League': 'all',
   },
   friendlyAllowedTeams: ['argentina', 'brazil', 'japan', 'south korea', 'nhật bản', 'hàn quốc'],
   excludeKeywords: ['u18', 'u19', 'u20', 'u21', 'u23', 'women', 'girls', 'boys', 'youth', 'junior', 'reserves', 'woman'],
