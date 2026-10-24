@@ -16,7 +16,7 @@ BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")
 JSON_URL = "https://raw.githubusercontent.com/sani3122/aussports/refs/heads/main/ziggo_starhub_football_bd.json"
 
 # ২. আপনার গিটহাবের Channels TXT ফাইলের Raw URL (যেটি আপনি বানাবেন)
-CHANNELS_TXT_URL = "https://raw.githubusercontent.com/sani3122/aussports/main/channels.txt"
+CHANNELS_TXT_URL = "https://raw.githubusercontent.com/sani3122/aussports/refs/heads/main/channels.txt"
 
 # ৩. আউটপুট প্লেলিস্টের নাম
 M3U_OUTPUT_FILE = "live_matches.m3u"
