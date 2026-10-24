@@ -1,7 +1,7 @@
-#!/usr/init/env python3
+#!/usr/bin/env python3
 """
-Ziggo Sport & StarHub Clean Football Schedule Extractor (Strictly Bangladesh Time)
-Output: ziggo_starhub_football_bd.json
+Now TV & Ziggo Sport Clean Football Schedule Extractor (Strictly Bangladesh Time)
+Output: nowtv_ziggo_football_bd.json
 """
 
 import asyncio
@@ -16,10 +16,9 @@ from bs4 import BeautifulSoup
 
 # ========== CẤU HÌNH / CONFIGURATION ==========
 BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")
-SINGAPORE_TZ = pytz.timezone("Asia/Singapore")
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"
 
-OUTPUT_FILE = "ziggo_starhub_football_bd.json"
+OUTPUT_FILE = "nowtv_ziggo_football_bd.json"
 
 ALLOWED_FOOTBALL_LEAGUES = {
     "Premier League", "Serie A", "La Liga", "Bundesliga", "Ligue 1",
@@ -46,6 +45,9 @@ def normalize_matchup(matchup: str) -> str:
 
 def clean_brackets(text: str) -> str:
     return re.sub(r"\[.*?\]", "", text).strip()
+
+def is_live(text: str) -> bool:
+    return bool(re.search(r"\[Live\]", text, re.IGNORECASE))
 
 def is_football_league_allowed(text: str) -> bool:
     text_lower = text.lower()
@@ -83,6 +85,101 @@ def extract_league_matchup(title: str) -> Tuple[str, str]:
             return "", matchup
 
     return "", cleaned
+
+
+# ---------- Now TV Fetcher ----------
+class NowTVFetcher:
+    def __init__(self):
+        self.base_url = "https://nowplayer.now.com"
+        self.channel_filter = "now Sports"
+
+    def fetch_channels(self) -> Dict[str, str]:
+        print("📡 [NowTV] Fetching channels...")
+        url = f"{self.base_url}/channels"
+        headers = {"User-Agent": USER_AGENT, "Accept-Language": "en,zh;q=0.9"}
+        try:
+            resp = requests.get(url, headers=headers, cookies={"LANG": "en"}, timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            channel_map = {}
+            for item in soup.find_all("div", class_="product-item"):
+                name_tag = item.find("p", class_="img-name")
+                ch_tag = item.find("p", class_="channel")
+                if name_tag and ch_tag:
+                    name = name_tag.text.strip()
+                    ch_no = ch_tag.text.replace("CH", "").strip()
+                    if name.lower().startswith(self.channel_filter.lower()):
+                        channel_map[ch_no] = name
+            print(f"✅ [NowTV] {len(channel_map)} 'now Sports' channels found.")
+            return channel_map
+        except Exception as e:
+            print(f"❌ [NowTV] Failed to fetch channels: {e}")
+            return {}
+
+    def fetch_7day_epg(self, channel_numbers: List[str]) -> Dict[int, List[List[Dict]]]:
+        print("📡 [NowTV] Fetching 7-day EPG...")
+        headers = {
+            "User-Agent": USER_AGENT,
+            "Accept": "text/plain, */*; q=0.01",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Referer": f"{self.base_url}/tvguide",
+            "X-Requested-With": "XMLHttpRequest",
+        }
+        cookies = {"LANG": "en"}
+        epg_data = {}
+        for day in range(1, 8):
+            params = [("channelIdList[]", ch) for ch in channel_numbers] + [("day", str(day))]
+            try:
+                resp = requests.get(f"{self.base_url}/tvguide/epglist", headers=headers,
+                                    cookies=cookies, params=params, timeout=10)
+                resp.raise_for_status()
+                epg_data[day] = resp.json()
+                print(f"  Day {day}: OK")
+            except Exception as e:
+                print(f"  Day {day}: Failed - {e}")
+                epg_data[day] = []
+        return epg_data
+
+    def parse_events(self, epg_data, channel_numbers, channel_map) -> List[Dict]:
+        events = []
+        for day in range(1, 8):
+            day_progs = epg_data.get(day, [])
+            for idx, channel_progs in enumerate(day_progs):
+                if idx >= len(channel_numbers):
+                    continue
+                ch_no = channel_numbers[idx]
+                ch_name = channel_map.get(ch_no, f"Channel {ch_no}")
+                for epg_item in channel_progs:
+                    title = (epg_item.get("name") or "").strip()
+                    if not title or not is_live(title):
+                        continue
+                    
+                    if not is_football_league_allowed(title):
+                        continue
+
+                    if is_excluded_football(title):
+                        continue
+
+                    league, matchup = extract_league_matchup(title)
+                    if not league:
+                        league = "Football"
+                    if not matchup:
+                        matchup = title
+
+                    if " vs " not in matchup and " v " not in matchup:
+                        continue
+
+                    start_ts = epg_item.get("start", 0) / 1000
+                    # কঠোরভাবে বাংলাদেশ সময়ে রূপান্তর
+                    dt_start = datetime.fromtimestamp(start_ts, tz=BANGLADESH_TZ)
+                    events.append({
+                        "Date": dt_start.strftime("%Y-%m-%d"),
+                        "Time": dt_start.strftime("%H:%M"),
+                        "League": league,
+                        "Matchup": matchup,
+                        "Services": [ch_name],
+                    })
+        return events
 
 
 # ---------- Ziggo Sport Fetcher ----------
@@ -146,7 +243,7 @@ class ZiggoFetcher:
 
                     start_ts = prog.get("timeStart")
                     if start_ts:
-                        # Unix timestamp সরাসরি বাংলাদেশ সময়ে রূপান্তর
+                        # কঠোরভাবে বাংলাদেশ সময়ে রূপান্তর
                         dt_start = datetime.fromtimestamp(start_ts, tz=BANGLADESH_TZ)
                         date_formatted = dt_start.strftime("%Y-%m-%d")
                         time_formatted = dt_start.strftime("%H:%M")
@@ -162,113 +259,6 @@ class ZiggoFetcher:
                         "Services": [channel_name],
                     })
         return events
-
-
-# ---------- StarHub Fetcher ----------
-class StarhubFetcher:
-    def __init__(self):
-        self.url = "https://www.starhub.com/personal/bundles/premier-league/fixtures.html"
-        self.datetime_pattern = re.compile(
-            r'(\d{1,2})\s+(\w+)\s+(\d{4})\s*\([^)]+\)\s*,\s*(\d{2}):(\d{2})'
-        )
-        self.month_map = {
-            "Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
-            "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12
-        }
-
-    def _parse_datetime(self, date_str: str) -> datetime:
-        match = self.datetime_pattern.search(date_str)
-        if not match:
-            raise ValueError(f"Could not parse date: {date_str}")
-
-        day, month_name, year, hour, minute = match.groups()
-        month = self.month_map.get(month_name)
-        if not month:
-            raise ValueError(f"Unknown month: {month_name}")
-
-        # সিঙ্গাপুর সময় থেকে বাংলাদেশ সময়ে রূপান্তর (GMT+8 থেকে GMT+6)
-        dt_sg = SINGAPORE_TZ.localize(
-            datetime(int(year), month, int(day), int(hour), int(minute))
-        )
-        dt_bd = dt_sg.astimezone(BANGLADESH_TZ)
-        return dt_bd
-
-    def _parse_matchup(self, text: str) -> str:
-        text = re.sub(r'\s+', ' ', text).strip()
-        text = re.sub(r'\s*\([^)]*\)\s*$', '', text)
-        return text
-
-    def _parse_channel(self, text: str) -> str:
-        text = re.sub(r'\s+', ' ', text).strip()
-        match = re.match(r'^([^(]+)', text)
-        if match:
-            return match.group(1).strip()
-        return text
-
-    def fetch_events(self) -> List[Dict]:
-        print("📡 [StarHub] Fetching Premier League fixtures...")
-        events = []
-        now_bd = datetime.now(BANGLADESH_TZ)
-
-        try:
-            headers = {"User-Agent": USER_AGENT}
-            resp = requests.get(self.url, headers=headers, timeout=15)
-            resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "html.parser")
-
-            table = soup.find("table", class_="fftable")
-            if not table:
-                for tbl in soup.find_all("table"):
-                    if "Hub Premier" in str(tbl):
-                        table = tbl
-                        break
-
-            if not table:
-                print("⚠️ [StarHub] Could not find fixtures table")
-                return []
-
-            rows = table.find_all("tr")
-            for row in rows[1:]:
-                cells = row.find_all("td")
-                if len(cells) < 3:
-                    continue
-
-                date_time_text = cells[0].get_text(strip=True)
-                matchup_text = cells[1].get_text(strip=True)
-                channel_text = cells[2].get_text(strip=True)
-
-                if not date_time_text or not matchup_text:
-                    continue
-
-                try:
-                    dt_event = self._parse_datetime(date_time_text)
-                except ValueError as e:
-                    continue
-
-                time_diff = (now_bd - dt_event).total_seconds() / 3600
-                if time_diff > 4:
-                    continue
-
-                matchup = self._parse_matchup(matchup_text)
-                channel = self._parse_channel(channel_text)
-
-                if is_excluded_football(matchup):
-                    continue
-
-                events.append({
-                    "Date": dt_event.strftime("%Y-%m-%d"),
-                    "Time": dt_event.strftime("%H:%M"),
-                    "League": "Premier League",
-                    "Matchup": matchup,
-                    "Services": [channel],
-                })
-
-            print(f"✅ [StarHub] {len(events)} events fetched")
-            return events
-
-        except Exception as e:
-            print(f"❌ [StarHub] Failed to fetch: {e}")
-            return []
 
 
 # ---------- Strict Deduplication & Channel Merging ----------
@@ -292,12 +282,9 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
                 "Services": set(ev["Services"])
             }
         else:
-            # যদি একই ম্যাচের রি-ব্রডকাস্ট বা আলাদা চ্যানেল থাকে, তবে চ্যানেলগুলো এক করে দেবো
             groups[key]["Services"].update(ev["Services"])
-            # সঠিক লিগের নাম আপডেট করা
             if groups[key]["League"] in ("Football", "Sports", "Unknown", "") and ev["League"] not in ("Football", "Sports", "Unknown", ""):
                 groups[key]["League"] = ev["League"]
-            # সবচেয়ে শুরুর সময়টি (Earliest time) বেছে নেওয়া
             if ev["Time"] < groups[key]["Time"]:
                 groups[key]["Time"] = ev["Time"]
 
@@ -325,20 +312,25 @@ def enrich_leagues(events: List[Dict]) -> List[Dict]:
 
 # ---------- Main Execution ----------
 async def main():
-    print("🚀 Ziggo Sport & StarHub Clean Football Schedule Extractor (Strictly Bangladesh Time)")
+    print("🚀 Now TV & Ziggo Sport Clean Football Schedule Extractor (Strictly Bangladesh Time)")
 
-    # 1. Ziggo Sport
+    # 1. Now TV
+    nowtv = NowTVFetcher()
+    nowtv_channels = nowtv.fetch_channels()
+    nowtv_events = []
+    if nowtv_channels:
+        ch_numbers = list(nowtv_channels.keys())
+        epg = nowtv.fetch_7day_epg(ch_numbers)
+        nowtv_events = nowtv.parse_events(epg, ch_numbers, nowtv_channels)
+        print(f"🎯 [NowTV] {len(nowtv_events)} football events")
+
+    # 2. Ziggo Sport
     ziggo = ZiggoFetcher()
     ziggo_events = ziggo.parse_events(days=7)
     print(f"🎯 [Ziggo] {len(ziggo_events)} football events")
 
-    # 2. StarHub
-    starhub = StarhubFetcher()
-    starhub_events = starhub.fetch_events()
-    print(f"🎯 [StarHub] {len(starhub_events)} football events")
-
     # Combine & Process
-    all_events = ziggo_events + starhub_events
+    all_events = nowtv_events + ziggo_events
     print(f"📊 Total raw football events: {len(all_events)}")
 
     all_events = deduplicate_events(all_events)
@@ -367,4 +359,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-            
+        
