@@ -38,7 +38,8 @@
     "League": "Premier League",
     "Matchup": "Arsenal vs Everton",
     "Services": [
-      "Hub Premier 1 & 3"
+      "Hub Premier 1",
+      "Hub Premier 3"
     ]
   },
   {
@@ -195,7 +196,8 @@
     "League": "Premier League",
     "Matchup": "Liverpool vs Brighton and Hove Albion",
     "Services": [
-      "Hub Premier 1"
+      "Hub Premier 1",
+      "Hub Premier 5"
     ]
   },
   {
