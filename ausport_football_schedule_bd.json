@@ -1,6 +1,24 @@
 [
   {
     "competition": "Premier League",
+    "home": "Aston Villa",
+    "away": "Manchester City",
+    "match_time": "17:30",
+    "match_date": "24/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Rayo Vallecano",
+    "away": "Elche",
+    "match_time": "18:00",
+    "match_date": "24/10/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
     "home": "Arsenal",
     "away": "Everton",
     "match_time": "20:00",
@@ -86,7 +104,7 @@
     "away": "Frosinone",
     "match_time": "20:00",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
     "sport": "Soccer"
   },
   {
@@ -95,7 +113,7 @@
     "away": "Brighton & Hove Albion",
     "match_time": "20:00",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "Stan Sport",
     "sport": "Soccer"
   },
   {
@@ -104,7 +122,7 @@
     "away": "Bournemouth",
     "match_time": "20:00",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "Youtube | Stan Sport",
     "sport": "Soccer"
   },
   {
@@ -113,7 +131,7 @@
     "away": "Brentford",
     "match_time": "20:00",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "Stan Sport",
     "sport": "Soccer"
   },
   {
@@ -122,7 +140,7 @@
     "away": "Newcastle Utd",
     "match_time": "20:00",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "Stan Sport",
     "sport": "Soccer"
   },
   {
@@ -131,7 +149,7 @@
     "away": "Bayer Leverkusen",
     "match_time": "20:30",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "beIN Sports Connect",
     "sport": "Soccer"
   },
   {
@@ -140,7 +158,7 @@
     "away": "Real Betis",
     "match_time": "21:15",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
     "sport": "Soccer"
   },
   {
@@ -149,7 +167,7 @@
     "away": "Bayern Munich",
     "match_time": "22:30",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "beIN Sports Connect | beIN SPORTS 1",
     "sport": "Soccer"
   },
   {
@@ -158,7 +176,7 @@
     "away": "Leeds United",
     "match_time": "22:30",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "Stan Sport",
     "sport": "Soccer"
   },
   {
@@ -167,7 +185,7 @@
     "away": "Juventus",
     "match_time": "23:00",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
     "sport": "Soccer"
   },
   {
@@ -176,7 +194,7 @@
     "away": "Levante",
     "match_time": "23:30",
     "match_date": "25/10/2026",
-    "channels": "",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
     "sport": "Soccer"
   },
   {
@@ -185,7 +203,7 @@
     "away": "AC Milan",
     "match_time": "01:45",
     "match_date": "26/10/2026",
-    "channels": "",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
     "sport": "Soccer"
   },
   {
@@ -194,7 +212,7 @@
     "away": "Real Madrid",
     "match_time": "02:00",
     "match_date": "26/10/2026",
-    "channels": "",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
     "sport": "Soccer"
   }
 ]
