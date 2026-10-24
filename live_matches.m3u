@@ -1,9 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Valencia CF vs Villarreal CF" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/valencia_cf_vs_villarreal_cf.png" group-title=🔴 LIVE NOW, Valencia CF vs Villarreal CF
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos2.m3u8
-#EXTINF:-1 tvg-name="Chelsea vs Tottenham Hotspur" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/chelsea_vs_tottenham_hotspur.png" group-title=🔴 LIVE NOW, Chelsea vs Tottenham Hotspur
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp1.m3u8
-#EXTINF:-1 tvg-name="Valencia CF vs Villarreal CF" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/valencia_cf_vs_villarreal_cf.png" group-title=🔴 LIVE NOW, Valencia CF vs Villarreal CF
 https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos1.m3u8
 #EXTINF:-1 tvg-name="Lazio vs Parma Calcio" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/lazio_vs_parma_calcio.png" group-title=🔴 LIVE NOW, Lazio vs Parma Calcio
 https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos2.m3u8
+#EXTINF:-1 tvg-name="Atlético Madrid vs Deportivo de A Coruña" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/atl_tico_madrid_vs_deportivo_de_a_coru_a.png" group-title=🔴 LIVE NOW, Atlético Madrid vs Deportivo de A Coruña
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos1.m3u8
