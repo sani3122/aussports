@@ -1,15 +1,5 @@
 [
   {
-    "Date": "2026-10-24",
-    "Start_Time": "22:30",
-    "End_Time": "01:00",
-    "League": "Premier League",
-    "Matchup": "Chelsea vs Tottenham Hotspur",
-    "Services": [
-      "Hub Premier 1"
-    ]
-  },
-  {
     "Date": "2026-10-25",
     "Start_Time": "17:25",
     "End_Time": "19:55",
@@ -36,9 +26,7 @@
     "League": "Football",
     "Matchup": "Atalanta vs Frosinone Calcio",
     "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 3",
-      "Ziggo Sport Kanaal 14"
+      "Ziggo Sport 3"
     ]
   },
   {
@@ -109,8 +97,7 @@
     "League": "Football",
     "Matchup": "US Lecce vs Juventus",
     "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
+      "Ziggo Sport 4"
     ]
   },
   {
@@ -121,6 +108,17 @@
     "Matchup": "Real Sociedad vs Levante UD",
     "Services": [
       "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-10-26",
+    "Start_Time": "00:00",
+    "End_Time": "02:30",
+    "League": "Football",
+    "Matchup": "US Lecce vs Juventus",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
     ]
   },
   {
