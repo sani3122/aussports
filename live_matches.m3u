@@ -1,9 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Aston Villa vs Manchester City" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/aston_villa_vs_manchester_city.png" group-title=🔴 LIVE NOW, Aston Villa vs Manchester City
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp1.m3u8
 #EXTINF:-1 tvg-name="Rayo Vallecano vs Elche" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/rayo_vallecano_vs_elche.png" group-title=🔴 LIVE NOW, Rayo Vallecano vs Elche
 https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos5.m3u8
 #EXTINF:-1 tvg-name="Como vs Sassuolo - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/como_vs_sassuolo.png" group-title=🔴 LIVE NOW, Como vs Sassuolo - Stream 1
 https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos1.m3u8
 #EXTINF:-1 tvg-name="Como vs Sassuolo - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/como_vs_sassuolo.png" group-title=🔴 LIVE NOW, Como vs Sassuolo - Stream 2
 https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos2.m3u8
+#EXTINF:-1 tvg-name="Arsenal vs Everton - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/arsenal_vs_everton.png" group-title=🔴 LIVE NOW, Arsenal vs Everton - Stream 1
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp1.m3u8
+#EXTINF:-1 tvg-name="Arsenal vs Everton - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/arsenal_vs_everton.png" group-title=🔴 LIVE NOW, Arsenal vs Everton - Stream 2
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp3.m3u8
+#EXTINF:-1 tvg-name="Coventry City vs Fulham" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/coventry_city_vs_fulham.png" group-title=🔴 LIVE NOW, Coventry City vs Fulham
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp2.m3u8
