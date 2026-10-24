@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"
 
-OUTPUT_FILE = "nowtv_ziggo_football_bd.json"
+OUTPUT_FILE = "ziggo_starhub_football_bd.json"
 
 ALLOWED_FOOTBALL_LEAGUES = {
     "Premier League", "Serie A", "La Liga", "Bundesliga", "Ligue 1",
