@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Live Match M3U Playlist Generator with Dynamic vs Match-Poster TVG Logo
+Live Match M3U Playlist Generator with Optimized Team Logo Posters
 Output: live_matches.m3u & generated match poster PNGs
 """
 
@@ -21,10 +21,10 @@ JSON_URL = "https://raw.githubusercontent.com/sani3122/aussports/main/ziggo_star
 CHANNELS_TXT_URL = "https://raw.githubusercontent.com/sani3122/aussports/main/channels.txt"
 BG_IMAGE_URL = "https://raw.githubusercontent.com/sani3122/aussports/refs/heads/main/icons/file_0000000073d88211a98938feb9e984e6.png"
 
-# গিটহাব রপোজিটরির বেস ইউআরএল (জেনারেট হওয়া লোগো ব্যবহারের জন্য)
+# গিটহাব রপোজিটরির বেস ইউআরএল
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/sani3122/aussports/main"
 
-# আইকন সার্চ করার ফোল্ডারসমূহ
+# আইকন ফোল্ডারসমূহ
 ICON_FOLDERS = ["LaLiga", "Serie-A", "UEFA-Champions-League", "PremierLeague"]
 
 M3U_OUTPUT_FILE = "live_matches.m3u"
@@ -33,7 +33,6 @@ GENERATED_LOGOS_DIR = "generated_logos"
 # ===============================================
 
 def clean_team_name(name: str) -> str:
-    """টিম নেম নরমালাইজ করার ফাংশন"""
     name = name.lower()
     name = re.sub(r'\b(fc|cf|cd|rcd|us|ud|sc|as|vfb|tsv)\b', '', name)
     name = re.sub(r'[^a-z0-9]', '', name)
@@ -65,11 +64,9 @@ def fetch_schedule_json(json_url: str) -> list:
     return []
 
 def get_team_logo(team_name: str) -> Image.Image:
-    """টিমের লোগো গিটহাব আইকন ডিরেক্টরি থেকে ম্যাচ করে নামিয়ে নেয়"""
     norm_search = clean_team_name(team_name)
     
     for folder in ICON_FOLDERS:
-        # উদাহরণস্বরূপ কমন ফাইল নেমিং ফরম্যাট
         possible_filenames = [
             f"{norm_search}.png",
             f"{team_name.lower().replace(' ', '-')}.png",
@@ -88,31 +85,30 @@ def get_team_logo(team_name: str) -> Image.Image:
     return None
 
 def create_match_poster(home_team: str, away_team: str, match_slug: str, bg_image: Image.Image) -> str:
-    """টিম ১ ও টিম ২ এর লোগো ব্যাকগ্রাউন্ডের ওপর বসিয়ে কাস্টম ম্যাচ কার্ড বানায়"""
+    """টিম লোগোগুলোকে আরও স্পষ্ট ও পারফেক্ট সাইজে রিসাইজ করে পোস্টার বানায়"""
     poster = bg_image.copy()
-    w, h = poster.size # সাধারণত ১৯২০x১০৮০ বা অনুরূপ
+    w, h = poster.size
 
-    # টিম লোগোগুলো নিয়ে আসা
     home_logo = get_team_logo(home_team)
     away_logo = get_team_logo(away_team)
 
-    logo_size = (int(h * 0.45), int(h * 0.45)) # লোগো সাইজ অ্যাডজাস্টমেন্ট
+    # লোগোর সাইজ বাড়িয়ে 0.65 করা হলো যাতে পারফেক্ট ও সুন্দর দেখায়
+    logo_size = (int(h * 0.65), int(h * 0.65))
 
     # বামের লোগো (Home Team)
     if home_logo:
         home_logo.thumbnail(logo_size, Image.Resampling.LANCZOS)
-        pos_x = int(w * 0.15)
+        pos_x = int(w * 0.14)
         pos_y = int((h - home_logo.height) / 2)
         poster.paste(home_logo, (pos_x, pos_y), home_logo)
 
     # ডানের লোগো (Away Team)
     if away_logo:
         away_logo.thumbnail(logo_size, Image.Resampling.LANCZOS)
-        pos_x = int(w * 0.85 - away_logo.width)
+        pos_x = int(w * 0.86 - away_logo.width)
         pos_y = int((h - away_logo.height) / 2)
         poster.paste(away_logo, (pos_x, pos_y), away_logo)
 
-    # ইমেজ সেভ করা
     os.makedirs(GENERATED_LOGOS_DIR, exist_ok=True)
     out_filename = f"{match_slug}.png"
     out_path = os.path.join(GENERATED_LOGOS_DIR, out_filename)
@@ -136,10 +132,9 @@ def is_match_currently_live(date_str: str, start_time_str: str, end_time_str: st
         return False
 
 def generate_m3u():
-    print("🚀 Starting M3U Playlist & Custom Poster Generator...")
+    print("🚀 Starting M3U Playlist & Optimized Poster Generator...")
     now_bd = datetime.now(BANGLADESH_TZ)
     
-    # ব্যাকগ্রাউন্ড ইমেজ ডাউনলোড করা
     bg_res = requests.get(BG_IMAGE_URL, timeout=15)
     if bg_res.status_code != 200:
         print("❌ Background image loading failed!")
@@ -176,17 +171,13 @@ def generate_m3u():
                 live_match_count += 1
                 total_streams = len(available_streams)
 
-                # টিম ভাগ করা
                 if " vs " in matchup.lower():
                     teams = re.split(r'\s+vs\s+', matchup, flags=re.IGNORECASE)
                     home_team, away_team = teams[0].strip(), teams[1].strip()
                 else:
                     home_team, away_team = matchup, ""
 
-                # ম্যাচের স্ラグ তৈরি করা
                 match_slug = re.sub(r'[^a-z0-9]', '_', matchup.lower())
-                
-                # কাস্টম ম্যাচ ব্যাকগ্রাউন্ড পোস্টার তৈরি করা
                 logo_url = create_match_poster(home_team, away_team, match_slug, bg_image)
 
                 for idx, (stream_name, stream_url) in enumerate(available_streams, 1):
@@ -199,8 +190,8 @@ def generate_m3u():
     with open(M3U_OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_entries))
 
-    print(f"✅ M3U Playlist & {live_match_count} Custom Logo Posters generated successfully!")
+    print(f"✅ M3U Playlist & {live_match_count} Optimized Posters generated successfully!")
 
 if __name__ == "__main__":
     generate_m3u()
-                
+    
