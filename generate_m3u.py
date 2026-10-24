@@ -13,7 +13,7 @@ import pytz
 BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")
 
 # ১. আপনার গিটহাবের JSON ফাইলের Raw URL
-JSON_URL = "https://raw.githubusercontent.com/sani3122/aussports/main/nowtv_ziggo_football_bd.json"
+JSON_URL = "https://raw.githubusercontent.com/sani3122/aussports/refs/heads/main/ziggo_starhub_football_bd.json"
 
 # ২. আপনার গিটহাবের Channels TXT ফাইলের Raw URL (যেটি আপনি বানাবেন)
 CHANNELS_TXT_URL = "https://raw.githubusercontent.com/sani3122/aussports/main/channels.txt"
