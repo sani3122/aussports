@@ -1,9 +1,9 @@
-name: Generate Live Matches M3U Playlist
+name: Generate Live Matches M3U Playlist & Posters
 
 on:
   schedule:
     - cron: '*/15 * * * *'  # Runs every 15 minutes
-  workflow_dispatch:        # Manual trigger button
+  workflow_dispatch:
 
 jobs:
   build-m3u:
@@ -23,15 +23,14 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pytz
+          pip install -r requirements.txt
 
-      - name: Run M3U Generator
+      - name: Run M3U & Logo Generator
         run: python generate_m3u.py
 
-      - name: Commit and Push Updated M3U File
+      - name: Commit and Push Updated M3U & Generated Logos
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
-          git add live_matches.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update live_matches.m3u [skip ci]" && git push)
-          
+          git add live_matches.m3u generated_logos/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update live_matches.m3u & posters [skip ci]" && git push)
