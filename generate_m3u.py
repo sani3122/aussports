@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Live Match M3U Playlist Generator with Optimized Team Logo Posters
-Output: live_matches.m3u & generated match poster PNGs
+Live Match M3U Playlist Generator with Auto-Cleanup for Expired Match Posters
+Output: live_matches.m3u & cleaned generated_logos/ folder
 """
 
 import json
@@ -85,24 +85,20 @@ def get_team_logo(team_name: str) -> Image.Image:
     return None
 
 def create_match_poster(home_team: str, away_team: str, match_slug: str, bg_image: Image.Image) -> str:
-    """টিম লোগোগুলোকে আরও স্পষ্ট ও পারফেক্ট সাইজে রিসাইজ করে পোস্টার বানায়"""
     poster = bg_image.copy()
     w, h = poster.size
 
     home_logo = get_team_logo(home_team)
     away_logo = get_team_logo(away_team)
 
-    # লোগোর সাইজ বাড়িয়ে 0.65 করা হলো যাতে পারফেক্ট ও সুন্দর দেখায়
     logo_size = (int(h * 0.65), int(h * 0.65))
 
-    # বামের লোগো (Home Team)
     if home_logo:
         home_logo.thumbnail(logo_size, Image.Resampling.LANCZOS)
         pos_x = int(w * 0.14)
         pos_y = int((h - home_logo.height) / 2)
         poster.paste(home_logo, (pos_x, pos_y), home_logo)
 
-    # ডানের লোগো (Away Team)
     if away_logo:
         away_logo.thumbnail(logo_size, Image.Resampling.LANCZOS)
         pos_x = int(w * 0.86 - away_logo.width)
@@ -132,7 +128,7 @@ def is_match_currently_live(date_str: str, start_time_str: str, end_time_str: st
         return False
 
 def generate_m3u():
-    print("🚀 Starting M3U Playlist & Optimized Poster Generator...")
+    print("🚀 Starting M3U Playlist & Auto-Cleanup Poster Generator...")
     now_bd = datetime.now(BANGLADESH_TZ)
     
     bg_res = requests.get(BG_IMAGE_URL, timeout=15)
@@ -150,6 +146,7 @@ def generate_m3u():
 
     m3u_entries = ["#EXTM3U"]
     live_match_count = 0
+    active_poster_files = set()
 
     for item in schedule:
         date_str = item.get("Date")
@@ -178,6 +175,10 @@ def generate_m3u():
                     home_team, away_team = matchup, ""
 
                 match_slug = re.sub(r'[^a-z0-9]', '_', matchup.lower())
+                poster_filename = f"{match_slug}.png"
+                active_poster_files.add(poster_filename)
+
+                # পোস্টার তৈরি বা নিশ্চিত করা
                 logo_url = create_match_poster(home_team, away_team, match_slug, bg_image)
 
                 for idx, (stream_name, stream_url) in enumerate(available_streams, 1):
@@ -187,11 +188,22 @@ def generate_m3u():
                         f'#EXTINF:-1 tvg-name="{display_name}" tvg-logo="{logo_url}" group-title="{league}", {display_name}\n{stream_url}'
                     )
 
+    # 🧹 অটো-ক্লিনআপ: যে পোস্টারগুলো এখন আর লাইভ ম্যাচের তালিকায় নেই, সেগুলো ফোল্ডার থেকে মুছে ফেলা
+    if os.path.exists(GENERATED_LOGOS_DIR):
+        for file in os.listdir(GENERATED_LOGOS_DIR):
+            if file.endswith(".png") and file not in active_poster_files:
+                file_path = os.path.join(GENERATED_LOGOS_DIR, file)
+                try:
+                    os.remove(file_path)
+                    print(f"🗑️ Deleted expired poster: {file}")
+                except Exception as e:
+                    print(f"⚠️ Failed to delete {file}: {e}")
+
     with open(M3U_OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_entries))
 
-    print(f"✅ M3U Playlist & {live_match_count} Optimized Posters generated successfully!")
+    print(f"✅ M3U Playlist & {live_match_count} Active Posters generated successfully (Expired posters cleaned)!")
 
 if __name__ == "__main__":
     generate_m3u()
-    
+                    
