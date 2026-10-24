@@ -109,7 +109,7 @@ def convert_to_bangladesh_time(time_str: str, date_str: str) -> str:
         return f"{date_str} {time_str}"
 
 def scrape_livesoccertv():
-    url = "https://www.livesoccertv.com/today/"
+    url = "https://www.livesoccertv.com/schedules/"
     print(f"[LiveSoccerTV] Đang tải / Fetching {url}")
     resp = requests.get(url, headers=HEADERS, timeout=30)
     if resp.status_code != 200:
