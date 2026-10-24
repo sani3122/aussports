@@ -185,7 +185,7 @@ def generate_m3u():
                     display_name = f"{matchup} - Stream {idx}" if total_streams > 1 else matchup
                     
                     m3u_entries.append(
-                        f'#EXTINF:-1 tvg-name="{display_name}" tvg-logo="{logo_url}" group-title="{league}", {display_name}\n{stream_url}'
+                        f'#EXTINF:-1 tvg-name="{display_name}" tvg-logo="{logo_url}" group-title=🔴 LIVE NOW, {display_name}\n{stream_url}'
                     )
 
     # 🧹 অটো-ক্লিনআপ: যে পোস্টারগুলো এখন আর লাইভ ম্যাচের তালিকায় নেই, সেগুলো ফোল্ডার থেকে মুছে ফেলা
