@@ -1,5 +1,8 @@
-Now Sports 1,https://example.com/stream/now1/index.m3u8
-Now Sports Premier League 1,https://example.com/stream/nowpl1/index.m3u8
+Hub Premier 1,https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp1.m3u8
+Hub Premier 2,https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp2.m3u8
+Hub Premier 3,https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp3.m3u8
+Hub Premier 4,https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp4.m3u8
+Hub Premier 5,https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp5.m3u8
 Ziggo Sport 1,https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos1.m3u8
 Ziggo Sport 2,https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos2.m3u8
 Ziggo Sport 3,https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos3.m3u8
