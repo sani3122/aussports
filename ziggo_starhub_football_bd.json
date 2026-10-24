@@ -1,130 +1,12 @@
 [
   {
     "Date": "2026-10-24",
-    "Start_Time": "17:55",
-    "End_Time": "20:25",
-    "League": "Football",
-    "Matchup": "Rayo Vallecano vs Elche",
-    "Services": [
-      "Ziggo Sport 5"
-    ]
-  },
-  {
-    "Date": "2026-10-24",
-    "Start_Time": "18:55",
-    "End_Time": "21:25",
-    "League": "Football",
-    "Matchup": "Como vs Sassuolo",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 2",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-10-24",
-    "Start_Time": "20:00",
-    "End_Time": "22:30",
-    "League": "Premier League",
-    "Matchup": "Arsenal vs Everton",
-    "Services": [
-      "Hub Premier 1",
-      "Hub Premier 3"
-    ]
-  },
-  {
-    "Date": "2026-10-24",
-    "Start_Time": "20:00",
-    "End_Time": "22:30",
-    "League": "Premier League",
-    "Matchup": "Coventry City vs Fulham",
-    "Services": [
-      "Hub Premier 2"
-    ]
-  },
-  {
-    "Date": "2026-10-24",
-    "Start_Time": "20:10",
-    "End_Time": "22:40",
-    "League": "Football",
-    "Matchup": "Racing Santander vs RCD Espanyol",
-    "Services": [
-      "Ziggo Sport 3"
-    ]
-  },
-  {
-    "Date": "2026-10-24",
-    "Start_Time": "22:00",
-    "End_Time": "00:30",
-    "League": "Football",
-    "Matchup": "Napoli vs AS Roma",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-10-24",
-    "Start_Time": "22:25",
-    "End_Time": "00:55",
-    "League": "Football",
-    "Matchup": "Valencia CF vs Villarreal CF",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-10-24",
     "Start_Time": "22:30",
     "End_Time": "01:00",
     "League": "Premier League",
     "Matchup": "Chelsea vs Tottenham Hotspur",
     "Services": [
       "Hub Premier 1"
-    ]
-  },
-  {
-    "Date": "2026-10-25",
-    "Start_Time": "00:00",
-    "End_Time": "02:30",
-    "League": "Football",
-    "Matchup": "Valencia CF vs Villarreal CF",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-10-25",
-    "Start_Time": "00:40",
-    "End_Time": "03:10",
-    "League": "Football",
-    "Matchup": "Lazio vs Parma Calcio",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-10-25",
-    "Start_Time": "01:00",
-    "End_Time": "03:30",
-    "League": "Football",
-    "Matchup": "Atlético Madrid vs Deportivo de A Coruña",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-10-25",
-    "Start_Time": "01:25",
-    "End_Time": "03:55",
-    "League": "Football",
-    "Matchup": "Gil Vicente vs FC Porto",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 5",
-      "Ziggo Sport Kanaal 14"
     ]
   },
   {
@@ -419,6 +301,91 @@
     "Matchup": "Villarreal CF vs RCD Espanyol",
     "Services": [
       "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "18:55",
+    "End_Time": "21:25",
+    "League": "Football",
+    "Matchup": "Levante UD vs Atlético Madrid",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "19:55",
+    "End_Time": "22:25",
+    "League": "Football",
+    "Matchup": "Bologna vs Monza",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "21:10",
+    "End_Time": "23:40",
+    "League": "Football",
+    "Matchup": "Rayo Vallecano vs Celta de Vigo",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "23:00",
+    "End_Time": "01:30",
+    "League": "Football",
+    "Matchup": "Udinese vs AS Roma",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "23:25",
+    "End_Time": "01:55",
+    "League": "Football",
+    "Matchup": "Real Betis vs Málaga CF",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-01",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "Football",
+    "Matchup": "AC Milan vs Internazionale",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-01",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "FC Barcelona vs Alavés",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-01",
+    "Start_Time": "02:25",
+    "End_Time": "04:55",
+    "League": "Football",
+    "Matchup": "FC Porto vs Estoril",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport 5",
+      "Ziggo Sport Kanaal 14"
     ]
   }
 ]
