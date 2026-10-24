@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Now TV & Ziggo Sport Clean Football Schedule Extractor (Strictly Bangladesh Time)
+Now TV & Ziggo Sport Clean Football Schedule Extractor (Strictly Bangladesh Time with End Time)
 Output: nowtv_ziggo_football_bd.json
 """
 
@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"
 
-OUTPUT_FILE = "ziggo_starhub_football_bd.json"
+OUTPUT_FILE = "nowtv_ziggo_football_bd.json"
 
 ALLOWED_FOOTBALL_LEAGUES = {
     "Premier League", "Serie A", "La Liga", "Bundesliga", "Ligue 1",
@@ -170,11 +170,14 @@ class NowTVFetcher:
                         continue
 
                     start_ts = epg_item.get("start", 0) / 1000
-                    # কঠোরভাবে বাংলাদেশ সময়ে রূপান্তর
                     dt_start = datetime.fromtimestamp(start_ts, tz=BANGLADESH_TZ)
+                    # ২ ঘণ্টা ৩০ মিনিট যোগ করে End Time হিসাব করা
+                    dt_end = dt_start + timedelta(hours=2, minutes=30)
+                    
                     events.append({
                         "Date": dt_start.strftime("%Y-%m-%d"),
-                        "Time": dt_start.strftime("%H:%M"),
+                        "Start_Time": dt_start.strftime("%H:%M"),
+                        "End_Time": dt_end.strftime("%H:%M"),
                         "League": league,
                         "Matchup": matchup,
                         "Services": [ch_name],
@@ -243,17 +246,20 @@ class ZiggoFetcher:
 
                     start_ts = prog.get("timeStart")
                     if start_ts:
-                        # কঠোরভাবে বাংলাদেশ সময়ে রূপান্তর
                         dt_start = datetime.fromtimestamp(start_ts, tz=BANGLADESH_TZ)
+                        dt_end = dt_start + timedelta(hours=2, minutes=30)
                         date_formatted = dt_start.strftime("%Y-%m-%d")
-                        time_formatted = dt_start.strftime("%H:%M")
+                        start_formatted = dt_start.strftime("%H:%M")
+                        end_formatted = dt_end.strftime("%H:%M")
                     else:
                         date_formatted = date_str
-                        time_formatted = "00:00"
+                        start_formatted = "00:00"
+                        end_formatted = "02:30"
 
                     events.append({
                         "Date": date_formatted,
-                        "Time": time_formatted,
+                        "Start_Time": start_formatted,
+                        "End_Time": end_formatted,
                         "League": league,
                         "Matchup": matchup,
                         "Services": [channel_name],
@@ -263,10 +269,6 @@ class ZiggoFetcher:
 
 # ---------- Strict Deduplication & Channel Merging ----------
 def deduplicate_events(events: List[Dict]) -> List[Dict]:
-    """
-    একই দিনে একই ম্যাচের ডুপ্লিকেট এন্ট্রি পুরোপুরি রিমুভ করে 
-    এবং সব ব্রডকাস্টিং চ্যানেল একটি লিস্টের ভেতরে মার্জ করে দেয়।
-    """
     groups = {}
     for ev in events:
         date = ev["Date"]
@@ -276,7 +278,8 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
         if key not in groups:
             groups[key] = {
                 "Date": ev["Date"],
-                "Time": ev["Time"],
+                "Start_Time": ev["Start_Time"],
+                "End_Time": ev["End_Time"],
                 "League": ev["League"],
                 "Matchup": ev["Matchup"],
                 "Services": set(ev["Services"])
@@ -285,8 +288,9 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
             groups[key]["Services"].update(ev["Services"])
             if groups[key]["League"] in ("Football", "Sports", "Unknown", "") and ev["League"] not in ("Football", "Sports", "Unknown", ""):
                 groups[key]["League"] = ev["League"]
-            if ev["Time"] < groups[key]["Time"]:
-                groups[key]["Time"] = ev["Time"]
+            if ev["Start_Time"] < groups[key]["Start_Time"]:
+                groups[key]["Start_Time"] = ev["Start_Time"]
+                groups[key]["End_Time"] = ev["End_Time"]
 
     merged = []
     for key, val in groups.items():
@@ -312,7 +316,7 @@ def enrich_leagues(events: List[Dict]) -> List[Dict]:
 
 # ---------- Main Execution ----------
 async def main():
-    print("🚀 Now TV & Ziggo Sport Clean Football Schedule Extractor (Strictly Bangladesh Time)")
+    print("🚀 Now TV & Ziggo Sport Football Schedule Extractor (With Start & End Time - BD Time)")
 
     # 1. Now TV
     nowtv = NowTVFetcher()
@@ -337,13 +341,14 @@ async def main():
     all_events = enrich_leagues(all_events)
     print(f"✅ After strict deduplication & enrichment: {len(all_events)} events")
 
-    all_events.sort(key=lambda x: (x["Date"], x["Time"]))
+    all_events.sort(key=lambda x: (x["Date"], x["Start_Time"]))
 
     output = []
     for ev in all_events:
         output.append({
             "Date": ev["Date"],
-            "Time": ev["Time"],
+            "Start_Time": ev["Start_Time"],
+            "End_Time": ev["End_Time"],
             "League": ev["League"],
             "Matchup": ev["Matchup"],
             "Services": ev["Services"]
@@ -353,10 +358,10 @@ async def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"💾 Saved to: {OUTPUT_FILE}")
 
-    print("\n📋 Sample output (First 5 matches in Strict BD Time):")
+    print("\n📋 Sample output (First 5 matches in BD Time):")
     for ev in output[:5]:
-        print(f"{ev['Date']} {ev['Time']} BST | {ev['League']} | {ev['Matchup']} | {', '.join(ev['Services'])}")
+        print(f"{ev['Date']} | {ev['Start_Time']} - {ev['End_Time']} BST | {ev['League']} | {ev['Matchup']} | {', '.join(ev['Services'])}")
 
 if __name__ == "__main__":
     asyncio.run(main())
-        
+    
