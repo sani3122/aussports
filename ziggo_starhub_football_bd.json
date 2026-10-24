@@ -19,7 +19,7 @@
   },
   {
     "Date": "2026-10-24",
-    "Time": "19:20",
+    "Time": "18:55",
     "League": "Football",
     "Matchup": "Como vs Sassuolo",
     "Services": [
@@ -118,16 +118,8 @@
     "League": "Football",
     "Matchup": "Gil Vicente vs FC Porto",
     "Services": [
-      "Ziggo Sport 5"
-    ]
-  },
-  {
-    "Date": "2026-10-25",
-    "Time": "03:10",
-    "League": "Football",
-    "Matchup": "Gil Vicente vs FC Porto",
-    "Services": [
       "Ziggo Sport 1",
+      "Ziggo Sport 5",
       "Ziggo Sport Kanaal 14"
     ]
   },
@@ -147,6 +139,17 @@
     "Matchup": "Athletic Club vs Getafe CF",
     "Services": [
       "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-10-25",
+    "Time": "19:55",
+    "League": "Football",
+    "Matchup": "Atalanta vs Frosinone Calcio",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport 3",
+      "Ziggo Sport Kanaal 14"
     ]
   },
   {
@@ -183,17 +186,6 @@
     "Matchup": "Manchester United vs Bournemouth",
     "Services": [
       "Hub Premier 2"
-    ]
-  },
-  {
-    "Date": "2026-10-25",
-    "Time": "20:25",
-    "League": "Football",
-    "Matchup": "Atalanta vs Frosinone Calcio",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 3",
-      "Ziggo Sport Kanaal 14"
     ]
   },
   {
