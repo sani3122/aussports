@@ -1,6 +1,6 @@
-#!/usr/init/env python3
+#!/usr/bin/env python3
 """
-Ziggo Sport & StarHub Clean Football Schedule Extractor (Strictly BD Time with Start & End Time)
+Ziggo Sport & StarHub Clean Football Schedule Extractor (Accurate Timezone Conversion to BD Time)
 Output: ziggo_starhub_football_bd.json
 """
 
@@ -15,8 +15,10 @@ import requests
 from bs4 import BeautifulSoup
 
 # ========== CẤU HÌNH / CONFIGURATION ==========
-BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")
-SINGAPORE_TZ = pytz.timezone("Asia/Singapore")
+BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")         # GMT+6
+SINGAPORE_TZ = pytz.timezone("Asia/Singapore")       # GMT+8 (StarHub)
+NETHERLANDS_TZ = pytz.timezone("Europe/Amsterdam")   # GMT+1 / GMT+2 (Ziggo Sport)
+
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"
 
 OUTPUT_FILE = "ziggo_starhub_football_bd.json"
@@ -81,7 +83,7 @@ def extract_league_matchup(title: str) -> Tuple[str, str]:
     return "", cleaned
 
 
-# ---------- Ziggo Sport Fetcher ----------
+# ---------- Ziggo Sport Fetcher (Netherlands Time -> BD Time) ----------
 class ZiggoFetcher:
     def __init__(self):
         self.base_url = "https://www.ziggosport.nl"
@@ -142,12 +144,13 @@ class ZiggoFetcher:
 
                     start_ts = prog.get("timeStart")
                     if start_ts:
-                        # বাংলাদেশ সময়ে রূপান্তর ও End Time (২ ঘণ্টা ৩০ মিনিট যোগ)
-                        dt_start = datetime.fromtimestamp(start_ts, tz=BANGLADESH_TZ)
-                        dt_end = dt_start + timedelta(hours=2, minutes=30)
+                        # প্রথমে UTC/নেদারল্যান্ডস সময় ধরা এবং তারপর নির্ভুলভাবে বাংলাদেশ সময়ে কনভার্ট করা
+                        dt_utc = pytz.utc.localize(datetime.utcfromtimestamp(start_ts))
+                        dt_bd = dt_utc.astimezone(BANGLADESH_TZ)
+                        dt_end = dt_bd + timedelta(hours=2, minutes=30)
                         
-                        date_formatted = dt_start.strftime("%Y-%m-%d")
-                        start_formatted = dt_start.strftime("%H:%M")
+                        date_formatted = dt_bd.strftime("%Y-%m-%d")
+                        start_formatted = dt_bd.strftime("%H:%M")
                         end_formatted = dt_end.strftime("%H:%M")
                     else:
                         date_formatted = date_str
@@ -165,7 +168,7 @@ class ZiggoFetcher:
         return events
 
 
-# ---------- StarHub Fetcher ----------
+# ---------- StarHub Fetcher (Singapore Time -> BD Time) ----------
 class StarhubFetcher:
     def __init__(self):
         self.url = "https://www.starhub.com/personal/bundles/premier-league/fixtures.html"
@@ -187,7 +190,7 @@ class StarhubFetcher:
         if not month:
             raise ValueError(f"Unknown month: {month_name}")
 
-        # সিঙ্গাপুর সময় থেকে বাংলাদেশ সময়ে রূপান্তর
+        # সিঙ্গাপুরের টাইম জোনে (SGT GMT+8) টাইম অবজেক্ট তৈরি করে বাংলাদেশে (BST GMT+6) রূপান্তর
         dt_sg = SINGAPORE_TZ.localize(
             datetime(int(year), month, int(day), int(hour), int(minute))
         )
@@ -199,12 +202,19 @@ class StarhubFetcher:
         text = re.sub(r'\s*\([^)]*\)\s*$', '', text)
         return text
 
-    def _parse_channel(self, text: str) -> str:
+    def _parse_channels(self, text: str) -> List[str]:
         text = re.sub(r'\s+', ' ', text).strip()
-        match = re.match(r'^([^(]+)', text)
-        if match:
-            return match.group(1).strip()
-        return text
+        text = re.sub(r'\s*\([^)]*\)', '', text).strip()
+
+        if '&' in text or ',' in text:
+            base_match = re.match(r'^(.*?)\s+\d+', text)
+            if base_match:
+                prefix = base_match.group(1).strip()
+                digits = re.findall(r'\d+', text)
+                if digits:
+                    return [f"{prefix} {d}" for d in digits]
+
+        return [text]
 
     def fetch_events(self) -> List[Dict]:
         print("📡 [StarHub] Fetching Premier League fixtures...")
@@ -243,7 +253,7 @@ class StarhubFetcher:
 
                 try:
                     dt_event = self._parse_datetime(date_time_text)
-                except ValueError as e:
+                except ValueError:
                     continue
 
                 time_diff = (now_bd - dt_event).total_seconds() / 3600
@@ -251,7 +261,7 @@ class StarhubFetcher:
                     continue
 
                 matchup = self._parse_matchup(matchup_text)
-                channel = self._parse_channel(channel_text)
+                channels = self._parse_channels(channel_text)
 
                 if is_excluded_football(matchup):
                     continue
@@ -265,7 +275,7 @@ class StarhubFetcher:
                     "End_Time": dt_end.strftime("%H:%M"),
                     "League": "Premier League",
                     "Matchup": matchup,
-                    "Services": [channel],
+                    "Services": channels,
                 })
 
             print(f"✅ [StarHub] {len(events)} events fetched")
@@ -325,7 +335,7 @@ def enrich_leagues(events: List[Dict]) -> List[Dict]:
 
 # ---------- Main Execution ----------
 async def main():
-    print("🚀 Ziggo Sport & StarHub Football Schedule Extractor (With Start & End Time - BD Time)")
+    print("🚀 Ziggo Sport & StarHub Football Schedule Extractor (Accurate Timezone Fix)")
 
     # 1. Ziggo Sport
     ziggo = ZiggoFetcher()
@@ -368,4 +378,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-                    
+                        
