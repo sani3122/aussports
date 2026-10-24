@@ -1,7 +1,8 @@
 [
   {
     "Date": "2026-10-24",
-    "Time": "17:00",
+    "Start_Time": "17:00",
+    "End_Time": "19:30",
     "League": "Premier League 26/27",
     "Matchup": "Aston Villa vs Manchester City",
     "Services": [
@@ -13,7 +14,8 @@
   },
   {
     "Date": "2026-10-24",
-    "Time": "17:55",
+    "Start_Time": "17:55",
+    "End_Time": "20:25",
     "League": "Football",
     "Matchup": "Rayo Vallecano vs Elche",
     "Services": [
@@ -22,7 +24,8 @@
   },
   {
     "Date": "2026-10-24",
-    "Time": "18:55",
+    "Start_Time": "18:55",
+    "End_Time": "21:25",
     "League": "Football",
     "Matchup": "Como vs Sassuolo",
     "Services": [
@@ -33,7 +36,8 @@
   },
   {
     "Date": "2026-10-24",
-    "Time": "19:30",
+    "Start_Time": "19:30",
+    "End_Time": "22:00",
     "League": "PREMIER LEAGUE",
     "Matchup": "ARSENAL vs EVERTON",
     "Services": [
@@ -43,7 +47,8 @@
   },
   {
     "Date": "2026-10-24",
-    "Time": "19:50",
+    "Start_Time": "19:50",
+    "End_Time": "22:20",
     "League": "Premier League 26/27",
     "Matchup": "Coventry City vs Fulham",
     "Services": [
@@ -52,7 +57,8 @@
   },
   {
     "Date": "2026-10-24",
-    "Time": "20:10",
+    "Start_Time": "20:10",
+    "End_Time": "22:40",
     "League": "Football",
     "Matchup": "Racing Santander vs RCD Espanyol",
     "Services": [
@@ -61,7 +67,8 @@
   },
   {
     "Date": "2026-10-24",
-    "Time": "22:00",
+    "Start_Time": "22:00",
+    "End_Time": "00:30",
     "League": "Premier League 26/27",
     "Matchup": "Chelsea vs Tottenham Hotspur",
     "Services": [
@@ -73,7 +80,8 @@
   },
   {
     "Date": "2026-10-24",
-    "Time": "22:00",
+    "Start_Time": "22:00",
+    "End_Time": "00:30",
     "League": "Football",
     "Matchup": "Napoli vs AS Roma",
     "Services": [
@@ -83,7 +91,8 @@
   },
   {
     "Date": "2026-10-24",
-    "Time": "22:25",
+    "Start_Time": "22:25",
+    "End_Time": "00:55",
     "League": "Football",
     "Matchup": "Valencia CF vs Villarreal CF",
     "Services": [
@@ -92,7 +101,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "00:00",
+    "Start_Time": "00:00",
+    "End_Time": "02:30",
     "League": "Football",
     "Matchup": "Valencia CF vs Villarreal CF",
     "Services": [
@@ -102,7 +112,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "00:40",
+    "Start_Time": "00:40",
+    "End_Time": "03:10",
     "League": "Football",
     "Matchup": "Lazio vs Parma Calcio",
     "Services": [
@@ -111,7 +122,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "01:00",
+    "Start_Time": "01:00",
+    "End_Time": "03:30",
     "League": "Football",
     "Matchup": "Atlético Madrid vs Deportivo de A Coruña",
     "Services": [
@@ -121,7 +133,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "01:25",
+    "Start_Time": "01:25",
+    "End_Time": "03:55",
     "League": "Football",
     "Matchup": "Gil Vicente vs FC Porto",
     "Services": [
@@ -132,7 +145,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "17:25",
+    "Start_Time": "17:25",
+    "End_Time": "19:55",
     "League": "Football",
     "Matchup": "Internazionale vs Fiorentina",
     "Services": [
@@ -141,7 +155,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "18:55",
+    "Start_Time": "18:55",
+    "End_Time": "21:25",
     "League": "Football",
     "Matchup": "Athletic Club vs Getafe CF",
     "Services": [
@@ -150,7 +165,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "19:30",
+    "Start_Time": "19:30",
+    "End_Time": "22:00",
     "League": "Premier League 26/27",
     "Matchup": "Manchester United vs Bournemouth",
     "Services": [
@@ -160,7 +176,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "19:50",
+    "Start_Time": "19:50",
+    "End_Time": "22:20",
     "League": "PREMIER LEAGUE",
     "Matchup": "LIVERPOOL vs BRIGHTON & HOVE ALBION",
     "Services": [
@@ -170,7 +187,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "19:50",
+    "Start_Time": "19:50",
+    "End_Time": "22:20",
     "League": "Premier League 26/27",
     "Matchup": "Crystal Palace vs Newcastle United",
     "Services": [
@@ -179,7 +197,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "19:50",
+    "Start_Time": "19:50",
+    "End_Time": "22:20",
     "League": "Premier League 26/27",
     "Matchup": "Hull City vs Brentford",
     "Services": [
@@ -188,7 +207,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "19:55",
+    "Start_Time": "19:55",
+    "End_Time": "22:25",
     "League": "Football",
     "Matchup": "Atalanta vs Frosinone Calcio",
     "Services": [
@@ -199,7 +219,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "21:10",
+    "Start_Time": "21:10",
+    "End_Time": "23:40",
     "League": "Football",
     "Matchup": "Celta de Vigo vs Real Betis",
     "Services": [
@@ -208,7 +229,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "22:00",
+    "Start_Time": "22:00",
+    "End_Time": "00:30",
     "League": "Premier League 26/27",
     "Matchup": "Sunderland vs Leeds United",
     "Services": [
@@ -218,7 +240,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "22:55",
+    "Start_Time": "22:55",
+    "End_Time": "01:25",
     "League": "Football",
     "Matchup": "US Lecce vs Juventus",
     "Services": [
@@ -228,7 +251,8 @@
   },
   {
     "Date": "2026-10-25",
-    "Time": "23:25",
+    "Start_Time": "23:25",
+    "End_Time": "01:55",
     "League": "Football",
     "Matchup": "Real Sociedad vs Levante UD",
     "Services": [
@@ -237,7 +261,8 @@
   },
   {
     "Date": "2026-10-26",
-    "Time": "01:40",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
     "League": "Football",
     "Matchup": "Udinese vs AC Milan",
     "Services": [
@@ -246,7 +271,8 @@
   },
   {
     "Date": "2026-10-26",
-    "Time": "01:55",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
     "League": "Football",
     "Matchup": "FC Barcelona vs Real Madrid",
     "Services": [
@@ -256,7 +282,8 @@
   },
   {
     "Date": "2026-10-27",
-    "Time": "00:40",
+    "Start_Time": "00:40",
+    "End_Time": "03:10",
     "League": "Football",
     "Matchup": "CD Santa Clara vs Benfica",
     "Services": [
@@ -265,7 +292,8 @@
   },
   {
     "Date": "2026-10-27",
-    "Time": "01:55",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
     "League": "Football",
     "Matchup": "Sevilla FC vs Osasuna",
     "Services": [
@@ -274,7 +302,8 @@
   },
   {
     "Date": "2026-10-27",
-    "Time": "22:55",
+    "Start_Time": "22:55",
+    "End_Time": "01:25",
     "League": "Football",
     "Matchup": "Hamburger SV vs Eintracht Frankfurt",
     "Services": [
@@ -284,7 +313,8 @@
   },
   {
     "Date": "2026-10-27",
-    "Time": "23:25",
+    "Start_Time": "23:25",
+    "End_Time": "01:55",
     "League": "Football",
     "Matchup": "Sassuolo vs Lazio",
     "Services": [
@@ -293,7 +323,8 @@
   },
   {
     "Date": "2026-10-28",
-    "Time": "01:40",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
     "League": "Football",
     "Matchup": "Borussia Dortmund vs Werder Bremen",
     "Services": [
@@ -304,7 +335,8 @@
   },
   {
     "Date": "2026-10-28",
-    "Time": "01:40",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
     "League": "Football",
     "Matchup": "AS Roma vs Cagliari",
     "Services": [
@@ -313,7 +345,8 @@
   },
   {
     "Date": "2026-10-28",
-    "Time": "22:55",
+    "Start_Time": "22:55",
+    "End_Time": "01:25",
     "League": "Football",
     "Matchup": "Dynamo Dresden vs FC Schalke 04",
     "Services": [
@@ -323,7 +356,8 @@
   },
   {
     "Date": "2026-10-28",
-    "Time": "23:25",
+    "Start_Time": "23:25",
+    "End_Time": "01:55",
     "League": "Football",
     "Matchup": "Venezia FC vs Internazionale",
     "Services": [
@@ -332,7 +366,8 @@
   },
   {
     "Date": "2026-10-28",
-    "Time": "23:25",
+    "Start_Time": "23:25",
+    "End_Time": "01:55",
     "League": "Football",
     "Matchup": "AC Milan vs Bologna",
     "Services": [
@@ -341,7 +376,8 @@
   },
   {
     "Date": "2026-10-29",
-    "Time": "01:40",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
     "League": "Football",
     "Matchup": "Bayern München vs Magdeburg",
     "Services": [
@@ -352,7 +388,8 @@
   },
   {
     "Date": "2026-10-29",
-    "Time": "01:40",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
     "League": "Football",
     "Matchup": "Monza vs Napoli",
     "Services": [
@@ -361,7 +398,8 @@
   },
   {
     "Date": "2026-10-29",
-    "Time": "01:40",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
     "League": "Football",
     "Matchup": "Genoa vs Juventus",
     "Services": [
@@ -370,7 +408,8 @@
   },
   {
     "Date": "2026-10-29",
-    "Time": "23:25",
+    "Start_Time": "23:25",
+    "End_Time": "01:55",
     "League": "Football",
     "Matchup": "Frosinone Calcio vs US Lecce",
     "Services": [
@@ -381,7 +420,8 @@
   },
   {
     "Date": "2026-10-30",
-    "Time": "01:40",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
     "League": "Football",
     "Matchup": "Fiorentina vs Atalanta",
     "Services": [
@@ -391,7 +431,8 @@
   },
   {
     "Date": "2026-10-31",
-    "Time": "01:55",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
     "League": "Football",
     "Matchup": "Villarreal CF vs RCD Espanyol",
     "Services": [
