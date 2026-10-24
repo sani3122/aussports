@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+#!/usr/init/env python3
 """
-Ziggo Sport & StarHub Live Football Schedule Extractor for Bangladesh Time Zone
+Ziggo Sport & StarHub Clean Football Schedule Extractor (Strictly Bangladesh Time)
 Output: ziggo_starhub_football_bd.json
 """
 
@@ -52,11 +52,9 @@ def is_football_league_allowed(text: str) -> bool:
     return any(allowed.lower() in text_lower for allowed in ALLOWED_FOOTBALL_LEAGUES)
 
 def is_excluded_football(text: str) -> bool:
-    """Return True if text contains keywords indicating women's or youth football."""
     return bool(EXCLUDED_FOOTBALL_PATTERN.search(text))
 
 def extract_league_matchup(title: str) -> Tuple[str, str]:
-    """Extract League and Matchup. Returns (league, matchup)."""
     cleaned = clean_brackets(title)
     cleaned = re.sub(r"\s*Live\s*$", "", cleaned, flags=re.IGNORECASE).strip()
 
@@ -129,7 +127,6 @@ class ZiggoFetcher:
                     if not prog.get("live"):
                         continue
                     
-                    # শুধুমাত্র 'voetbal' (ফুটবল) ফিল্টার করা হচ্ছে
                     sport_name = (prog.get("sportName") or "").lower()
                     if sport_name != "voetbal":
                         continue
@@ -149,7 +146,7 @@ class ZiggoFetcher:
 
                     start_ts = prog.get("timeStart")
                     if start_ts:
-                        # বাংলাদেশের সময়ে কনভার্ট করা (Asia/Dhaka)
+                        # Unix timestamp সরাসরি বাংলাদেশ সময়ে রূপান্তর
                         dt_start = datetime.fromtimestamp(start_ts, tz=BANGLADESH_TZ)
                         date_formatted = dt_start.strftime("%Y-%m-%d")
                         time_formatted = dt_start.strftime("%H:%M")
@@ -189,7 +186,7 @@ class StarhubFetcher:
         if not month:
             raise ValueError(f"Unknown month: {month_name}")
 
-        # সিঙ্গাপুরের টাইম জোনে তৈরি করে বাংলাদেশে রূপান্তর করা
+        # সিঙ্গাপুর সময় থেকে বাংলাদেশ সময়ে রূপান্তর (GMT+8 থেকে GMT+6)
         dt_sg = SINGAPORE_TZ.localize(
             datetime(int(year), month, int(day), int(hour), int(minute))
         )
@@ -274,42 +271,41 @@ class StarhubFetcher:
             return []
 
 
-# ---------- Deduplication & Enrichment ----------
+# ---------- Strict Deduplication & Channel Merging ----------
 def deduplicate_events(events: List[Dict]) -> List[Dict]:
+    """
+    একই দিনে একই ম্যাচের ডুপ্লিকেট এন্ট্রি পুরোপুরি রিমুভ করে 
+    এবং সব ব্রডকাস্টিং চ্যানেল একটি লিস্টের ভেতরে মার্জ করে দেয়।
+    """
     groups = {}
     for ev in events:
         date = ev["Date"]
         norm = normalize_matchup(ev["Matchup"])
         key = (date, norm)
-        groups.setdefault(key, []).append(ev)
+        
+        if key not in groups:
+            groups[key] = {
+                "Date": ev["Date"],
+                "Time": ev["Time"],
+                "League": ev["League"],
+                "Matchup": ev["Matchup"],
+                "Services": set(ev["Services"])
+            }
+        else:
+            # যদি একই ম্যাচের রি-ব্রডকাস্ট বা আলাদা চ্যানেল থাকে, তবে চ্যানেলগুলো এক করে দেবো
+            groups[key]["Services"].update(ev["Services"])
+            # সঠিক লিগের নাম আপডেট করা
+            if groups[key]["League"] in ("Football", "Sports", "Unknown", "") and ev["League"] not in ("Football", "Sports", "Unknown", ""):
+                groups[key]["League"] = ev["League"]
+            # সবচেয়ে শুরুর সময়টি (Earliest time) বেছে নেওয়া
+            if ev["Time"] < groups[key]["Time"]:
+                groups[key]["Time"] = ev["Time"]
 
     merged = []
-    for (date, norm_matchup), ev_list in groups.items():
-        if len(ev_list) == 1:
-            merged.append(ev_list[0])
-            continue
-        ev_list.sort(key=lambda x: x["Time"])
-        clusters = []
-        current_cluster = [ev_list[0]]
-        for i in range(1, len(ev_list)):
-            prev_time = datetime.strptime(current_cluster[-1]["Time"], "%H:%M")
-            curr_time = datetime.strptime(ev_list[i]["Time"], "%H:%M")
-            diff = (curr_time - prev_time).total_seconds() / 60
-            if diff <= 30:
-                current_cluster.append(ev_list[i])
-            else:
-                clusters.append(current_cluster)
-                current_cluster = [ev_list[i]]
-        clusters.append(current_cluster)
-
-        for cluster in clusters:
-            latest_ev = max(cluster, key=lambda x: x["Time"])
-            all_services = set()
-            for ev in cluster:
-                all_services.update(ev["Services"])
-            merged_ev = latest_ev.copy()
-            merged_ev["Services"] = sorted(list(all_services))
-            merged.append(merged_ev)
+    for key, val in groups.items():
+        val["Services"] = sorted(list(val["Services"]))
+        merged.append(val)
+        
     return merged
 
 def enrich_leagues(events: List[Dict]) -> List[Dict]:
@@ -329,7 +325,7 @@ def enrich_leagues(events: List[Dict]) -> List[Dict]:
 
 # ---------- Main Execution ----------
 async def main():
-    print("🚀 Ziggo Sport & StarHub Football Schedule Extractor (Bangladesh Time Zone - GMT+6)")
+    print("🚀 Ziggo Sport & StarHub Clean Football Schedule Extractor (Strictly Bangladesh Time)")
 
     # 1. Ziggo Sport
     ziggo = ZiggoFetcher()
@@ -347,7 +343,7 @@ async def main():
 
     all_events = deduplicate_events(all_events)
     all_events = enrich_leagues(all_events)
-    print(f"✅ After deduplication & enrichment: {len(all_events)} events")
+    print(f"✅ After strict deduplication & enrichment: {len(all_events)} events")
 
     all_events.sort(key=lambda x: (x["Date"], x["Time"]))
 
@@ -365,9 +361,10 @@ async def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"💾 Saved to: {OUTPUT_FILE}")
 
-    print("\n📋 Sample output (First 5 matches in BD Time):")
+    print("\n📋 Sample output (First 5 matches in Strict BD Time):")
     for ev in output[:5]:
         print(f"{ev['Date']} {ev['Time']} BST | {ev['League']} | {ev['Matchup']} | {', '.join(ev['Services'])}")
 
 if __name__ == "__main__":
     asyncio.run(main())
+            
