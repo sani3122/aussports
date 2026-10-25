@@ -1,13 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Crystal Palace vs Newcastle United" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/crystal_palace_vs_newcastle_united.png" group-title=🔴 LIVE NOW, Crystal Palace vs Newcastle United
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp3.m3u8
-#EXTINF:-1 tvg-name="Hull City vs Brentford" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/hull_city_vs_brentford.png" group-title=🔴 LIVE NOW, Hull City vs Brentford
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp4.m3u8
-#EXTINF:-1 tvg-name="Liverpool vs Brighton and Hove Albion - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/liverpool_vs_brighton_and_hove_albion.png" group-title=🔴 LIVE NOW, Liverpool vs Brighton and Hove Albion - Stream 1
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp1.m3u8
-#EXTINF:-1 tvg-name="Liverpool vs Brighton and Hove Albion - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/liverpool_vs_brighton_and_hove_albion.png" group-title=🔴 LIVE NOW, Liverpool vs Brighton and Hove Albion - Stream 2
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp5.m3u8
-#EXTINF:-1 tvg-name="Manchester United vs Bournemouth" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_united_vs_bournemouth.png" group-title=🔴 LIVE NOW, Manchester United vs Bournemouth
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp2.m3u8
 #EXTINF:-1 tvg-name="Celta de Vigo vs Real Betis" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/celta_de_vigo_vs_real_betis.png" group-title=🔴 LIVE NOW, Celta de Vigo vs Real Betis
 https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos2.m3u8
+#EXTINF:-1 tvg-name="Sunderland vs Leeds United" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/sunderland_vs_leeds_united.png" group-title=🔴 LIVE NOW, Sunderland vs Leeds United
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp1.m3u8
