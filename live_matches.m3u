@@ -1,5 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Internazionale vs Fiorentina" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/internazionale_vs_fiorentina.png" group-title=🔴 LIVE NOW, Internazionale vs Fiorentina
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos3.m3u8
 #EXTINF:-1 tvg-name="Athletic Club vs Getafe CF" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/athletic_club_vs_getafe_cf.png" group-title=🔴 LIVE NOW, Athletic Club vs Getafe CF
 https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos2.m3u8
+#EXTINF:-1 tvg-name="Atalanta vs Frosinone Calcio" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/atalanta_vs_frosinone_calcio.png" group-title=🔴 LIVE NOW, Atalanta vs Frosinone Calcio
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos3.m3u8
+#EXTINF:-1 tvg-name="Crystal Palace vs Newcastle United" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/crystal_palace_vs_newcastle_united.png" group-title=🔴 LIVE NOW, Crystal Palace vs Newcastle United
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp3.m3u8
+#EXTINF:-1 tvg-name="Hull City vs Brentford" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/hull_city_vs_brentford.png" group-title=🔴 LIVE NOW, Hull City vs Brentford
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp4.m3u8
+#EXTINF:-1 tvg-name="Liverpool vs Brighton and Hove Albion - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/liverpool_vs_brighton_and_hove_albion.png" group-title=🔴 LIVE NOW, Liverpool vs Brighton and Hove Albion - Stream 1
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp1.m3u8
+#EXTINF:-1 tvg-name="Liverpool vs Brighton and Hove Albion - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/liverpool_vs_brighton_and_hove_albion.png" group-title=🔴 LIVE NOW, Liverpool vs Brighton and Hove Albion - Stream 2
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp5.m3u8
+#EXTINF:-1 tvg-name="Manchester United vs Bournemouth" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_united_vs_bournemouth.png" group-title=🔴 LIVE NOW, Manchester United vs Bournemouth
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/hubp2.m3u8
