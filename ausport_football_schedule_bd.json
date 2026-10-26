@@ -25,5 +25,14 @@
     "match_date": "28/10/2026",
     "channels": "beIN SPORTS 2 | beIN Sports Connect",
     "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "AC Milan",
+    "away": "Bologna",
+    "match_time": "23:30",
+    "match_date": "28/10/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
   }
 ]
