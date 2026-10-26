@@ -17,7 +17,7 @@ from PIL import Image
 BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")
 
 # ১. ফাইল ও ইউআরএল কনফিগারেশন
-JSON_URL = "https://raw.githubusercontent.com/sani3122/aussports/main/ziggo_starhub_football_bd.json"
+JSON_URL = "https://raw.githubusercontent.com/sani3122/aussports/refs/heads/main/liveonsat_schedule_bd.json"
 CHANNELS_TXT_URL = "https://raw.githubusercontent.com/sani3122/aussports/main/channels.txt"
 BG_IMAGE_URL = "https://raw.githubusercontent.com/sani3122/aussports/refs/heads/main/icons/file_0000000073d88211a98938feb9e984e6.png"
 
