@@ -5,7 +5,7 @@
     "away": "Osasuna",
     "match_time": "02:00",
     "match_date": "27/10/2026",
-    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "channels": "beIN SPORTS 2 | beIN Sports Connect",
     "sport": "Soccer"
   },
   {
@@ -14,7 +14,7 @@
     "away": "Lazio",
     "match_time": "23:30",
     "match_date": "27/10/2026",
-    "channels": "",
+    "channels": "beIN Sports Connect",
     "sport": "Soccer"
   },
   {
@@ -23,7 +23,7 @@
     "away": "Cagliari",
     "match_time": "01:45",
     "match_date": "28/10/2026",
-    "channels": "",
+    "channels": "beIN SPORTS 2 | beIN Sports Connect",
     "sport": "Soccer"
   }
 ]
