@@ -1,14 +1,5 @@
 [
   {
-    "competition": "La Liga",
-    "home": "Sevilla",
-    "away": "Osasuna",
-    "match_time": "02:00",
-    "match_date": "27/10/2026",
-    "channels": "beIN SPORTS 2 | beIN Sports Connect",
-    "sport": "Soccer"
-  },
-  {
     "competition": "Serie A",
     "home": "Sassuolo",
     "away": "Lazio",
@@ -32,6 +23,24 @@
     "away": "Bologna",
     "match_time": "23:30",
     "match_date": "28/10/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Genoa",
+    "away": "Juventus",
+    "match_time": "01:45",
+    "match_date": "29/10/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Monza",
+    "away": "Napoli",
+    "match_time": "01:45",
+    "match_date": "29/10/2026",
     "channels": "beIN Sports Connect",
     "sport": "Soccer"
   }
