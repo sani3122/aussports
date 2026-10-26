@@ -1,4 +1,4 @@
-name: Scrape LiveSportsOnTV Schedule BD
+name: Scrape Hello Schedule BD
 
 on:
   schedule:
