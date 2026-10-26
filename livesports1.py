@@ -53,7 +53,7 @@ PREMIER_LEAGUE_TEAMS = {
 ALLOWED_TEAMS_PER_LEAGUE = {
     "Premier League": PREMIER_LEAGUE_TEAMS,
     "Serie A": {"inter milan", "ac milan", "napoli", "juventus", "roma", "atalanta", "lazio"},
-    "La Liga": {"barcelona", "real madrid", "atletico madrid"},
+    "La Liga": None,
     "Bundesliga": {"bayern munich", "borussia dortmund", "bayer leverkusen"},
     "Ligue 1": {"psg", "paris saint-germain", "marseille", "olympique marseille"},
     "FA Cup": PREMIER_LEAGUE_TEAMS,
