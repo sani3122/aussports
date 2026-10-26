@@ -27,7 +27,7 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Run Scraper
-        run: python LiveOnTv.py
+        run: python livesports1.py
 
       - name: Commit and Push Updated Schedule
         run: |
