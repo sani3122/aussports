@@ -1,99 +1,6 @@
 [
   {
     "Date": "2026-10-27",
-    "Start_Time": "16:00",
-    "End_Time": "18:30",
-    "League": "UEFA Champions League",
-    "Matchup": "Kyoto Sanga vs Newcastle United",
-    "Services": [
-      "Astro Stadium HD",
-      "beIN Connect USA",
-      "beIN Sports MENA 4 HD",
-      "beIN Sports MENA 4 HD",
-      "DAZN Japan",
-      "Nova Sport Bulgaria HD",
-      "Nova Sport Bulgaria HD",
-      "Nova Sport Bulgaria HD",
-      "Nova Sport Bulgaria HD",
-      "Nova Sport Bulgaria HD",
-      "Sport 2 Baltic",
-      "Sport 2 Ukraine",
-      "SportKlub 1 Hrvatska HD",
-      "SportKlub 1 Slovenija HD",
-      "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-10-27",
-    "Start_Time": "16:00",
-    "End_Time": "18:30",
-    "League": "UEFA Champions League",
-    "Matchup": "Shanghai Port vs Công An Hà Nôi",
-    "Services": [
-      "Astro Football HD",
-      "beIN Connect USA",
-      "beIN Sports MENA 1 HD",
-      "beIN Sports MENA 1 HD",
-      "DAZN Japan",
-      "Q Sport Football HD",
-      "Spor Smart 2 Türkiye HD",
-      "SportKlub 6 Hrvatska",
-      "TV Start Triumph HD",
-      "TV Start Triumph HD",
-      "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-10-27",
-    "Start_Time": "16:00",
-    "End_Time": "18:30",
-    "League": "UEFA Champions League",
-    "Matchup": "Johor Darul Ta'zim vs Thai Port",
-    "Services": [
-      "Astro Arena Bola HD",
-      "beIN Connect USA",
-      "beIN Sports MENA 2 HD",
-      "beIN Sports MENA 2 HD",
-      "beIN Sports MENA English 1 HD",
-      "DAZN Japan",
-      "Sport 1 Baltic",
-      "SportKlub 4 Hrvatska",
-      "SportKlub 4 Slovenija",
-      "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-10-27",
-    "Start_Time": "16:00",
-    "End_Time": "18:30",
-    "League": "UEFA Champions League",
-    "Matchup": "Daejeon Citizen vs Vissel Kobe",
-    "Services": [
-      "Astro Arena Bola 2 HD",
-      "beIN Connect USA",
-      "beIN Sports MENA 3 HD",
-      "beIN Sports MENA 3 HD",
-      "DAZN Japan",
-      "Diema Sport 3 HD",
-      "Diema Sport 3 HD",
-      "Diema Sport 3 HD",
-      "Diema Sport 3 HD",
-      "Diema Sport 3 HD",
-      "Spor Smart Türkiye HD",
-      "Sport 1 Ukraine",
-      "SportKlub 3 Hrvatska",
-      "SportKlub 3 Hrvatska",
-      "SportKlub 3 Slovenija",
-      "TV Start Russia HD",
-      "TV Start Russia HD",
-      "TV Start Russia HD",
-      "TV Start Russia HD",
-      "TV Start Russia HD",
-      "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-10-27",
     "Start_Time": "18:15",
     "End_Time": "20:45",
     "League": "UEFA Champions League",
@@ -990,6 +897,19 @@
       "TV4 Play Sverige",
       "VG+ Sport Norge",
       "Ziggo Sport 1 HD"
+    ]
+  },
+  {
+    "Date": "2026-10-30",
+    "Start_Time": "12:00",
+    "End_Time": "14:30",
+    "League": "Ligue 1",
+    "Matchup": "Le Havre - PSG",
+    "Services": [
+      "beIN USA",
+      "beIN USA Espanol",
+      "beIN Canada",
+      "beIN Canada Espanol"
     ]
   }
 ]
