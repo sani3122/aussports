@@ -1,24 +1,6 @@
 [
   {
     "competition": "Serie A",
-    "home": "Sassuolo",
-    "away": "Lazio",
-    "match_time": "23:30",
-    "match_date": "27/10/2026",
-    "channels": "beIN Sports Connect",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Serie A",
-    "home": "AS Roma",
-    "away": "Cagliari",
-    "match_time": "01:45",
-    "match_date": "28/10/2026",
-    "channels": "beIN Sports Connect | beIN SPORTS 2",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Serie A",
     "home": "AC Milan",
     "away": "Bologna",
     "match_time": "23:30",
@@ -42,6 +24,15 @@
     "match_time": "01:45",
     "match_date": "29/10/2026",
     "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Fiorentina",
+    "away": "Atalanta",
+    "match_time": "01:45",
+    "match_date": "30/10/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
     "sport": "Soccer"
   }
 ]
