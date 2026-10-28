@@ -1,31 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 1
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 2
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 3
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 4" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 4
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 5" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 5
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 6" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 6
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 7" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 7
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 8" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 9" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 9
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 10" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 10
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="Monza vs Napoli - Stream 11" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 11
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="Genoa vs Juventus - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/genoa_vs_juventus.png" group-title=🔴 LIVE NOW, Genoa vs Juventus - Stream 1
-https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Genoa vs Juventus - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/genoa_vs_juventus.png" group-title=🔴 LIVE NOW, Genoa vs Juventus - Stream 2
-https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Genoa vs Juventus - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/genoa_vs_juventus.png" group-title=🔴 LIVE NOW, Genoa vs Juventus - Stream 3
-https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 #EXTINF:-1 tvg-name="Liverpool vs Chelsea" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/liverpool_vs_chelsea.png" group-title=🔴 LIVE NOW, Liverpool vs Chelsea
 https://otte.cache.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd%7CdrmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
