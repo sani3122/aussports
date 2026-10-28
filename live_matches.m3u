@@ -1,32 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Venezia vs Inter Milan - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/venezia_vs_inter_milan.png" group-title=🔴 LIVE NOW, Venezia vs Inter Milan - Stream 1
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Venezia vs Inter Milan - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/venezia_vs_inter_milan.png" group-title=🔴 LIVE NOW, Venezia vs Inter Milan - Stream 2
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Venezia vs Inter Milan - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/venezia_vs_inter_milan.png" group-title=🔴 LIVE NOW, Venezia vs Inter Milan - Stream 3
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Venezia vs Inter Milan - Stream 4" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/venezia_vs_inter_milan.png" group-title=🔴 LIVE NOW, Venezia vs Inter Milan - Stream 4
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Venezia vs Inter Milan - Stream 5" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/venezia_vs_inter_milan.png" group-title=🔴 LIVE NOW, Venezia vs Inter Milan - Stream 5
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="AC Milan vs Bologna - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_bologna.png" group-title=🔴 LIVE NOW, AC Milan vs Bologna - Stream 1
-https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="AC Milan vs Bologna - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_bologna.png" group-title=🔴 LIVE NOW, AC Milan vs Bologna - Stream 2
-https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="AC Milan vs Bologna - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_bologna.png" group-title=🔴 LIVE NOW, AC Milan vs Bologna - Stream 3
-https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="AC Milan vs Bologna - Stream 4" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_bologna.png" group-title=🔴 LIVE NOW, AC Milan vs Bologna - Stream 4
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="AC Milan vs Bologna - Stream 5" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_bologna.png" group-title=🔴 LIVE NOW, AC Milan vs Bologna - Stream 5
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="AC Milan vs Bologna - Stream 6" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_bologna.png" group-title=🔴 LIVE NOW, AC Milan vs Bologna - Stream 6
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="AC Milan vs Bologna - Stream 7" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_bologna.png" group-title=🔴 LIVE NOW, AC Milan vs Bologna - Stream 7
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="AC Milan vs Bologna - Stream 8" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_bologna.png" group-title=🔴 LIVE NOW, AC Milan vs Bologna - Stream 8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-#EXTINF:-1 tvg-name="AC Milan vs Bologna - Stream 9" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_bologna.png" group-title=🔴 LIVE NOW, AC Milan vs Bologna - Stream 9
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd%7CdrmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
 #EXTINF:-1 tvg-name="Manchester City vs Brighton" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_city_vs_brighton.png" group-title=🔴 LIVE NOW, Manchester City vs Brighton
 https://otte.cache.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd%7CdrmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 #EXTINF:-1 tvg-name="Monza vs Napoli - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/monza_vs_napoli.png" group-title=🔴 LIVE NOW, Monza vs Napoli - Stream 1
@@ -57,3 +29,5 @@ https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd%7CdrmScheme=cleark
 https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 #EXTINF:-1 tvg-name="Genoa vs Juventus - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/genoa_vs_juventus.png" group-title=🔴 LIVE NOW, Genoa vs Juventus - Stream 3
 https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+#EXTINF:-1 tvg-name="Liverpool vs Chelsea" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/liverpool_vs_chelsea.png" group-title=🔴 LIVE NOW, Liverpool vs Chelsea
+https://otte.cache.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd%7CdrmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
