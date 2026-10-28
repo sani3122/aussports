@@ -25,14 +25,5 @@
     "match_date": "29/10/2026",
     "channels": "beIN Sports Connect",
     "sport": "Soccer"
-  },
-  {
-    "competition": "Serie A",
-    "home": "Fiorentina",
-    "away": "Atalanta",
-    "match_time": "01:45",
-    "match_date": "30/10/2026",
-    "channels": "",
-    "sport": "Soccer"
   }
 ]
