@@ -1,37 +1,19 @@
 [
   {
     "competition": "Serie A",
-    "home": "AC Milan",
-    "away": "Bologna",
-    "match_time": "23:30",
-    "match_date": "28/10/2026",
-    "channels": "beIN Sports Connect",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Serie A",
-    "home": "Genoa",
-    "away": "Juventus",
-    "match_time": "01:45",
-    "match_date": "29/10/2026",
-    "channels": "beIN Sports Connect",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Serie A",
-    "home": "Monza",
-    "away": "Napoli",
-    "match_time": "01:45",
-    "match_date": "29/10/2026",
-    "channels": "beIN Sports Connect",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Serie A",
     "home": "Fiorentina",
     "away": "Atalanta",
     "match_time": "01:45",
     "match_date": "30/10/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Villarreal",
+    "away": "Espanyol",
+    "match_time": "02:00",
+    "match_date": "31/10/2026",
     "channels": "beIN Sports Connect | beIN SPORTS 2",
     "sport": "Soccer"
   }
