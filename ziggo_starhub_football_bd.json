@@ -6,8 +6,17 @@
     "League": "Football",
     "Matchup": "Frosinone Calcio vs US Lecce",
     "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-10-30",
+    "Start_Time": "01:00",
+    "End_Time": "03:30",
+    "League": "Football",
+    "Matchup": "Frosinone Calcio vs US Lecce",
+    "Services": [
       "Ziggo Sport 1",
-      "Ziggo Sport 2",
       "Ziggo Sport Kanaal 14"
     ]
   },
