@@ -1,14 +1,5 @@
 [
   {
-    "competition": "Serie A",
-    "home": "Fiorentina",
-    "away": "Atalanta",
-    "match_time": "01:45",
-    "match_date": "30/10/2026",
-    "channels": "beIN SPORTS 2 | beIN Sports Connect",
-    "sport": "Soccer"
-  },
-  {
     "competition": "La Liga",
     "home": "Villarreal",
     "away": "Espanyol",
@@ -131,6 +122,33 @@
     "away": "Crystal Palace",
     "match_time": "23:30",
     "match_date": "31/10/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "AC Milan",
+    "away": "Inter",
+    "match_time": "01:45",
+    "match_date": "01/11/2026",
+    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Barcelona",
+    "away": "Alaves",
+    "match_time": "02:00",
+    "match_date": "01/11/2026",
+    "channels": "beIN SPORTS 3 | beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Aston Villa",
+    "away": "Fulham",
+    "match_time": "02:00",
+    "match_date": "01/11/2026",
     "channels": "Stan Sport",
     "sport": "Soccer"
   }
