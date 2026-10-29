@@ -34,6 +34,16 @@
   },
   {
     "Date": "2026-10-31",
+    "Start_Time": "18:30",
+    "End_Time": "21:00",
+    "League": "Premier League",
+    "Matchup": "Chelsea vs Manchester United",
+    "Services": [
+      "Hub Premier 1"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
     "Start_Time": "18:55",
     "End_Time": "21:25",
     "League": "Football",
@@ -51,6 +61,57 @@
     "Services": [
       "Ziggo Sport 1",
       "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Bournemouth vs Leeds United",
+    "Services": [
+      "Hub Premier 3"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Brentford vs Nottingham Forest",
+    "Services": [
+      "Hub Premier 2"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Coventry City vs Sunderland",
+    "Services": [
+      "Hub Premier 4"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Hull City vs Ipswich Town",
+    "Services": [
+      "Hub Premier 5"
+    ]
+  },
+  {
+    "Date": "2026-10-31",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Manchester City vs Brighton and Hove Albion",
+    "Services": [
+      "Hub Premier 1",
+      "Hub Premier 6"
     ]
   },
   {
@@ -85,6 +146,16 @@
     ]
   },
   {
+    "Date": "2026-10-31",
+    "Start_Time": "23:30",
+    "End_Time": "02:00",
+    "League": "Premier League",
+    "Matchup": "Tottenham Hotspur vs Crystal Palace",
+    "Services": [
+      "Hub Premier 1"
+    ]
+  },
+  {
     "Date": "2026-11-01",
     "Start_Time": "01:45",
     "End_Time": "04:15",
@@ -103,6 +174,16 @@
     "Matchup": "FC Barcelona vs Alavés",
     "Services": [
       "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-01",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Premier League",
+    "Matchup": "Aston Villa vs Fulham",
+    "Services": [
+      "Hub Premier 1"
     ]
   },
   {
@@ -157,6 +238,16 @@
     "Services": [
       "Ziggo Sport 1",
       "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-01",
+    "Start_Time": "22:30",
+    "End_Time": "01:00",
+    "League": "Premier League",
+    "Matchup": "Liverpool vs Arsenal",
+    "Services": [
+      "Hub Premier 1"
     ]
   },
   {
@@ -220,6 +311,16 @@
     "Matchup": "Atalanta vs Parma Calcio",
     "Services": [
       "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-03",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Premier League",
+    "Matchup": "Newcastle United vs Everton",
+    "Services": [
+      "Hub Premier 1"
     ]
   },
   {
