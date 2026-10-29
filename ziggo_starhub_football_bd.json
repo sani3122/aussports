@@ -1,38 +1,5 @@
 [
   {
-    "Date": "2026-10-29",
-    "Start_Time": "23:25",
-    "End_Time": "01:55",
-    "League": "Football",
-    "Matchup": "Frosinone Calcio vs US Lecce",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-10-30",
-    "Start_Time": "01:00",
-    "End_Time": "03:30",
-    "League": "Football",
-    "Matchup": "Frosinone Calcio vs US Lecce",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-10-30",
-    "Start_Time": "01:40",
-    "End_Time": "04:10",
-    "League": "Football",
-    "Matchup": "Fiorentina vs Atalanta",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 2",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
     "Date": "2026-10-31",
     "Start_Time": "01:55",
     "End_Time": "04:25",
@@ -485,6 +452,89 @@
     "End_Time": "04:30",
     "League": "Football",
     "Matchup": "FC Porto vs Napoli",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-05",
+    "Start_Time": "23:40",
+    "End_Time": "02:10",
+    "League": "Football",
+    "Matchup": "AC Milan vs Ferencváros",
+    "Services": [
+      "Ziggo Sport 5"
+    ]
+  },
+  {
+    "Date": "2026-11-05",
+    "Start_Time": "23:40",
+    "End_Time": "02:10",
+    "League": "Football",
+    "Matchup": "Crystal Palace vs TSG Hoffenheim",
+    "Services": [
+      "Ziggo Sport 6"
+    ]
+  },
+  {
+    "Date": "2026-11-05",
+    "Start_Time": "23:45",
+    "End_Time": "02:15",
+    "League": "Football",
+    "Matchup": "Midtjylland vs Ajax",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-05",
+    "Start_Time": "23:45",
+    "End_Time": "02:15",
+    "League": "Football",
+    "Matchup": "N.E.C. vs Omonia Nicosia",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-06",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Bayer Leverkusen vs Olympique Marseille",
+    "Services": [
+      "Ziggo Sport 5"
+    ]
+  },
+  {
+    "Date": "2026-11-06",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Celtic vs Besiktas",
+    "Services": [
+      "Ziggo Sport 6"
+    ]
+  },
+  {
+    "Date": "2026-11-06",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Football",
+    "Matchup": "AZ vs Juventus",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport 3",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-06",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Football",
+    "Matchup": "FC Twente vs Pafos",
     "Services": [
       "Ziggo Sport 2"
     ]
