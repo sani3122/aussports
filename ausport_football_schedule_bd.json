@@ -151,5 +151,41 @@
     "match_date": "01/11/2026",
     "channels": "Stan Sport",
     "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Getafe",
+    "away": "Sevilla",
+    "match_time": "19:00",
+    "match_date": "01/11/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Lazio",
+    "away": "Cagliari",
+    "match_time": "20:00",
+    "match_date": "01/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Racing Santander",
+    "away": "Real Madrid",
+    "match_time": "21:15",
+    "match_date": "01/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Liverpool",
+    "away": "Arsenal",
+    "match_time": "22:30",
+    "match_date": "01/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
   }
 ]
