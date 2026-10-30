@@ -1,16 +1,6 @@
 [
   {
     "Date": "2026-10-31",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Villarreal CF vs RCD Espanyol",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-10-31",
     "Start_Time": "18:30",
     "End_Time": "21:00",
     "League": "Premier League",
@@ -535,6 +525,16 @@
     "End_Time": "04:30",
     "League": "Football",
     "Matchup": "FC Twente vs Pafos",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-07",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Sevilla FC vs Alavés",
     "Services": [
       "Ziggo Sport 2"
     ]
