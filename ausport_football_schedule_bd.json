@@ -23,7 +23,7 @@
     "away": "Atletico Madrid",
     "match_time": "19:00",
     "match_date": "31/10/2026",
-    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -32,7 +32,7 @@
     "away": "VfB Stuttgart",
     "match_time": "20:30",
     "match_date": "31/10/2026",
-    "channels": "beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -41,7 +41,7 @@
     "away": "Brighton & Hove Albion",
     "match_time": "21:00",
     "match_date": "31/10/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -50,7 +50,7 @@
     "away": "Sunderland",
     "match_time": "21:00",
     "match_date": "31/10/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -59,7 +59,7 @@
     "away": "Nottingham",
     "match_time": "21:00",
     "match_date": "31/10/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -68,7 +68,7 @@
     "away": "Leeds United",
     "match_time": "21:00",
     "match_date": "31/10/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -77,7 +77,7 @@
     "away": "Ipswich",
     "match_time": "21:00",
     "match_date": "31/10/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -86,7 +86,7 @@
     "away": "Celta Vigo",
     "match_time": "21:15",
     "match_date": "31/10/2026",
-    "channels": "beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -95,7 +95,7 @@
     "away": "AS Roma",
     "match_time": "23:00",
     "match_date": "31/10/2026",
-    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -104,7 +104,7 @@
     "away": "Malaga",
     "match_time": "23:30",
     "match_date": "31/10/2026",
-    "channels": "beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -113,7 +113,7 @@
     "away": "Dortmund",
     "match_time": "23:30",
     "match_date": "31/10/2026",
-    "channels": "beIN SPORTS 3 | beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -122,7 +122,7 @@
     "away": "Crystal Palace",
     "match_time": "23:30",
     "match_date": "31/10/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -131,7 +131,7 @@
     "away": "Inter",
     "match_time": "01:45",
     "match_date": "01/11/2026",
-    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -140,7 +140,7 @@
     "away": "Alaves",
     "match_time": "02:00",
     "match_date": "01/11/2026",
-    "channels": "beIN SPORTS 3 | beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -149,7 +149,7 @@
     "away": "Fulham",
     "match_time": "02:00",
     "match_date": "01/11/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   }
 ]
