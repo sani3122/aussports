@@ -1,14 +1,5 @@
 [
   {
-    "competition": "La Liga",
-    "home": "Villarreal",
-    "away": "Espanyol",
-    "match_time": "02:00",
-    "match_date": "31/10/2026",
-    "channels": "beIN Sports Connect | beIN SPORTS 2",
-    "sport": "Soccer"
-  },
-  {
     "competition": "Premier League",
     "home": "Chelsea",
     "away": "Manchester United",
@@ -186,6 +177,33 @@
     "match_time": "22:30",
     "match_date": "01/11/2026",
     "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Elche",
+    "away": "Valencia",
+    "match_time": "23:30",
+    "match_date": "01/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Juventus",
+    "away": "Napoli",
+    "match_time": "01:45",
+    "match_date": "02/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Athletic Bilbao",
+    "away": "Real Sociedad",
+    "match_time": "02:00",
+    "match_date": "02/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
     "sport": "Soccer"
   }
 ]
