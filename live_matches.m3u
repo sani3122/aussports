@@ -11,5 +11,7 @@ https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clear
 https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 #EXTINF:-1 tvg-name="AC Milan vs Inter Milan - Stream 6" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/ac_milan_vs_inter_milan.png" group-title=🔴 LIVE NOW, AC Milan vs Inter Milan - Stream 6
 https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd%7CdrmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-name="Barcelona vs Alavés" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/barcelona_vs_alav_s.png" group-title=🔴 LIVE NOW, Barcelona vs Alavés
+#EXTINF:-1 tvg-name="Barcelona vs Alavés - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/barcelona_vs_alav_s.png" group-title=🔴 LIVE NOW, Barcelona vs Alavés - Stream 1
 https://otte.cache.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd%7CdrmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#EXTINF:-1 tvg-name="Barcelona vs Alavés - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/barcelona_vs_alav_s.png" group-title=🔴 LIVE NOW, Barcelona vs Alavés - Stream 2
+https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos2.m3u8
