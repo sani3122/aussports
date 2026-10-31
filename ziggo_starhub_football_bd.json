@@ -1,57 +1,6 @@
 [
   {
     "Date": "2026-10-31",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "Premier League",
-    "Matchup": "Bournemouth vs Leeds United",
-    "Services": [
-      "Hub Premier 3"
-    ]
-  },
-  {
-    "Date": "2026-10-31",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "Premier League",
-    "Matchup": "Brentford vs Nottingham Forest",
-    "Services": [
-      "Hub Premier 2"
-    ]
-  },
-  {
-    "Date": "2026-10-31",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "Premier League",
-    "Matchup": "Coventry City vs Sunderland",
-    "Services": [
-      "Hub Premier 4"
-    ]
-  },
-  {
-    "Date": "2026-10-31",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "Premier League",
-    "Matchup": "Hull City vs Ipswich Town",
-    "Services": [
-      "Hub Premier 5"
-    ]
-  },
-  {
-    "Date": "2026-10-31",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "Premier League",
-    "Matchup": "Manchester City vs Brighton and Hove Albion",
-    "Services": [
-      "Hub Premier 1",
-      "Hub Premier 6"
-    ]
-  },
-  {
-    "Date": "2026-10-31",
     "Start_Time": "23:30",
     "End_Time": "02:00",
     "League": "Premier League",
