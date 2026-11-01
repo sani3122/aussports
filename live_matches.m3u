@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Racing Santander vs Real Madrid - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/racing_santander_vs_real_madrid.png" group-title=🔴 LIVE NOW, Racing Santander vs Real Madrid - Stream 1
-https://otte.cache.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd%7CdrmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTINF:-1 tvg-name="Racing Santander vs Real Madrid - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/racing_santander_vs_real_madrid.png" group-title=🔴 LIVE NOW, Racing Santander vs Real Madrid - Stream 2
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd%7CdrmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
 #EXTINF:-1 tvg-name="Elche vs Valencia - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/elche_vs_valencia.png" group-title=🔴 LIVE NOW, Elche vs Valencia - Stream 1
 https://otte.cache.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd%7CdrmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 #EXTINF:-1 tvg-name="Elche vs Valencia - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/elche_vs_valencia.png" group-title=🔴 LIVE NOW, Elche vs Valencia - Stream 2
