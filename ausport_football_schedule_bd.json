@@ -68,7 +68,7 @@
     "away": "Parma",
     "match_time": "01:45",
     "match_date": "03/11/2026",
-    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -77,7 +77,7 @@
     "away": "Osasuna",
     "match_time": "02:00",
     "match_date": "03/11/2026",
-    "channels": "beIN Sports Connect | beIN SPORTS 3",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -86,7 +86,7 @@
     "away": "Everton",
     "match_time": "02:00",
     "match_date": "03/11/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   }
 ]
