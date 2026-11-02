@@ -1,25 +1,5 @@
 [
   {
-    "Date": "2026-11-02",
-    "Start_Time": "23:25",
-    "End_Time": "01:55",
-    "League": "Football",
-    "Matchup": "Sassuolo vs Fiorentina",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-03",
-    "Start_Time": "01:40",
-    "End_Time": "04:10",
-    "League": "Football",
-    "Matchup": "Atalanta vs Parma Calcio",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
     "Date": "2026-11-03",
     "Start_Time": "02:00",
     "End_Time": "04:30",
@@ -31,12 +11,14 @@
   },
   {
     "Date": "2026-11-03",
-    "Start_Time": "02:10",
-    "End_Time": "04:40",
+    "Start_Time": "23:35",
+    "End_Time": "02:05",
     "League": "Football",
-    "Matchup": "Benfica vs Alverca",
+    "Matchup": "Galatasaray AS vs VFB Stuttgart",
     "Services": [
-      "Ziggo Sport 3"
+      "Ziggo Sport 1",
+      "Ziggo Sport 2",
+      "Ziggo Sport Kanaal 14"
     ]
   },
   {
@@ -50,14 +32,13 @@
     ]
   },
   {
-    "Date": "2026-11-03",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
+    "Date": "2026-11-04",
+    "Start_Time": "01:50",
+    "End_Time": "04:20",
     "League": "Football",
-    "Matchup": "Galatasaray AS vs VFB Stuttgart",
+    "Matchup": "Feyenoord vs Internazionale",
     "Services": [
       "Ziggo Sport 1",
-      "Ziggo Sport 2",
       "Ziggo Sport Kanaal 14"
     ]
   },
@@ -96,20 +77,21 @@
     "Start_Time": "02:00",
     "End_Time": "04:30",
     "League": "Football",
-    "Matchup": "Feyenoord vs Internazionale",
+    "Matchup": "FC Barcelona vs Aston Villa",
     "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
+      "Ziggo Sport 2"
     ]
   },
   {
     "Date": "2026-11-04",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
+    "Start_Time": "23:35",
+    "End_Time": "02:05",
     "League": "Football",
-    "Matchup": "FC Barcelona vs Aston Villa",
+    "Matchup": "Fenerbahçe vs Liverpool",
     "Services": [
-      "Ziggo Sport 2"
+      "Ziggo Sport 1",
+      "Ziggo Sport 2",
+      "Ziggo Sport Kanaal 14"
     ]
   },
   {
@@ -123,14 +105,13 @@
     ]
   },
   {
-    "Date": "2026-11-04",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
+    "Date": "2026-11-05",
+    "Start_Time": "01:50",
+    "End_Time": "04:20",
     "League": "Football",
-    "Matchup": "Fenerbahçe vs Liverpool",
+    "Matchup": "PSV vs Club Brugge",
     "Services": [
       "Ziggo Sport 1",
-      "Ziggo Sport 2",
       "Ziggo Sport Kanaal 14"
     ]
   },
@@ -162,17 +143,6 @@
     "Matchup": "Slavia Praag vs Arsenal",
     "Services": [
       "Ziggo Sport 6"
-    ]
-  },
-  {
-    "Date": "2026-11-05",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "Football",
-    "Matchup": "PSV vs Club Brugge",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
     ]
   },
   {
