@@ -1,12 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Galatasaray vs Stuttgart - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/galatasaray_vs_stuttgart.png" group-title=🔴 LIVE NOW, Galatasaray vs Stuttgart - Stream 1
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd%7CdrmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-#EXTINF:-1 tvg-name="Galatasaray vs Stuttgart - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/galatasaray_vs_stuttgart.png" group-title=🔴 LIVE NOW, Galatasaray vs Stuttgart - Stream 2
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd%7CdrmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-#EXTINF:-1 tvg-name="Galatasaray vs Stuttgart - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/galatasaray_vs_stuttgart.png" group-title=🔴 LIVE NOW, Galatasaray vs Stuttgart - Stream 3
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos2.m3u8
-#EXTINF:-1 tvg-name="Shakhtar Donetsk vs Sporting Lisbon" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/shakhtar_donetsk_vs_sporting_lisbon.png" group-title=🔴 LIVE NOW, Shakhtar Donetsk vs Sporting Lisbon
-https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos3.m3u8
 #EXTINF:-1 tvg-name="Manchester United vs Roma" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_united_vs_roma.png" group-title=🔴 LIVE NOW, Manchester United vs Roma
 https://raw.githubusercontent.com/sani3122/Why/refs/heads/main/channels/ziggos5.m3u8
 #EXTINF:-1 tvg-name="Barcelona vs Aston Villa - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/barcelona_vs_aston_villa.png" group-title=🔴 LIVE NOW, Barcelona vs Aston Villa - Stream 1
