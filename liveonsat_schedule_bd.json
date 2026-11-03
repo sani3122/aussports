@@ -1,38 +1,6 @@
 [
   {
     "Date": "2026-11-03",
-    "Start_Time": "13:45",
-    "End_Time": "16:15",
-    "League": "UEFA Champions League",
-    "Matchup": "Newcastle United vs Shanghai Port",
-    "Services": [
-      "Astro Stadium HD",
-      "beIN Sports MENA 2 HD",
-      "beIN Sports MENA 2 HD",
-      "DAZN Japan",
-      "IRIB Varzesh HD",
-      "IRIB Varzesh HD",
-      "Nova Sport Bulgaria HD",
-      "Nova Sport Bulgaria HD",
-      "Nova Sport Bulgaria HD",
-      "Nova Sport Bulgaria HD",
-      "Nova Sport Bulgaria HD",
-      "Q Sport Football HD",
-      "Sport 1 Baltic",
-      "Sport 1 Ukraine",
-      "SportKlub 1 Slovenija HD",
-      "SportKlub 3 Hrvatska",
-      "SportKlub 3 Hrvatska",
-      "TV Start Russia HD",
-      "TV Start Russia HD",
-      "TV Start Russia HD",
-      "TV Start Russia HD",
-      "TV Start Russia HD",
-      "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-11-03",
     "Start_Time": "16:00",
     "End_Time": "18:30",
     "League": "UEFA Champions League",
@@ -241,8 +209,9 @@
       "Paramount+",
       "TUDN",
       "UniMás",
+      "CBS Golazo Network",
       "ViX",
-      "DAZN Canada"
+      "Show more"
     ]
   },
   {
@@ -530,6 +499,7 @@
     "Matchup": "Feyenoord - Inter",
     "Services": [
       "Paramount+",
+      "CBS Golazo Network",
       "ViX",
       "DAZN Canada"
     ]
@@ -1310,6 +1280,7 @@
     "Matchup": "Slavia Praha - Arsenal FC",
     "Services": [
       "Paramount+",
+      "CBS Golazo Network",
       "ViX",
       "DAZN Canada"
     ]
