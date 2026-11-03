@@ -37,6 +37,16 @@
     "Start_Time": "01:55",
     "End_Time": "04:25",
     "League": "Football",
+    "Matchup": "FC Barcelona vs Aston Villa",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-04",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
     "Matchup": "Atlético Madrid vs Bayern München",
     "Services": [
       "Ziggo Sport 3"
@@ -60,16 +70,6 @@
     "Matchup": "Villarreal CF vs Paris Saint-Germain",
     "Services": [
       "Ziggo Sport 6"
-    ]
-  },
-  {
-    "Date": "2026-11-04",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "Football",
-    "Matchup": "FC Barcelona vs Aston Villa",
-    "Services": [
-      "Ziggo Sport 2"
     ]
   },
   {
