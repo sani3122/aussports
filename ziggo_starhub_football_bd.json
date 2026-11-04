@@ -37,6 +37,16 @@
     "Start_Time": "01:55",
     "End_Time": "04:25",
     "League": "Football",
+    "Matchup": "FC Porto vs Napoli",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-05",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
     "Matchup": "RB Leipzig vs Manchester City",
     "Services": [
       "Ziggo Sport 3"
@@ -64,12 +74,13 @@
   },
   {
     "Date": "2026-11-05",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
+    "Start_Time": "23:35",
+    "End_Time": "02:05",
     "League": "Football",
-    "Matchup": "FC Porto vs Napoli",
+    "Matchup": "Midtjylland vs Ajax",
     "Services": [
-      "Ziggo Sport 2"
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
     ]
   },
   {
@@ -90,17 +101,6 @@
     "Matchup": "Crystal Palace vs TSG Hoffenheim",
     "Services": [
       "Ziggo Sport 6"
-    ]
-  },
-  {
-    "Date": "2026-11-05",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "Football",
-    "Matchup": "Midtjylland vs Ajax",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
     ]
   },
   {
