@@ -1,320 +1,5 @@
 [
   {
-    "competition": "Europa Conference League",
-    "home": "Mjallby",
-    "away": "Borac Banja Luka",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "FK Crvena zvezda",
-    "away": "Inter Escaldes",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "KuPS",
-    "away": "Gent",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Trabzonspor",
-    "away": "Freiburg",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Aarhus",
-    "away": "Braga",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Lincoln Red Imps",
-    "away": "Hajduk Split",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Atalanta",
-    "away": "Kairat Almaty",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Midtjylland",
-    "away": "Ajax",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Thun",
-    "away": "Hearts",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Lillestrom",
-    "away": "Plzen",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Anderlecht",
-    "away": "Salzburg",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Crystal Palace",
-    "away": "Hoffenheim",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "AC Milan",
-    "away": "Ferencvaros",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Levski",
-    "away": "Jagiellonia",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Real Sociedad",
-    "away": "Lyon",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Nijmegen",
-    "away": "Omonia",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Sparta Prague",
-    "away": "Bournemouth",
-    "match_time": "23:45",
-    "match_date": "05/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Panathinaikos",
-    "away": "CSKA Sofia",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "FC Copenhagen",
-    "away": "Saburtalo Tbilisi",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "CS U. Craiova",
-    "away": "Egnatia Rrogozhine",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Getafe",
-    "away": "Brighton & Hove Albion",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Riga FC",
-    "away": "Jablonec",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Monaco",
-    "away": "Nordsjaelland",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Lugano",
-    "away": "Kauno Zalgiris",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "St. Truiden",
-    "away": "Brann",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa Conference League",
-    "home": "Twente",
-    "away": "Paphos",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Celta Vigo",
-    "away": "Royale Union SG",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Hapoel Beer Sheva",
-    "away": "OFI Crete",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Torreense",
-    "away": "Ararat-Armenia",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Celtic",
-    "away": "Besiktas",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Benfica",
-    "away": "Lech Poznan",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Sturm Graz",
-    "away": "Celje",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "AZ Alkmaar",
-    "away": "Juventus",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Bayer Leverkusen",
-    "away": "Marseille",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Europa League",
-    "home": "Sunderland",
-    "away": "Dinamo Zagreb",
-    "match_time": "02:00",
-    "match_date": "06/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
     "competition": "La Liga",
     "home": "Sevilla",
     "away": "Alaves",
@@ -347,6 +32,78 @@
     "away": "Racing Santander",
     "match_time": "19:00",
     "match_date": "07/11/2026",
+    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Bundesliga",
+    "home": "Mainz",
+    "away": "Bayern Munich",
+    "match_time": "20:30",
+    "match_date": "07/11/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Arsenal",
+    "away": "Hull City",
+    "match_time": "21:00",
+    "match_date": "07/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Fulham",
+    "away": "Newcastle Utd",
+    "match_time": "21:00",
+    "match_date": "07/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Espanyol",
+    "away": "Deportivo La Coruna",
+    "match_time": "21:15",
+    "match_date": "07/11/2026",
+    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Osasuna",
+    "away": "Athletic Bilbao",
+    "match_time": "23:30",
+    "match_date": "07/11/2026",
+    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Nottingham",
+    "away": "Manchester City",
+    "match_time": "23:30",
+    "match_date": "07/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "AS Roma",
+    "away": "Sassuolo",
+    "match_time": "01:45",
+    "match_date": "08/11/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Valencia",
+    "away": "Real Madrid",
+    "match_time": "02:00",
+    "match_date": "08/11/2026",
     "channels": "beIN SPORTS 2 | beIN Sports Connect",
     "sport": "Soccer"
   }
