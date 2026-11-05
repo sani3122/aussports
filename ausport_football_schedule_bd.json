@@ -331,5 +331,23 @@
     "match_date": "07/11/2026",
     "channels": "Stan Sport",
     "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Leeds United",
+    "away": "Tottenham",
+    "match_time": "18:30",
+    "match_date": "07/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Malaga",
+    "away": "Racing Santander",
+    "match_time": "19:00",
+    "match_date": "07/11/2026",
+    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "sport": "Soccer"
   }
 ]
