@@ -5,7 +5,7 @@
     "away": "Alaves",
     "match_time": "02:00",
     "match_date": "07/11/2026",
-    "channels": "beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -14,7 +14,7 @@
     "away": "Coventry",
     "match_time": "02:00",
     "match_date": "07/11/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -23,7 +23,7 @@
     "away": "Tottenham",
     "match_time": "18:30",
     "match_date": "07/11/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -77,7 +77,7 @@
     "away": "Athletic Bilbao",
     "match_time": "23:30",
     "match_date": "07/11/2026",
-    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -86,7 +86,7 @@
     "away": "Manchester City",
     "match_time": "23:30",
     "match_date": "07/11/2026",
-    "channels": "Stan Sport",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -95,7 +95,7 @@
     "away": "Sassuolo",
     "match_time": "01:45",
     "match_date": "08/11/2026",
-    "channels": "beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   },
   {
@@ -104,7 +104,7 @@
     "away": "Real Madrid",
     "match_time": "02:00",
     "match_date": "08/11/2026",
-    "channels": "beIN SPORTS 2 | beIN Sports Connect",
+    "channels": "",
     "sport": "Soccer"
   }
 ]
