@@ -1,23 +1,5 @@
 [
   {
-    "competition": "La Liga",
-    "home": "Sevilla",
-    "away": "Alaves",
-    "match_time": "02:00",
-    "match_date": "07/11/2026",
-    "channels": "beIN Sports Connect",
-    "sport": "Soccer"
-  },
-  {
-    "competition": "Premier League",
-    "home": "Everton",
-    "away": "Coventry",
-    "match_time": "02:00",
-    "match_date": "07/11/2026",
-    "channels": "Stan Sport",
-    "sport": "Soccer"
-  },
-  {
     "competition": "Premier League",
     "home": "Leeds United",
     "away": "Tottenham",
@@ -114,6 +96,123 @@
     "match_time": "17:30",
     "match_date": "08/11/2026",
     "channels": "beIN Sports Connect | beIN SPORTS 3",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Genoa",
+    "away": "AC Milan",
+    "match_time": "20:00",
+    "match_date": "08/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Monza",
+    "away": "Atalanta",
+    "match_time": "20:00",
+    "match_date": "08/11/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Sunderland",
+    "away": "Chelsea",
+    "match_time": "20:00",
+    "match_date": "08/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Crystal Palace",
+    "away": "Liverpool",
+    "match_time": "20:00",
+    "match_date": "08/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Ipswich",
+    "away": "Bournemouth",
+    "match_time": "20:00",
+    "match_date": "08/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Brighton & Hove Albion",
+    "away": "Brentford",
+    "match_time": "20:00",
+    "match_date": "08/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Bundesliga",
+    "home": "FC Koln",
+    "away": "Bayer Leverkusen",
+    "match_time": "20:30",
+    "match_date": "08/11/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Real Sociedad",
+    "away": "Rayo Vallecano",
+    "match_time": "21:15",
+    "match_date": "08/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Premier League",
+    "home": "Manchester United",
+    "away": "Aston Villa",
+    "match_time": "22:30",
+    "match_date": "08/11/2026",
+    "channels": "Stan Sport",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Villarreal",
+    "away": "Getafe",
+    "match_time": "23:30",
+    "match_date": "08/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Celta Vigo",
+    "away": "Levante",
+    "match_time": "23:30",
+    "match_date": "08/11/2026",
+    "channels": "beIN Sports Connect",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "Serie A",
+    "home": "Fiorentina",
+    "away": "Juventus",
+    "match_time": "01:45",
+    "match_date": "09/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 3",
+    "sport": "Soccer"
+  },
+  {
+    "competition": "La Liga",
+    "home": "Atletico Madrid",
+    "away": "Barcelona",
+    "match_time": "02:00",
+    "match_date": "09/11/2026",
+    "channels": "beIN Sports Connect | beIN SPORTS 2",
     "sport": "Soccer"
   }
 ]
