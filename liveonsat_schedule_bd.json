@@ -181,11 +181,39 @@
   },
   {
     "Date": "2026-11-07",
+    "Start_Time": "07:30",
+    "End_Time": "10:00",
+    "League": "Bundesliga",
+    "Matchup": "Borussia Dortmund - Elversberg",
+    "Services": [
+      "Peacock ES",
+      "Fandango",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-07",
+    "Start_Time": "07:30",
+    "End_Time": "10:00",
+    "League": "Bundesliga",
+    "Matchup": "FSV Mainz 05 - Bayern München",
+    "Services": [
+      "Peacock ES",
+      "Telemundo",
+      "Fandango",
+      "DAZN Canada",
+      "OneSoccer"
+    ]
+  },
+  {
+    "Date": "2026-11-07",
     "Start_Time": "18:30",
     "End_Time": "21:00",
     "League": "Premier League",
     "Matchup": "Leeds United - Tottenham Hotspur",
     "Services": [
+      "Sling TV",
+      "HBO Max",
       "NBC Universo",
       "USA Network",
       "DAZN Canada"
@@ -318,32 +346,6 @@
       "TV2 Sport Premium HD",
       "ViaPlay Norge HD",
       "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-07",
-    "Start_Time": "20:30",
-    "End_Time": "23:00",
-    "League": "Bundesliga",
-    "Matchup": "Borussia Dortmund - Elversberg",
-    "Services": [
-      "Peacock ES",
-      "Fandango",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-07",
-    "Start_Time": "20:30",
-    "End_Time": "23:00",
-    "League": "Bundesliga",
-    "Matchup": "FSV Mainz 05 - Bayern München",
-    "Services": [
-      "Peacock ES",
-      "Telemundo",
-      "Fandango",
-      "DAZN Canada",
-      "OneSoccer"
     ]
   },
   {
@@ -635,8 +637,10 @@
     "League": "FA Cup",
     "Matchup": "Altrincham - Notts County",
     "Services": [
+      "Sling TV",
       "ESPN Select",
       "ESPN Unlimited",
+      "HBO Max",
       "Sportsnet+"
     ]
   },
@@ -863,11 +867,12 @@
     "League": "FA Cup",
     "Matchup": "Peterborough United - Reading",
     "Services": [
+      "Sling TV",
       "ESPN Select",
       "ESPN Unlimited",
+      "HBO Max",
       "SN World",
-      "SN NOW",
-      "Sportsnet+"
+      "Show more"
     ]
   },
   {
@@ -968,6 +973,19 @@
       "beIN USA Espanol",
       "beIN Canada",
       "beIN Canada Espanol"
+    ]
+  },
+  {
+    "Date": "2026-11-08",
+    "Start_Time": "07:30",
+    "End_Time": "10:00",
+    "League": "Bundesliga",
+    "Matchup": "1. FC Köln - Bayer Leverkusen",
+    "Services": [
+      "Peacock ES",
+      "Fandango",
+      "DAZN Canada",
+      "OneSoccer"
     ]
   },
   {
@@ -1424,19 +1442,6 @@
     "Start_Time": "20:30",
     "End_Time": "23:00",
     "League": "Bundesliga",
-    "Matchup": "1. FC Köln - Bayer Leverkusen",
-    "Services": [
-      "Peacock ES",
-      "Fandango",
-      "DAZN Canada",
-      "OneSoccer"
-    ]
-  },
-  {
-    "Date": "2026-11-08",
-    "Start_Time": "20:30",
-    "End_Time": "23:00",
-    "League": "Bundesliga",
     "Matchup": "FC Cologne vs Bayer Leverkusen",
     "Services": [
       "Arena Premium 4 BiH HD",
@@ -1712,8 +1717,10 @@
     "League": "FA Cup",
     "Matchup": "Oldham Athletic - Sheffield Wednesday",
     "Services": [
+      "Sling TV",
       "ESPN Select",
       "ESPN Unlimited",
+      "HBO Max",
       "Sportsnet+"
     ]
   },
@@ -1818,11 +1825,12 @@
     "League": "Serie A",
     "Matchup": "Fiorentina - Juventus",
     "Services": [
+      "Sling TV",
       "Paramount+",
+      "HBO Max",
       "Telemundo",
       "CBS Golazo Network",
-      "TLN",
-      "DAZN Canada"
+      "Show more"
     ]
   },
   {
