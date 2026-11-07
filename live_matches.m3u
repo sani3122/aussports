@@ -1,15 +1,19 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Arsenal vs Hull City - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/arsenal_vs_hull_city.png" group-title=🔴 LIVE NOW, Arsenal vs Hull City - Stream 1
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
-#EXTINF:-1 tvg-name="Arsenal vs Hull City - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/arsenal_vs_hull_city.png" group-title=🔴 LIVE NOW, Arsenal vs Hull City - Stream 2
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
-#EXTINF:-1 tvg-name="Fulham vs Newcastle United - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/fulham_vs_newcastle_united.png" group-title=🔴 LIVE NOW, Fulham vs Newcastle United - Stream 1
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein2.m3u8
-#EXTINF:-1 tvg-name="Fulham vs Newcastle United - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/fulham_vs_newcastle_united.png" group-title=🔴 LIVE NOW, Fulham vs Newcastle United - Stream 2
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein2.m3u8
 #EXTINF:-1 tvg-name="Espanyol vs Deportivo A Coruña - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/espanyol_vs_deportivo_a_coru_a.png" group-title=🔴 LIVE NOW, Espanyol vs Deportivo A Coruña - Stream 1
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
 #EXTINF:-1 tvg-name="Espanyol vs Deportivo A Coruña - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/espanyol_vs_deportivo_a_coru_a.png" group-title=🔴 LIVE NOW, Espanyol vs Deportivo A Coruña - Stream 2
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
 #EXTINF:-1 tvg-name="Espanyol vs Deportivo A Coruña - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/espanyol_vs_deportivo_a_coru_a.png" group-title=🔴 LIVE NOW, Espanyol vs Deportivo A Coruña - Stream 3
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fziggos2.m3u8
+#EXTINF:-1 tvg-name="Nottingham Forest vs Manchester City - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/nottingham_forest_vs_manchester_city.png" group-title=🔴 LIVE NOW, Nottingham Forest vs Manchester City - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
+#EXTINF:-1 tvg-name="Nottingham Forest vs Manchester City - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/nottingham_forest_vs_manchester_city.png" group-title=🔴 LIVE NOW, Nottingham Forest vs Manchester City - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
+#EXTINF:-1 tvg-name="Osasuna vs Athletic Bilbao - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/osasuna_vs_athletic_bilbao.png" group-title=🔴 LIVE NOW, Osasuna vs Athletic Bilbao - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
+#EXTINF:-1 tvg-name="Osasuna vs Athletic Bilbao - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/osasuna_vs_athletic_bilbao.png" group-title=🔴 LIVE NOW, Osasuna vs Athletic Bilbao - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
+#EXTINF:-1 tvg-name="Osasuna vs Athletic Bilbao - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/osasuna_vs_athletic_bilbao.png" group-title=🔴 LIVE NOW, Osasuna vs Athletic Bilbao - Stream 3
+https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd%7CdrmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
+#EXTINF:-1 tvg-name="Osasuna vs Athletic Bilbao - Stream 4" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/osasuna_vs_athletic_bilbao.png" group-title=🔴 LIVE NOW, Osasuna vs Athletic Bilbao - Stream 4
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fziggos2.m3u8
