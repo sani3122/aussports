@@ -1,92 +1,5 @@
 [
   {
-    "Date": "2026-11-07",
-    "Start_Time": "18:55",
-    "End_Time": "21:25",
-    "League": "Football",
-    "Matchup": "Málaga CF vs Racing Santander",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-07",
-    "Start_Time": "19:55",
-    "End_Time": "22:25",
-    "League": "Football",
-    "Matchup": "Torino vs US Lecce",
-    "Services": [
-      "Ziggo Sport 5"
-    ]
-  },
-  {
-    "Date": "2026-11-07",
-    "Start_Time": "21:10",
-    "End_Time": "23:40",
-    "League": "Football",
-    "Matchup": "RCD Espanyol vs Deportivo de A Coruña",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 2",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-07",
-    "Start_Time": "22:55",
-    "End_Time": "01:25",
-    "League": "Football",
-    "Matchup": "Parma Calcio vs Bologna",
-    "Services": [
-      "Ziggo Sport 5"
-    ]
-  },
-  {
-    "Date": "2026-11-07",
-    "Start_Time": "23:25",
-    "End_Time": "01:55",
-    "League": "Football",
-    "Matchup": "Osasuna vs Athletic Club",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 2",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-08",
-    "Start_Time": "01:40",
-    "End_Time": "04:10",
-    "League": "Football",
-    "Matchup": "AS Roma vs Sassuolo",
-    "Services": [
-      "Ziggo Sport 4"
-    ]
-  },
-  {
-    "Date": "2026-11-08",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Valencia CF vs Real Madrid",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-08",
-    "Start_Time": "02:25",
-    "End_Time": "04:55",
-    "League": "Football",
-    "Matchup": "Sporting CP vs Moreirense",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 2",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
     "Date": "2026-11-08",
     "Start_Time": "17:25",
     "End_Time": "19:55",
@@ -230,6 +143,46 @@
     "Services": [
       "Ziggo Sport 1",
       "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "19:50",
+    "End_Time": "22:20",
+    "League": "Football",
+    "Matchup": "Kosovo vs Israël",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "22:50",
+    "End_Time": "01:20",
+    "League": "Football",
+    "Matchup": "Noorwegen vs Wales",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-15",
+    "Start_Time": "01:35",
+    "End_Time": "04:05",
+    "League": "Football",
+    "Matchup": "Portugal vs Denemarken",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-15",
+    "Start_Time": "01:35",
+    "End_Time": "04:05",
+    "League": "Football",
+    "Matchup": "Oostenrijk vs Ierland",
+    "Services": [
+      "Ziggo Sport 3"
     ]
   }
 ]
