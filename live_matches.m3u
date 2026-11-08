@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Inter Milan vs Como 1907 - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/inter_milan_vs_como_1907.png" group-title=🔴 LIVE NOW, Inter Milan vs Como 1907 - Stream 1
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Ftntsports4.m3u8
-#EXTINF:-1 tvg-name="Inter Milan vs Como 1907 - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/inter_milan_vs_como_1907.png" group-title=🔴 LIVE NOW, Inter Milan vs Como 1907 - Stream 2
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Ftntsports4.m3u8
-#EXTINF:-1 tvg-name="Inter Milan vs Como 1907 - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/inter_milan_vs_como_1907.png" group-title=🔴 LIVE NOW, Inter Milan vs Como 1907 - Stream 3
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fziggos2.m3u8
 #EXTINF:-1 tvg-name="Villarreal vs Getafe - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/villarreal_vs_getafe.png" group-title=🔴 LIVE NOW, Villarreal vs Getafe - Stream 1
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein6.m3u8
 #EXTINF:-1 tvg-name="Villarreal vs Getafe - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/villarreal_vs_getafe.png" group-title=🔴 LIVE NOW, Villarreal vs Getafe - Stream 2
