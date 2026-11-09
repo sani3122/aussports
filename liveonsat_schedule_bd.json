@@ -1,28 +1,14 @@
 [
   {
     "Date": "2026-11-10",
-    "Start_Time": "00:30",
-    "End_Time": "03:00",
-    "League": "FA Cup",
-    "Matchup": "Second-Round Draw",
-    "Services": [
-      "SN World",
-      "SN NOW",
-      "Sportsnet+"
-    ]
-  },
-  {
-    "Date": "2026-11-10",
     "Start_Time": "01:30",
     "End_Time": "04:00",
-    "League": "FA Cup",
-    "Matchup": "Plymouth Parkway - Berkhamsted",
+    "League": "La Liga",
+    "Matchup": "Las Palmas vs Eldense",
     "Services": [
-      "ESPN Select",
-      "ESPN Unlimited",
-      "SN World",
-      "SN NOW",
-      "Sportsnet+"
+      "DAZN España",
+      "LaLiga Hypermotion 2",
+      "LaLiga TV Bar 4"
     ]
   }
 ]
