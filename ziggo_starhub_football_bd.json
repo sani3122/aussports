@@ -190,5 +190,107 @@
       "Ziggo Sport 1",
       "Ziggo Sport Kanaal 14"
     ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "18:30",
+    "End_Time": "21:00",
+    "League": "Premier League",
+    "Matchup": "Manchester City vs Fulham",
+    "Services": [
+      "Hub Premier 1"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Aston Villa vs Sunderland",
+    "Services": [
+      "Hub Premier 3"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Bournemouth vs Nottingham Forest",
+    "Services": [
+      "Hub Premier 4"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Chelsea vs Leeds United",
+    "Services": [
+      "Hub Premier 1",
+      "Hub Premier 6"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Coventry City vs Crystal Palace",
+    "Services": [
+      "Hub Premier 5"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Tottenham Hotspur vs Ipswich Town",
+    "Services": [
+      "Hub Premier 2"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "23:30",
+    "End_Time": "02:00",
+    "League": "Premier League",
+    "Matchup": "Newcastle United vs Arsenal",
+    "Services": [
+      "Hub Premier 1"
+    ]
+  },
+  {
+    "Date": "2026-11-22",
+    "Start_Time": "20:00",
+    "End_Time": "22:30",
+    "League": "Premier League",
+    "Matchup": "Hull City vs Brighton and Hove Albion",
+    "Services": [
+      "Hub Premier 1"
+    ]
+  },
+  {
+    "Date": "2026-11-22",
+    "Start_Time": "22:30",
+    "End_Time": "01:00",
+    "League": "Premier League",
+    "Matchup": "Liverpool vs Manchester United",
+    "Services": [
+      "Hub Premier 1",
+      "Hub Premier 2"
+    ]
+  },
+  {
+    "Date": "2026-11-24",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Premier League",
+    "Matchup": "Brentford vs Everton",
+    "Services": [
+      "Hub Premier 1"
+    ]
   }
 ]
