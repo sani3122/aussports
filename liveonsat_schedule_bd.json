@@ -33,7 +33,8 @@
     "League": "International Friendlies",
     "Matchup": "Lithuania - Suriname",
     "Services": [
-      "ViX"
+      "ViX",
+      "DAZN Canada"
     ]
   },
   {
@@ -117,6 +118,143 @@
     "End_Time": "04:15",
     "League": "UEFA Nations League",
     "Matchup": "San Marino - Belarus",
+    "Services": [
+      "Fubo Sports",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-13",
+    "Start_Time": "23:00",
+    "End_Time": "01:30",
+    "League": "UEFA Nations League",
+    "Matchup": "Moldova - Kazakhstan",
+    "Services": [
+      "Fubo Sports",
+      "FOX Soccer Plus",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-13",
+    "Start_Time": "23:00",
+    "End_Time": "01:30",
+    "League": "International Friendlies",
+    "Matchup": "Germany U21 - Belgium U21",
+    "Services": [
+      "ESPN Select",
+      "ESPN Unlimited",
+      "DAZN",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Andorra - Gibraltar",
+    "Services": [
+      "Fubo Sports",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Liechtenstein - Azerbaijan",
+    "Services": [
+      "Fubo Sports",
+      "ViX"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Scotland - North Macedonia",
+    "Services": [
+      "Fubo Sports",
+      "FOX Soccer Plus",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Slovenia - Switzerland",
+    "Services": [
+      "Fubo Sports",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Netherlands - Greece",
+    "Services": [
+      "Fubo Sports",
+      "FOX Sports 1",
+      "FOX One",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Serbia - Germany",
+    "Services": [
+      "Fubo Sports",
+      "ViX",
+      "fubo Sports Network",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Bulgaria - Iceland",
+    "Services": [
+      "Fubo Sports",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Luxembourg - Estonia",
+    "Services": [
+      "Fubo Sports",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Slovakia - Faroe Islands",
     "Services": [
       "Fubo Sports",
       "ViX",
