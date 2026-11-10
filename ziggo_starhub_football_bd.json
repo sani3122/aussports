@@ -192,6 +192,26 @@
     ]
   },
   {
+    "Date": "2026-11-18",
+    "Start_Time": "01:35",
+    "End_Time": "04:05",
+    "League": "Football",
+    "Matchup": "Denemarken vs Noorwegen",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-18",
+    "Start_Time": "01:35",
+    "End_Time": "04:05",
+    "League": "Football",
+    "Matchup": "Wales vs Portugal",
+    "Services": [
+      "Ziggo Sport 3"
+    ]
+  },
+  {
     "Date": "2026-11-21",
     "Start_Time": "18:30",
     "End_Time": "21:00",
