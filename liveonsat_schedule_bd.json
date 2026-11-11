@@ -1,6 +1,16 @@
 [
   {
     "Date": "2026-11-12",
+    "Start_Time": "12:00",
+    "End_Time": "14:30",
+    "League": "International Friendlies",
+    "Matchup": "New Zealand - India",
+    "Services": [
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-12",
     "Start_Time": "23:00",
     "End_Time": "01:30",
     "League": "UEFA Nations League",
@@ -281,6 +291,32 @@
     "Matchup": "Colombia - Chile",
     "Services": [
       "In Demand 1"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "20:00",
+    "End_Time": "22:30",
+    "League": "UEFA Nations League",
+    "Matchup": "Kosovo - Israel",
+    "Services": [
+      "Fubo Sports",
+      "FOX Soccer Plus",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "23:00",
+    "End_Time": "01:30",
+    "League": "UEFA Nations League",
+    "Matchup": "Georgia - Hungary",
+    "Services": [
+      "Fubo Sports",
+      "FOX Soccer Plus",
+      "ViX",
+      "DAZN Canada"
     ]
   }
 ]
