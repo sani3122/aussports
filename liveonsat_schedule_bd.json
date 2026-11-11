@@ -170,7 +170,8 @@
     "Matchup": "Liechtenstein - Azerbaijan",
     "Services": [
       "Fubo Sports",
-      "ViX"
+      "ViX",
+      "DAZN Canada"
     ]
   },
   {
@@ -259,6 +260,26 @@
       "Fubo Sports",
       "ViX",
       "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "05:00",
+    "End_Time": "07:30",
+    "League": "International Friendlies",
+    "Matchup": "Argentina - Uruguay",
+    "Services": [
+      "ViX"
+    ]
+  },
+  {
+    "Date": "2026-11-14",
+    "Start_Time": "06:00",
+    "End_Time": "08:30",
+    "League": "International Friendlies",
+    "Matchup": "Colombia - Chile",
+    "Services": [
+      "In Demand 1"
     ]
   }
 ]
