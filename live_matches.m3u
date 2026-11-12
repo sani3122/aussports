@@ -1,1 +1,11 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Türkiye vs Belgium - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/t_rkiye_vs_belgium.png" group-title=🔴 LIVE NOW, Türkiye vs Belgium - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
+#EXTINF:-1 tvg-name="Türkiye vs Belgium - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/t_rkiye_vs_belgium.png" group-title=🔴 LIVE NOW, Türkiye vs Belgium - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
+#EXTINF:-1 tvg-name="Türkiye vs Belgium - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/t_rkiye_vs_belgium.png" group-title=🔴 LIVE NOW, Türkiye vs Belgium - Stream 3
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fziggos2.m3u8
+#EXTINF:-1 tvg-name="Armenia vs Cyprus - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/armenia_vs_cyprus.png" group-title=🔴 LIVE NOW, Armenia vs Cyprus - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein4.m3u8
+#EXTINF:-1 tvg-name="Armenia vs Cyprus - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/armenia_vs_cyprus.png" group-title=🔴 LIVE NOW, Armenia vs Cyprus - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein4.m3u8
