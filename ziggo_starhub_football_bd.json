@@ -1,47 +1,5 @@
 [
   {
-    "Date": "2026-11-12",
-    "Start_Time": "22:50",
-    "End_Time": "01:20",
-    "League": "Football",
-    "Matchup": "Turkije vs België",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 2",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-13",
-    "Start_Time": "01:35",
-    "End_Time": "04:05",
-    "League": "Football",
-    "Matchup": "Italië vs Frankrijk",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-13",
-    "Start_Time": "01:35",
-    "End_Time": "04:05",
-    "League": "Football",
-    "Matchup": "Engeland vs Kroatië",
-    "Services": [
-      "Ziggo Sport 3"
-    ]
-  },
-  {
-    "Date": "2026-11-13",
-    "Start_Time": "01:35",
-    "End_Time": "04:05",
-    "League": "Football",
-    "Matchup": "Tsjechië vs Spanje",
-    "Services": [
-      "Ziggo Sport 5"
-    ]
-  },
-  {
     "Date": "2026-11-14",
     "Start_Time": "01:35",
     "End_Time": "04:05",
