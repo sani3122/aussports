@@ -1,17 +1,6 @@
 [
   {
     "Date": "2026-11-14",
-    "Start_Time": "01:35",
-    "End_Time": "04:05",
-    "League": "Football",
-    "Matchup": "Servië vs Duitsland",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-14",
     "Start_Time": "19:50",
     "End_Time": "22:20",
     "League": "Football",
@@ -167,6 +156,16 @@
     "Matchup": "Wales vs Portugal",
     "Services": [
       "Ziggo Sport 3"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Athletic Club vs RCD Espanyol",
+    "Services": [
+      "Ziggo Sport 2"
     ]
   },
   {
