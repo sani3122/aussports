@@ -1,1 +1,27 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Scotland vs North Macedonia - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/scotland_vs_north_macedonia.png" group-title=🔴 LIVE NOW, Scotland vs North Macedonia - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein5.m3u8
+#EXTINF:-1 tvg-name="Scotland vs North Macedonia - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/scotland_vs_north_macedonia.png" group-title=🔴 LIVE NOW, Scotland vs North Macedonia - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein5.m3u8
+#EXTINF:-1 tvg-name="Slovakia vs Faroe Islands - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/slovakia_vs_faroe_islands.png" group-title=🔴 LIVE NOW, Slovakia vs Faroe Islands - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein7.m3u8
+#EXTINF:-1 tvg-name="Slovakia vs Faroe Islands - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/slovakia_vs_faroe_islands.png" group-title=🔴 LIVE NOW, Slovakia vs Faroe Islands - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein7.m3u8
+#EXTINF:-1 tvg-name="Serbia vs Germany - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/serbia_vs_germany.png" group-title=🔴 LIVE NOW, Serbia vs Germany - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
+#EXTINF:-1 tvg-name="Serbia vs Germany - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/serbia_vs_germany.png" group-title=🔴 LIVE NOW, Serbia vs Germany - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
+#EXTINF:-1 tvg-name="Serbia vs Germany - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/serbia_vs_germany.png" group-title=🔴 LIVE NOW, Serbia vs Germany - Stream 3
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fsportvbr.m3u8
+#EXTINF:-1 tvg-name="Slovenia vs Switzerland - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/slovenia_vs_switzerland.png" group-title=🔴 LIVE NOW, Slovenia vs Switzerland - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein6.m3u8
+#EXTINF:-1 tvg-name="Slovenia vs Switzerland - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/slovenia_vs_switzerland.png" group-title=🔴 LIVE NOW, Slovenia vs Switzerland - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein6.m3u8
+#EXTINF:-1 tvg-name="Netherlands vs Greece - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/netherlands_vs_greece.png" group-title=🔴 LIVE NOW, Netherlands vs Greece - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein4.m3u8
+#EXTINF:-1 tvg-name="Netherlands vs Greece - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/netherlands_vs_greece.png" group-title=🔴 LIVE NOW, Netherlands vs Greece - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein4.m3u8
+#EXTINF:-1 tvg-name="Bulgaria vs Iceland - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/bulgaria_vs_iceland.png" group-title=🔴 LIVE NOW, Bulgaria vs Iceland - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein8.m3u8
+#EXTINF:-1 tvg-name="Bulgaria vs Iceland - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/bulgaria_vs_iceland.png" group-title=🔴 LIVE NOW, Bulgaria vs Iceland - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein8.m3u8
