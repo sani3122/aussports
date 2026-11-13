@@ -839,6 +839,84 @@
     ]
   },
   {
+    "Date": "2026-11-14",
+    "Start_Time": "23:00",
+    "End_Time": "01:30",
+    "League": "UEFA Nations League",
+    "Matchup": "Norway - Wales",
+    "Services": [
+      "Fubo Sports",
+      "FOX Sports 2",
+      "FOX One",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-15",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Austria - Republic of Ireland",
+    "Services": [
+      "Fubo Sports",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-15",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Northern Ireland - Ukraine",
+    "Services": [
+      "Fubo Sports",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-15",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Romania - Poland",
+    "Services": [
+      "Fubo Sports",
+      "ViX",
+      "fubo Sports Network",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-15",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Sweden - Bosnia-Herzegovina",
+    "Services": [
+      "Fubo Sports",
+      "FOX Soccer Plus",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-15",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "UEFA Nations League",
+    "Matchup": "Portugal - Denmark",
+    "Services": [
+      "Fubo Sports",
+      "FOX Sports 2",
+      "FOX One",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
     "Date": "2026-11-15",
     "Start_Time": "09:00",
     "End_Time": "11:30",
@@ -846,6 +924,33 @@
     "Matchup": "New Zealand - India",
     "Services": [
       "DAZN",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-15",
+    "Start_Time": "20:00",
+    "End_Time": "22:30",
+    "League": "UEFA Nations League",
+    "Matchup": "Cyprus - Montenegro",
+    "Services": [
+      "Fubo Sports",
+      "FOX Sports 2",
+      "FOX One",
+      "ViX",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-15",
+    "Start_Time": "20:00",
+    "End_Time": "22:30",
+    "League": "UEFA Nations League",
+    "Matchup": "Latvia - Armenia",
+    "Services": [
+      "Fubo Sports",
+      "FOX Soccer Plus",
+      "ViX",
       "DAZN Canada"
     ]
   }
