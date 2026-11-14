@@ -1,45 +1,5 @@
 [
   {
-    "Date": "2026-11-14",
-    "Start_Time": "19:50",
-    "End_Time": "22:20",
-    "League": "Football",
-    "Matchup": "Kosovo vs Israël",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-14",
-    "Start_Time": "22:50",
-    "End_Time": "01:20",
-    "League": "Football",
-    "Matchup": "Noorwegen vs Wales",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-15",
-    "Start_Time": "01:35",
-    "End_Time": "04:05",
-    "League": "Football",
-    "Matchup": "Portugal vs Denemarken",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-15",
-    "Start_Time": "01:35",
-    "End_Time": "04:05",
-    "League": "Football",
-    "Matchup": "Oostenrijk vs Ierland",
-    "Services": [
-      "Ziggo Sport 3"
-    ]
-  },
-  {
     "Date": "2026-11-15",
     "Start_Time": "19:00",
     "End_Time": "21:30",
@@ -180,6 +140,26 @@
   },
   {
     "Date": "2026-11-21",
+    "Start_Time": "18:55",
+    "End_Time": "21:25",
+    "League": "Football",
+    "Matchup": "Alavés vs Deportivo de A Coruña",
+    "Services": [
+      "Ziggo Sport 5"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "19:55",
+    "End_Time": "22:25",
+    "League": "Football",
+    "Matchup": "Como vs Cagliari",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
     "Start_Time": "21:00",
     "End_Time": "23:30",
     "League": "Premier League",
@@ -231,12 +211,64 @@
   },
   {
     "Date": "2026-11-21",
+    "Start_Time": "21:10",
+    "End_Time": "23:40",
+    "League": "Football",
+    "Matchup": "Rayo Vallecano vs Valencia CF",
+    "Services": [
+      "Ziggo Sport 5"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "22:55",
+    "End_Time": "01:25",
+    "League": "Football",
+    "Matchup": "Parma Calcio vs AS Roma",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "23:30",
+    "End_Time": "02:00",
+    "League": "Football",
+    "Matchup": "Sevilla FC vs Real Betis",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
     "Start_Time": "23:30",
     "End_Time": "02:00",
     "League": "Premier League",
     "Matchup": "Newcastle United vs Arsenal",
     "Services": [
       "Hub Premier 1"
+    ]
+  },
+  {
+    "Date": "2026-11-22",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
+    "League": "Football",
+    "Matchup": "Napoli vs Torino",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-22",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Football",
+    "Matchup": "Real Madrid vs Celta de Vigo",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
     ]
   },
   {
