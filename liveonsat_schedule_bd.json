@@ -1,56 +1,6 @@
 [
   {
     "Date": "2026-11-14",
-    "Start_Time": "05:00",
-    "End_Time": "07:30",
-    "League": "International Friendlies",
-    "Matchup": "Argentina - Uruguay",
-    "Services": [
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-14",
-    "Start_Time": "06:00",
-    "End_Time": "08:30",
-    "League": "International Friendlies",
-    "Matchup": "Colombia - Chile",
-    "Services": [
-      "In Demand 1"
-    ]
-  },
-  {
-    "Date": "2026-11-14",
-    "Start_Time": "06:00",
-    "End_Time": "08:30",
-    "League": "UEFA Nations League",
-    "Matchup": "Montserrat vs Nicaragua",
-    "Services": [
-      "CONCACAF GO",
-      "Fox Soccer Plus USA",
-      "Fubo Sports USA",
-      "ViX TV",
-      "YouTube: CONCACAF"
-    ]
-  },
-  {
-    "Date": "2026-11-14",
-    "Start_Time": "06:00",
-    "End_Time": "08:30",
-    "League": "International Friendlies",
-    "Matchup": "Ecuador vs Costa Rica",
-    "Services": []
-  },
-  {
-    "Date": "2026-11-14",
-    "Start_Time": "06:00",
-    "End_Time": "08:30",
-    "League": "International Friendlies",
-    "Matchup": "Colombia vs Chile",
-    "Services": []
-  },
-  {
-    "Date": "2026-11-14",
     "Start_Time": "08:00",
     "End_Time": "10:30",
     "League": "UEFA Nations League",
@@ -824,144 +774,14 @@
     ]
   },
   {
-    "Date": "2026-11-15",
-    "Start_Time": "23:00",
-    "End_Time": "01:30",
-    "League": "UEFA Nations League",
-    "Matchup": "Belarus - Albania",
-    "Services": [
-      "Fubo Sports",
-      "FOX Soccer Plus",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-15",
-    "Start_Time": "23:00",
-    "End_Time": "01:30",
-    "League": "UEFA Nations League",
-    "Matchup": "Finland - San Marino",
-    "Services": [
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-16",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Belgium - Italy",
-    "Services": [
-      "Fubo Sports",
-      "ViX",
-      "fubo Sports Network",
-      "TLN",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-16",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Croatia - Czechia",
-    "Services": [
-      "Fubo Sports",
-      "FOX Soccer Plus",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-16",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "France - Türkiye",
-    "Services": [
-      "Fubo Sports",
-      "FOX Sports 2",
-      "FOX One",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-16",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Spain - England",
-    "Services": [
-      "Fubo Sports",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-16",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "UEFA Nations League",
-    "Matchup": "Faroe Islands - Moldova",
-    "Services": [
-      "Fubo Sports",
-      "FOX Soccer Plus",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-16",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "UEFA Nations League",
-    "Matchup": "Kazakhstan - Slovakia",
-    "Services": [
-      "Fubo Sports",
-      "FOX Sports 2",
-      "FOX One",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-16",
-    "Start_Time": "23:00",
-    "End_Time": "01:30",
-    "League": "UEFA Nations League",
-    "Matchup": "Lithuania - Liechtenstein",
-    "Services": [
-      "Fubo Sports",
-      "FOX Soccer Plus",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-16",
-    "Start_Time": "23:00",
-    "End_Time": "01:30",
-    "League": "UEFA Nations League",
-    "Matchup": "Estonia - Bulgaria",
-    "Services": [
-      "Fubo Sports",
-      "FOX Sports 2",
-      "FOX One",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
     "Date": "2026-11-17",
     "Start_Time": "00:00",
     "End_Time": "02:30",
     "League": "International Friendlies",
     "Matchup": "Andorra - Azerbaijan",
     "Services": [
-      "ViX"
+      "ViX",
+      "DAZN Canada"
     ]
   }
 ]
