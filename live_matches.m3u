@@ -1,1 +1,11 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Kazakhstan vs Slovakia - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/kazakhstan_vs_slovakia.png" group-title=🔴 LIVE NOW, Kazakhstan vs Slovakia - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein5.m3u8
+#EXTINF:-1 tvg-name="Kazakhstan vs Slovakia - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/kazakhstan_vs_slovakia.png" group-title=🔴 LIVE NOW, Kazakhstan vs Slovakia - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein5.m3u8
+#EXTINF:-1 tvg-name="Kazakhstan vs Slovakia - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/kazakhstan_vs_slovakia.png" group-title=🔴 LIVE NOW, Kazakhstan vs Slovakia - Stream 3
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fziggos2.m3u8
+#EXTINF:-1 tvg-name="Faroe Islands vs Moldova - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/faroe_islands_vs_moldova.png" group-title=🔴 LIVE NOW, Faroe Islands vs Moldova - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein9.m3u8
+#EXTINF:-1 tvg-name="Faroe Islands vs Moldova - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/faroe_islands_vs_moldova.png" group-title=🔴 LIVE NOW, Faroe Islands vs Moldova - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein9.m3u8
