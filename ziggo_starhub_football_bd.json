@@ -1,40 +1,5 @@
 [
   {
-    "Date": "2026-11-16",
-    "Start_Time": "20:50",
-    "End_Time": "23:20",
-    "League": "Football",
-    "Matchup": "Kazachstan vs Slowakije",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 2",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-16",
-    "Start_Time": "22:50",
-    "End_Time": "01:20",
-    "League": "Football",
-    "Matchup": "Estland vs Bulgarije",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 3",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-17",
-    "Start_Time": "01:35",
-    "End_Time": "04:05",
-    "League": "Football",
-    "Matchup": "Griekenland vs Servië",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
     "Date": "2026-11-18",
     "Start_Time": "01:35",
     "End_Time": "04:05",
@@ -308,6 +273,16 @@
     "Services": [
       "Ziggo Sport 1",
       "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-24",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Levante UD vs Elche",
+    "Services": [
+      "Ziggo Sport 2"
     ]
   },
   {
