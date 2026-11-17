@@ -33,7 +33,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
-          git add livesensat_schedule_bd.json
+          git add liveonsat_schedule_bd.json
           git pull origin main --rebase || echo "No remote changes to pull"
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update livesensat schedule [skip ci]"
           git push origin main
