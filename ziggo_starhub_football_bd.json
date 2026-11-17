@@ -189,7 +189,9 @@
     "League": "Football",
     "Matchup": "FC Barcelona vs Villarreal CF",
     "Services": [
-      "Ziggo Sport 2"
+      "Ziggo Sport 1",
+      "Ziggo Sport 2",
+      "Ziggo Sport Kanaal 14"
     ]
   },
   {
@@ -199,7 +201,9 @@
     "League": "Football",
     "Matchup": "Bologna vs Udinese",
     "Services": [
-      "Ziggo Sport 4"
+      "Ziggo Sport 1",
+      "Ziggo Sport 4",
+      "Ziggo Sport Kanaal 14"
     ]
   },
   {
