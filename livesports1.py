@@ -64,7 +64,7 @@ ALLOWED_TEAMS_PER_LEAGUE = {
     "UEFA European Championship": None,
     "FIFA World Cup": None,
     "UEFA Nations League": None,
-    "International Friendlies": {"argentina", "japan"},
+    "International Friendlies": None,
 }
 
 # ==================== HELPER FUNCTIONS ====================
