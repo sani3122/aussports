@@ -138,7 +138,7 @@ def normalize_league(league: str) -> str:
         return "UEFA European Championship"
     if "world cup" in league_lower:
         return "FIFA World Cup"
-    if "friendly" in league_lower:
+    if "Friendly International" in league_lower:
         return "International Friendlies"
     return league.strip()
 
