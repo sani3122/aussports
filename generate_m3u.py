@@ -25,7 +25,7 @@ BG_IMAGE_URL = "https://raw.githubusercontent.com/sani3122/aussports/refs/heads/
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/sani3122/aussports/main"
 
 # আইকন ফোল্ডারসমূহ
-ICON_FOLDERS = ["LaLiga", "Serie-A", "UEFA-Champions-League", "PremierLeague"]
+ICON_FOLDERS = ["LaLiga", "Serie-A", "UEFA-Champions-League", "PremierLeague", "UEFA-Nation-League", "FIFA-WC"]
 
 M3U_OUTPUT_FILE = "live_matches.m3u"
 GENERATED_LOGOS_DIR = "generated_logos"
