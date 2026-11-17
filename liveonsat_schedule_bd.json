@@ -1,28 +1,6 @@
 [
   {
     "Date": "2026-11-17",
-    "Start_Time": "16:00",
-    "End_Time": "18:30",
-    "League": "International Friendlies",
-    "Matchup": "Singapore vs Brazil",
-    "Services": [
-      "SporTV Brazil HD"
-    ]
-  },
-  {
-    "Date": "2026-11-17",
-    "Start_Time": "19:10",
-    "End_Time": "21:40",
-    "League": "International Friendlies",
-    "Matchup": "Japan vs Paraguay",
-    "Services": [
-      "IRIB Varzesh HD",
-      "IRIB Varzesh HD",
-      "Persiana Sports 2 HD"
-    ]
-  },
-  {
-    "Date": "2026-11-17",
     "Start_Time": "20:00",
     "End_Time": "22:30",
     "League": "International Friendlies",
@@ -41,6 +19,8 @@
     "League": "International Friendlies",
     "Matchup": "Saudi Arabia vs Uzbekistan",
     "Services": [
+      "Futbol TV Uzbekistan",
+      "Futbol TV Uzbekistan",
       "Persiana Sports 2 HD",
       "stc tv sports HD 3"
     ]
@@ -138,102 +118,6 @@
     "Start_Time": "01:45",
     "End_Time": "04:15",
     "League": "UEFA Nations League",
-    "Matchup": "Bosnia-Herzegovina - Romania",
-    "Services": [
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-18",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Hungary - Northern Ireland",
-    "Services": [
-      "Fubo Sports",
-      "FOX Sports 2",
-      "FOX One",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-18",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Republic of Ireland - Kosovo",
-    "Services": [
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-18",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Israel - Austria",
-    "Services": [
-      "Fubo Sports",
-      "ViX",
-      "fubo Sports Network",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-18",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Poland - Sweden",
-    "Services": [
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-18",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Ukraine - Georgia",
-    "Services": [
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-18",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Denmark - Norway",
-    "Services": [
-      "Fubo Sports",
-      "FOX Sports 1",
-      "FOX One",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-18",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
-    "Matchup": "Wales - Portugal",
-    "Services": [
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-18",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "UEFA Nations League",
     "Matchup": "Ireland vs Kosovo",
     "Services": [
       "beIN Sports MENA Xtra 3 HD",
@@ -260,7 +144,6 @@
       "RTÉ 2 Ireland HD",
       "RTÉ Player",
       "S Sport+ Streaming",
-      "Silk Universal HD",
       "SuperSport 2 Albania HD",
       "SuperSport Extra HD",
       "SuperSport Extra HD",
@@ -363,11 +246,15 @@
       "Fast Sports",
       "Fox Sports 1 USA HD",
       "Fubo Sports USA",
+      "La Nouvelle Chaîne Ivorienne",
+      "La Nouvelle Chaîne Ivorienne",
+      "La Nouvelle Chaîne Ivorienne",
       "L´Équipe Live Foot",
       "Megogo Futbol 3",
       "Monomax Streaming",
       "MTV Katsomon+",
       "MTV Urheilu 3 Suomi HD",
+      "New World Sport 6 Togo",
       "Nova Sports Extra 3 Hellas HD",
       "Okko Prime Sport HD",
       "Persiana Sports 2 HD",
@@ -379,6 +266,7 @@
       "Prima Sport RO 2 HD",
       "Prima Sport RO 2 HD",
       "Prime Video UK PPV",
+      "Silk Universal HD",
       "Sky Sport Max Italia HD",
       "Sport 1 Czechia HD",
       "Sport 1 Czechia HD",
@@ -409,7 +297,8 @@
       "TV6 Sverige HD",
       "ViaPlay Sverige HD",
       "ViaPlay Ísland HD",
-      "ViX TV"
+      "ViX TV",
+      "Ziggo Sport 2"
     ]
   },
   {
@@ -435,6 +324,7 @@
       "beIN Sports MENA 2 HD",
       "beIN Sports MENA 2 HD",
       "beIN Sports MENA English 1 HD",
+      "CBC Sport HD",
       "Cytavision Sports 3 HD",
       "DAZN 2 Bar Deutsch HD",
       "DAZN Belgium",
@@ -453,11 +343,17 @@
       "Fast Sports TV Armenia",
       "Fubo Sports USA",
       "GEM Sport 1 HD",
+      "IRIB TV3 HD",
+      "IRIB TV3 HD",
+      "IRIB TV3 HD",
+      "IRIB TV3 HD",
+      "IRIB TV3 HD",
       "L´Équipe Live Foot",
       "Megogo Futbol 2",
       "Monomax Streaming",
       "MTV Katsomon+",
       "MTV Urheilu 2 Suomi HD",
+      "New World Sport 5 Togo",
       "Nova Sports Premier League HD",
       "Persiana Sport HD",
       "Persiana Sport HD",
@@ -478,8 +374,10 @@
       "RTP 1 Portugal HD",
       "S4C Digital HD",
       "S4C Sgorio Cymru",
+      "Silk Sport 1 HD",
       "Sky Sport 251 Italia HD",
       "Sky Sport 251 Italia HD",
+      "Solh TV",
       "Sony Sports TEN 4 India HD",
       "Sport 2 Czechia HD",
       "Sport 2 Czechia HD",
@@ -504,7 +402,8 @@
       "ViaPlay Norge HD",
       "ViaPlay Sverige HD",
       "ViaPlay Ísland HD",
-      "ViX TV"
+      "ViX TV",
+      "Ziggo Sport 3"
     ]
   },
   {
@@ -533,6 +432,7 @@
       "Monomax Streaming",
       "MTV Katsomon+",
       "MTV MAX Suomi HD",
+      "New World Sport 7 Togo",
       "Nova Sport Bulgaria HD",
       "Nova Sport Bulgaria HD",
       "Nova Sport Bulgaria HD",
