@@ -32,7 +32,7 @@ FOOTONSAT_URLS = [
     "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/europaleague.json",
     "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/ConferenceLeague.json",
     "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/worldcup.json",
-    "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/today.json"
+    "https://raw.githubusercontent.com/sani3122/eSports/refs/heads/main/today.json"
 ]
 
 # ==================== ALLOWED LEAGUES (FOOTBALL ONLY) ====================
