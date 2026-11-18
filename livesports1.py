@@ -141,6 +141,8 @@ def normalize_league(league: str) -> str:
         return "FIFA World Cup"
     if "friendly" in league_lower:
         return "International Friendlies"
+    if "brazilian série a" in league_lower:
+        return "Brazilian Série A"
     return league.strip()
 
 # ==================== TEAM NAME MAPPING ====================
@@ -177,6 +179,9 @@ TEAM_NAME_MAPPING = {
     # Ligue 1
     "psg": "Paris Saint-Germain", "paris saint-germain": "Paris Saint-Germain", "marseille": "Marseille",
     "lyon": "Lyon", "monaco": "Monaco", "lille": "Lille", "nice": "Nice", "rennes": "Rennes"
+
+    # Brazilian Série A
+    "palmeiras": "Palmeiras"
 }
 
 def normalize_team_name(name: str) -> str:
@@ -214,6 +219,8 @@ def is_match_allowed(league: str, matchup: str) -> bool:
     if league not in ALLOWED_LEAGUES:
         return False
     if league == "International Friendlies":
+        return True
+    if league == "Brazilian Série A":
         return True
     allowed_teams = ALLOWED_TEAMS_PER_LEAGUE.get(league)
     if allowed_teams is None:
