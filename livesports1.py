@@ -179,9 +179,6 @@ TEAM_NAME_MAPPING = {
     # Ligue 1
     "psg": "Paris Saint-Germain", "paris saint-germain": "Paris Saint-Germain", "marseille": "Marseille",
     "lyon": "Lyon", "monaco": "Monaco", "lille": "Lille", "nice": "Nice", "rennes": "Rennes"
-
-    # Brazilian Série A
-    "palmeiras": "Palmeiras"
 }
 
 def normalize_team_name(name: str) -> str:
