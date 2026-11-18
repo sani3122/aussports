@@ -64,7 +64,7 @@ ALLOWED_TEAMS_PER_LEAGUE = {
     "UEFA European Championship": None,
     "FIFA World Cup": None,
     "UEFA Nations League": None,
-    "Brazilian Série A": None,
+    "Brazilian Série A": {"palmeiras"},
     "International Friendlies": None,
 }
 
