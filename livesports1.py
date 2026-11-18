@@ -119,8 +119,10 @@ def normalize_league(league: str) -> str:
         return "Carabao Cup"
     if "premier league" in league_lower:
         return "Premier League"
-    if "serie a" in league_lower:
+    if "serie a" in league_lower and "brazil" not in league_lower and "brazilian" not in league_lower:
         return "Serie A"
+    if "brazilian" in league_lower or "brazil" in league_lower:
+        return "Brazilian Série A"
     if "la liga" in league_lower or "primera" in league_lower:
         return "La Liga"
     if "bundesliga" in league_lower:
@@ -141,8 +143,6 @@ def normalize_league(league: str) -> str:
         return "FIFA World Cup"
     if "friendly" in league_lower:
         return "International Friendlies"
-    if "brazilian série a" in league_lower:
-        return "Brazilian Série A"
     return league.strip()
 
 # ==================== TEAM NAME MAPPING ====================
@@ -361,7 +361,6 @@ async def scrape_league(league_name: str, cfg: dict, ref_bd_time: datetime):
                 event_date = parse_short_date(raw.get('date', ''), ref_bd_time.date())
                 if not event_date: continue
 
-                # convert from page rendering timezone to BD timezone
                 page_dt = WITA_TZ.localize(datetime(event_date.year, event_date.month, event_date.day, hour, minute))
                 bd_start_dt = page_dt.astimezone(BANGLADESH_TZ)
                 bd_end_dt = bd_start_dt + timedelta(hours=2, minutes=30)
@@ -416,28 +415,32 @@ def parse_footonsat_items(items, ref_bd_time):
     matches = []
     current_match = None
     current_channels = []
+
+    def helper_append(match_obj, channels_list):
+        try:
+            dt_utc = pytz.utc.localize(datetime.strptime(f"{match_obj['date']} {match_obj['time']}", "%Y-%m-%d %H:%M"))
+            dt_bd = dt_utc.astimezone(BANGLADESH_TZ)
+            dt_end = dt_bd + timedelta(hours=2, minutes=30)
+            if is_within_time_range(dt_bd, ref_bd_time):
+                league_raw = match_obj['compet'].strip()
+                if not is_youth_or_women(match_obj['match'], league_raw):
+                    league = normalize_league(league_raw)
+                    if is_match_allowed(league, match_obj['match']):
+                        matches.append({
+                            "Date": dt_bd.strftime("%Y-%m-%d"),
+                            "Start_Time": dt_bd.strftime("%H:%M"),
+                            "End_Time": dt_end.strftime("%H:%M"),
+                            "League": league,
+                            "Matchup": normalize_matchup(match_obj['match'].strip()),
+                            "Services": channels_list.copy()
+                        })
+        except Exception:
+            pass
+
     for item in items:
         if "match" in item and "compet" in item:
             if current_match:
-                try:
-                    dt_utc = pytz.utc.localize(datetime.strptime(f"{current_match['date']} {current_match['time']}", "%Y-%m-%d %H:%M"))
-                    dt_bd = dt_utc.astimezone(BANGLADESH_TZ)
-                    dt_end = dt_bd + timedelta(hours=2, minutes=30)
-                    if is_within_time_range(dt_bd, ref_bd_time):
-                        league_raw = current_match['compet'].strip()
-                        if not is_youth_or_women(current_match['match'], league_raw):
-                            league = normalize_league(league_raw)
-                            if is_match_allowed(league, current_match['match']):
-                                matches.append({
-                                    "Date": dt_bd.strftime("%Y-%m-%d"),
-                                    "Start_Time": dt_bd.strftime("%H:%M"),
-                                    "End_Time": dt_end.strftime("%H:%M"),
-                                    "League": league,
-                                    "Matchup": normalize_matchup(current_match['match'].strip()),
-                                    "Services": current_channels.copy()
-                                })
-                except Exception:
-                    pass
+                helper_append(current_match, current_channels)
             current_match = item
             current_channels = []
         elif "channel" in item and current_match and item.get("related_to", "").strip() == current_match['match'].strip():
@@ -445,6 +448,11 @@ def parse_footonsat_items(items, ref_bd_time):
             ch_name = re.sub(r'[📺]', '', ch_name).strip()
             if ch_name:
                 current_channels.append(ch_name)
+                
+    # Handle the very last item in the JSON array
+    if current_match:
+        helper_append(current_match, current_channels)
+
     return matches
 
 # ==================== MAIN EXECUTION ====================
