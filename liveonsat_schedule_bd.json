@@ -1,8 +1,8 @@
 [
   {
-    "Date": "2026-11-20",
-    "Start_Time": "12:30",
-    "End_Time": "15:00",
+    "Date": "2026-11-21",
+    "Start_Time": "01:30",
+    "End_Time": "04:00",
     "League": "Bundesliga",
     "Matchup": "Bayern München - 1. FC Köln",
     "Services": [
@@ -144,45 +144,6 @@
       "TV2 Play Norge",
       "ViaPlay Norge HD",
       "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "07:30",
-    "End_Time": "10:00",
-    "League": "Bundesliga",
-    "Matchup": "Bayer Leverkusen - Paderborn",
-    "Services": [
-      "Peacock ES",
-      "Fandango",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "07:30",
-    "End_Time": "10:00",
-    "League": "Bundesliga",
-    "Matchup": "Borussia Mönchengladbach - Borussia Dortmund",
-    "Services": [
-      "Peacock ES",
-      "Telemundo",
-      "Fandango",
-      "DAZN Canada",
-      "OneSoccer"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "09:15",
-    "End_Time": "11:45",
-    "League": "Ligue 1",
-    "Matchup": "Nice - PSG",
-    "Services": [
-      "beIN USA",
-      "beIN USA Espanol",
-      "beIN Canada",
-      "beIN Canada Espanol"
     ]
   },
   {
@@ -380,6 +341,32 @@
       "TV2 Play Danmark",
       "TV4 Play Sverige",
       "VG+ Sport Norge"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "20:30",
+    "End_Time": "23:00",
+    "League": "Bundesliga",
+    "Matchup": "Bayer Leverkusen - Paderborn",
+    "Services": [
+      "Peacock ES",
+      "Fandango",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "20:30",
+    "End_Time": "23:00",
+    "League": "Bundesliga",
+    "Matchup": "Borussia Mönchengladbach - Borussia Dortmund",
+    "Services": [
+      "Peacock ES",
+      "Telemundo",
+      "Fandango",
+      "DAZN Canada",
+      "OneSoccer"
     ]
   },
   {
@@ -760,6 +747,19 @@
       "TV2 Play Norge",
       "ViaPlay Norge HD",
       "Ziggo Sport 5"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "22:15",
+    "End_Time": "00:45",
+    "League": "Ligue 1",
+    "Matchup": "Nice - PSG",
+    "Services": [
+      "beIN USA",
+      "beIN USA Espanol",
+      "beIN Canada",
+      "beIN Canada Espanol"
     ]
   },
   {
