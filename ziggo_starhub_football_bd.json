@@ -351,5 +351,77 @@
     "Services": [
       "Ziggo Sport 2"
     ]
+  },
+  {
+    "Date": "2026-11-25",
+    "Start_Time": "23:40",
+    "End_Time": "02:10",
+    "League": "Football",
+    "Matchup": "Slavia Praag vs Villarreal CF",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-25",
+    "Start_Time": "23:45",
+    "End_Time": "02:15",
+    "League": "Football",
+    "Matchup": "Sabah vs FC Barcelona",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Club Brugge vs Liverpool",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Lille vs Bayern München",
+    "Services": [
+      "Ziggo Sport 3"
+    ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Atlético Madrid vs Viking",
+    "Services": [
+      "Ziggo Sport 5"
+    ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Sporting CP vs Manchester United",
+    "Services": [
+      "Ziggo Sport 6"
+    ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Football",
+    "Matchup": "Paris Saint-Germain vs AS Roma",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
   }
 ]
