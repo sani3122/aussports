@@ -40,7 +40,7 @@ ALLOWED_LEAGUES = {
     "Premier League", "Serie A", "La Liga", "Bundesliga", "Ligue 1",
     "UEFA Champions League", "UEFA Europa League", "UEFA Europa Conference League",
     "UEFA European Championship", "FIFA World Cup", "UEFA Nations League",
-    "International Friendlies", "FA Cup", "Carabao Cup"
+    "International Friendlies", "FA Cup", "Carabao Cup", "Brazilian Série A"
 }
 
 PREMIER_LEAGUE_TEAMS = {
@@ -64,6 +64,7 @@ ALLOWED_TEAMS_PER_LEAGUE = {
     "UEFA European Championship": None,
     "FIFA World Cup": None,
     "UEFA Nations League": None,
+    "Brazilian Série A": None,
     "International Friendlies": None,
 }
 
