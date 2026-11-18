@@ -9,8 +9,9 @@
       "Peacock ES",
       "NBC Universo",
       "TeleXitos",
-      "DAZN Canada",
-      "OneSoccer"
+      "USA Network",
+      "Fandango",
+      "Show more"
     ]
   },
   {
@@ -69,11 +70,11 @@
     ]
   },
   {
-    "Date": "2026-11-18",
-    "Start_Time": "10:00",
-    "End_Time": "12:30",
-    "League": "International Friendles",
-    "Matchup": "Spain vs Brazil",
+    "Date": "2026-11-21",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "La Liga",
+    "Matchup": "Athletic Bilbao vs Espanyol",
     "Services": [
       "Arena Premium 3 BiH HD",
       "Arena Premium 4 Srbija HD",
