@@ -158,6 +158,42 @@
   },
   {
     "Date": "2026-11-21",
+    "Start_Time": "07:00",
+    "End_Time": "09:30",
+    "League": "Serie A",
+    "Matchup": "Lazio - Lecce",
+    "Services": [
+      "Paramount+",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "10:00",
+    "End_Time": "12:30",
+    "League": "Serie A",
+    "Matchup": "Parma - Roma",
+    "Services": [
+      "Paramount+",
+      "NBC Universo",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
+    "Start_Time": "12:45",
+    "End_Time": "15:15",
+    "League": "Serie A",
+    "Matchup": "Napoli - Torino",
+    "Services": [
+      "Paramount+",
+      "Telemundo",
+      "TLN",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-21",
     "Start_Time": "18:30",
     "End_Time": "21:00",
     "League": "Premier League",
@@ -289,17 +325,6 @@
       "TV2 Play Norge",
       "ViaPlay Norge HD",
       "Ziggo Sport 5"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "20:00",
-    "End_Time": "22:30",
-    "League": "Serie A",
-    "Matchup": "Lazio - Lecce",
-    "Services": [
-      "Paramount+",
-      "DAZN Canada"
     ]
   },
   {
@@ -770,18 +795,6 @@
       "beIN USA Espanol",
       "beIN Canada",
       "beIN Canada Espanol"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "23:00",
-    "End_Time": "01:30",
-    "League": "Serie A",
-    "Matchup": "Parma - Roma",
-    "Services": [
-      "Paramount+",
-      "NBC Universo",
-      "DAZN Canada"
     ]
   },
   {
