@@ -423,5 +423,107 @@
       "Ziggo Sport 1",
       "Ziggo Sport Kanaal 14"
     ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "21:25",
+    "End_Time": "23:55",
+    "League": "Football",
+    "Matchup": "Kairat vs Mjällby",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "23:40",
+    "End_Time": "02:10",
+    "League": "Football",
+    "Matchup": "Olympiakos Piraeus vs AC Milan",
+    "Services": [
+      "Ziggo Sport 3"
+    ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "23:40",
+    "End_Time": "02:10",
+    "League": "Football",
+    "Matchup": "Viktoria Pilsen vs Benfica",
+    "Services": [
+      "Ziggo Sport 5"
+    ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "23:40",
+    "End_Time": "02:10",
+    "League": "Football",
+    "Matchup": "Iberia 1999 vs Getafe CF",
+    "Services": [
+      "Ziggo Sport 6"
+    ]
+  },
+  {
+    "Date": "2026-11-26",
+    "Start_Time": "23:45",
+    "End_Time": "02:15",
+    "League": "Football",
+    "Matchup": "Ajax vs Thun",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "TSG Hoffenheim vs Sturm Graz",
+    "Services": [
+      "Ziggo Sport 5"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Juventus vs Omonia Nicosia",
+    "Services": [
+      "Ziggo Sport 6"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Football",
+    "Matchup": "Sparta Praag vs AZ",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Football",
+    "Matchup": "SC Freiburg vs FC Twente",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Football",
+    "Matchup": "N.E.C. vs FC Stade Rennes",
+    "Services": [
+      "Ziggo Sport 3"
+    ]
   }
 ]
