@@ -1,34 +1,13 @@
 [
   {
-    "Date": "2026-11-19",
+    "Date": "2026-11-20",
     "Start_Time": "04:30",
     "End_Time": "07:00",
     "League": "Brazilian Série A",
-    "Matchup": "Coritiba vs Santos",
+    "Matchup": "Vasco da Gama vs Inter Milan",
     "Services": [
-      "Fanatiz EU"
-    ]
-  },
-  {
-    "Date": "2026-11-19",
-    "Start_Time": "05:00",
-    "End_Time": "07:30",
-    "League": "Brazilian Série A",
-    "Matchup": "Remo vs Chapecoense",
-    "Services": [
-      "Fanatiz EU"
-    ]
-  },
-  {
-    "Date": "2026-11-19",
-    "Start_Time": "05:30",
-    "End_Time": "08:00",
-    "League": "Brazilian Série A",
-    "Matchup": "Cruzeiro vs Palmeiras",
-    "Services": [
-      "Arena Premium 2 Srbija HD",
-      "Arena Premium 2 Srbija HD",
-      "Arena Premium 2 Srbija HD",
+      "Arena Premium 3 Srbija HD",
+      "Arena Premium 3 Srbija HD",
       "Canal 11 Portugal HD",
       "Fanatiz EU",
       "M+ #Vamos Bar 1",
@@ -44,10 +23,17 @@
       "MATCH! Futbol 3 HD",
       "MATCH! Futbol 3 HD",
       "MATCH! Futbol 3 HD",
-      "Premier Sports 2 Ireland HD",
-      "Premier Sports 2 UK HD",
-      "Premier Sports GB Player HD",
       "Sportdigital FUSSBALL HD"
+    ]
+  },
+  {
+    "Date": "2026-11-20",
+    "Start_Time": "04:30",
+    "End_Time": "07:00",
+    "League": "Brazilian Série A",
+    "Matchup": "Vitória Bahia vs Bragantino",
+    "Services": [
+      "Fanatiz EU"
     ]
   },
   {
@@ -184,6 +170,7 @@
       "Prima Sport RO 2 HD",
       "Prima Sport RO 2 HD",
       "S Sport+ Streaming",
+      "SportKlub 1 Slovenija HD",
       "SportKlub 5 Hrvatska",
       "Spíler 2 TV Hungary HD",
       "Spíler 2 TV Hungary HD",
@@ -321,6 +308,7 @@
       "Prima Sport RO PPV 2",
       "S Sport 1 Türkiye HD",
       "S Sport+ Streaming",
+      "SportKlub 3 Slovenija",
       "Spíler 2 TV Hungary HD",
       "Spíler 2 TV Hungary HD",
       "Spíler 2 TV Hungary HD",
