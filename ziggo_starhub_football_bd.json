@@ -1,16 +1,6 @@
 [
   {
     "Date": "2026-11-21",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Athletic Club vs RCD Espanyol",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
     "Start_Time": "18:30",
     "End_Time": "21:00",
     "League": "Premier League",
@@ -524,6 +514,16 @@
     "Matchup": "N.E.C. vs FC Stade Rennes",
     "Services": [
       "Ziggo Sport 3"
+    ]
+  },
+  {
+    "Date": "2026-11-28",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Levante UD vs Racing Santander",
+    "Services": [
+      "Ziggo Sport 2"
     ]
   }
 ]
