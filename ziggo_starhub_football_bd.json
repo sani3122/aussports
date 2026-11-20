@@ -112,8 +112,8 @@
   },
   {
     "Date": "2026-11-21",
-    "Start_Time": "23:30",
-    "End_Time": "02:00",
+    "Start_Time": "23:25",
+    "End_Time": "01:55",
     "League": "Football",
     "Matchup": "Sevilla FC vs Real Betis",
     "Services": [
@@ -143,8 +143,8 @@
   },
   {
     "Date": "2026-11-22",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
     "League": "Football",
     "Matchup": "Real Madrid vs Celta de Vigo",
     "Services": [
