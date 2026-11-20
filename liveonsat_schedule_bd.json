@@ -1,28 +1,5 @@
 [
   {
-    "Date": "2026-11-20",
-    "Start_Time": "06:30",
-    "End_Time": "09:00",
-    "League": "Brazilian Série A",
-    "Matchup": "São Paulo vs Fluminense",
-    "Services": [
-      "Arena Premium 3 Srbija HD",
-      "Arena Premium 3 Srbija HD",
-      "Canal 11 Portugal HD",
-      "Fanatiz EU",
-      "Maincast TV",
-      "MATCH! Futbol 3 HD",
-      "MATCH! Futbol 3 HD",
-      "MATCH! Futbol 3 HD",
-      "MATCH! Futbol 3 HD",
-      "MATCH! Futbol 3 HD",
-      "MATCH! Futbol 3 HD",
-      "MATCH! Futbol 3 HD",
-      "Premier Sports GB Player HD",
-      "Spor Smart Türkiye HD"
-    ]
-  },
-  {
     "Date": "2026-11-21",
     "Start_Time": "01:30",
     "End_Time": "04:00",
@@ -898,6 +875,7 @@
     "Services": [
       "Paramount+",
       "NBC Universo",
+      "CBS Golazo Network",
       "DAZN Canada"
     ]
   },
@@ -1138,6 +1116,7 @@
     "Services": [
       "Paramount+",
       "Telemundo",
+      "CBS Golazo Network",
       "TLN",
       "DAZN Canada"
     ]
@@ -1855,6 +1834,7 @@
     "Services": [
       "Paramount+",
       "Telemundo",
+      "CBS Golazo Network",
       "TLN",
       "DAZN Canada"
     ]
