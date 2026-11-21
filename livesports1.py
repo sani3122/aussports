@@ -40,7 +40,8 @@ ALLOWED_LEAGUES = {
     "Premier League", "Serie A", "La Liga", "Bundesliga", "Ligue 1",
     "UEFA Champions League", "UEFA Europa League", "UEFA Europa Conference League",
     "UEFA European Championship", "FIFA World Cup", "UEFA Nations League",
-    "International Friendlies", "FA Cup", "Carabao Cup", "Brazilian Série A"
+    "International Friendlies", "FA Cup", "Carabao Cup", "Brazilian Série A",
+    "Major League Soccer (MLS)"
 }
 
 PREMIER_LEAGUE_TEAMS = {
@@ -66,6 +67,7 @@ ALLOWED_TEAMS_PER_LEAGUE = {
     "UEFA Nations League": None,
     "Brazilian Série A": None,
     "International Friendlies": None,
+    "Major League Soccer (MLS)": {"Inter Miami"}
 }
 
 # ==================== HELPER FUNCTIONS ====================
@@ -143,6 +145,8 @@ def normalize_league(league: str) -> str:
         return "FIFA World Cup"
     if "friendly" in league_lower:
         return "International Friendlies"
+    if "major" in league_lower:
+        return "Major League Soccer (MLS)"
     return league.strip()
 
 # ==================== TEAM NAME MAPPING ====================
