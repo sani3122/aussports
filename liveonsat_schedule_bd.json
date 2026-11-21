@@ -4,18 +4,6 @@
     "Start_Time": "18:30",
     "End_Time": "21:00",
     "League": "Premier League",
-    "Matchup": "Manchester City - Fulham",
-    "Services": [
-      "NBC Universo",
-      "USA Network",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "18:30",
-    "End_Time": "21:00",
-    "League": "Premier League",
     "Matchup": "Manchester City vs Fulham",
     "Services": [
       "Arena M1 Premium MKD HD",
@@ -202,17 +190,6 @@
       "LaLiga Hypermotion HD",
       "LaLiga Hypermotion HD",
       "LaLiga TV Bar 2"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "20:00",
-    "End_Time": "22:30",
-    "League": "Serie A",
-    "Matchup": "Lazio - Lecce",
-    "Services": [
-      "Paramount+",
-      "DAZN Canada"
     ]
   },
   {
