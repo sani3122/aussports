@@ -1,20 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Manchester City vs Fulham - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_city_vs_fulham.png" group-title=🔴 LIVE NOW, Manchester City vs Fulham - Stream 1
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
-#EXTINF:-1 tvg-name="Manchester City vs Fulham - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_city_vs_fulham.png" group-title=🔴 LIVE NOW, Manchester City vs Fulham - Stream 2
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
-#EXTINF:-1 tvg-name="Manchester City vs Fulham - Stream 3" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_city_vs_fulham.png" group-title=🔴 LIVE NOW, Manchester City vs Fulham - Stream 3
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Ftntsports1.m3u8
-#EXTINF:-1 tvg-name="Manchester City vs Fulham - Stream 4" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_city_vs_fulham.png" group-title=🔴 LIVE NOW, Manchester City vs Fulham - Stream 4
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Ftntsports1.m3u8
-#EXTINF:-1 tvg-name="Manchester City vs Fulham - Stream 5" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_city_vs_fulham.png" group-title=🔴 LIVE NOW, Manchester City vs Fulham - Stream 5
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Ftntsports1.m3u8
-#EXTINF:-1 tvg-name="Manchester City vs Fulham - Stream 6" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_city_vs_fulham.png" group-title=🔴 LIVE NOW, Manchester City vs Fulham - Stream 6
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Ftntsports1.m3u8
-#EXTINF:-1 tvg-name="Manchester City vs Fulham - Stream 7" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_city_vs_fulham.png" group-title=🔴 LIVE NOW, Manchester City vs Fulham - Stream 7
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Ftntsports1.m3u8
-#EXTINF:-1 tvg-name="Manchester City vs Fulham - Stream 8" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/manchester_city_vs_fulham.png" group-title=🔴 LIVE NOW, Manchester City vs Fulham - Stream 8
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Ftntsports1.m3u8
 #EXTINF:-1 tvg-name="Alavés vs Deportivo A Coruña - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/alav_s_vs_deportivo_a_coru_a.png" group-title=🔴 LIVE NOW, Alavés vs Deportivo A Coruña - Stream 1
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein9.m3u8
 #EXTINF:-1 tvg-name="Alavés vs Deportivo A Coruña - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/alav_s_vs_deportivo_a_coru_a.png" group-title=🔴 LIVE NOW, Alavés vs Deportivo A Coruña - Stream 2
@@ -23,3 +7,19 @@ https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubuserco
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd%7CdrmScheme=clearkey&drmLicense=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
 #EXTINF:-1 tvg-name="Alavés vs Deportivo A Coruña - Stream 4" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/alav_s_vs_deportivo_a_coru_a.png" group-title=🔴 LIVE NOW, Alavés vs Deportivo A Coruña - Stream 4
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fziggos5.m3u8
+#EXTINF:-1 tvg-name="Coventry City vs Crystal Palace - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/coventry_city_vs_crystal_palace.png" group-title=🔴 LIVE NOW, Coventry City vs Crystal Palace - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein6.m3u8
+#EXTINF:-1 tvg-name="Coventry City vs Crystal Palace - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/coventry_city_vs_crystal_palace.png" group-title=🔴 LIVE NOW, Coventry City vs Crystal Palace - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein6.m3u8
+#EXTINF:-1 tvg-name="Chelsea vs Leeds United - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/chelsea_vs_leeds_united.png" group-title=🔴 LIVE NOW, Chelsea vs Leeds United - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
+#EXTINF:-1 tvg-name="Chelsea vs Leeds United - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/chelsea_vs_leeds_united.png" group-title=🔴 LIVE NOW, Chelsea vs Leeds United - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
+#EXTINF:-1 tvg-name="Tottenham Hotspur vs Ipswich Town - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/tottenham_hotspur_vs_ipswich_town.png" group-title=🔴 LIVE NOW, Tottenham Hotspur vs Ipswich Town - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
+#EXTINF:-1 tvg-name="Tottenham Hotspur vs Ipswich Town - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/tottenham_hotspur_vs_ipswich_town.png" group-title=🔴 LIVE NOW, Tottenham Hotspur vs Ipswich Town - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
+#EXTINF:-1 tvg-name="Bournemouth vs Nottingham Forest - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/bournemouth_vs_nottingham_forest.png" group-title=🔴 LIVE NOW, Bournemouth vs Nottingham Forest - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein5.m3u8
+#EXTINF:-1 tvg-name="Bournemouth vs Nottingham Forest - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/bournemouth_vs_nottingham_forest.png" group-title=🔴 LIVE NOW, Bournemouth vs Nottingham Forest - Stream 2
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein5.m3u8
