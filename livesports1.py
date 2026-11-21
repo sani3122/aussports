@@ -23,7 +23,7 @@ TIME_RANGE_HOURS_AFTER = 72
 OUTPUT_FILE = "liveonsat_schedule_bd.json"
 
 # Custom channel(s) to assign whenever Inter Miami plays
-INTER_MIAMI_CUSTOM_CHANNELS = ["Inter Miami"]  # Change to your desired channel name(s)
+INTER_MIAMI_CUSTOM_CHANNELS = ["Inter Miami", "Alwan Sport 1"]  # Change to your desired channel name(s)
 REPLACE_INTER_MIAMI_CHANNELS = True          # True = set ONLY custom channel(s); False = add alongside scraped channels
 
 FOOTONSAT_URLS = [
