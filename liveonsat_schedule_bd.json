@@ -1,150 +1,6 @@
 [
   {
     "Date": "2026-11-21",
-    "Start_Time": "18:30",
-    "End_Time": "21:00",
-    "League": "Premier League",
-    "Matchup": "Manchester City vs Fulham",
-    "Services": [
-      "Arena M1 Premium MKD HD",
-      "Arena Premium 1 Slovenija",
-      "Arena Premium 1 Srbija HD",
-      "Arena Sport 1 BiH HD",
-      "Arena Sport 1 Hrvatska HD",
-      "Astro Premier League HD",
-      "Astro Sports UHD",
-      "beIN Connect Türkiye",
-      "beIN MENA 4K UHD",
-      "beIN Sports MENA 1 HD",
-      "beIN Sports MENA English 1 HD",
-      "beIN Sports Türkiye 3 HD",
-      "Canal+ Extra 1 Polska HD",
-      "Canal+ Foot HD",
-      "Canal+ France HD",
-      "Canal+ Live 1 France HD",
-      "Canal+ Sport 3 Afrique HD",
-      "Canal+ Sport Cesko HD",
-      "Coupang Play OTT",
-      "Cytavision Sports 3 HD",
-      "DAZN 1 Bar Espana",
-      "DAZN 1 Espana HD",
-      "DAZN 1 Portugal HD",
-      "DAZN Canada",
-      "DAZN España",
-      "DAZN Portugal",
-      "Diema Sport 2 HD",
-      "ESPN 1 Brazil HD",
-      "Fast Sports TV Armenia",
-      "GEM Sport 1 HD",
-      "Go3 Extra Sport Baltics",
-      "HBO Max",
-      "Hub Premier 1 HD",
-      "IRIB TV3 HD",
-      "Monomax Streaming",
-      "NBC Universo USA",
-      "Nova Sports Premier League HD",
-      "NOW Sports HK 1 4K",
-      "Persiana Sport HD",
-      "Play Sports 1 Belgium",
-      "Premier League+",
-      "Premier Sports 2 Mongolia HD",
-      "Prime Video Dansk",
-      "Prime Video Sverige",
-      "Setanta Sports 1 Eurasia HD",
-      "Setanta Sports Ukraine HD",
-      "Sky Sport 1 Austria HD",
-      "Sky Sport 8 NZ HD",
-      "Sky Sport Calcio HD",
-      "Sky Sport Italia 4K UHD",
-      "Sky Sport Premier League DE HD",
-      "Spíler 1 TV Hungary HD",
-      "SuperSport 3 Albania HD",
-      "SuperSport MáXimo 1 HD",
-      "SuperSport MáXimo 2A HD",
-      "SuperSport Premier League HD",
-      "SÝN Sport 1 Ísland HD",
-      "TNT Sports 1 HD",
-      "TNT Sports Digital Exclusive",
-      "TNT Sports Ultimate UHD",
-      "TVNet Sport Azerbaijan",
-      "USA Network HD",
-      "V Sport Premier League HD",
-      "ViaPlay 2 Urheilu HD",
-      "ViaPlay Nederland HD",
-      "ViaPlay Norge HD",
-      "ViaPlay Suomi HD",
-      "VOYO Pro TV Romania"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "19:00",
-    "End_Time": "21:30",
-    "League": "La Liga",
-    "Matchup": "Alavés vs Deportivo A Coruña",
-    "Services": [
-      "Arena Premium 3 BiH HD",
-      "Arena Premium 4 Srbija HD",
-      "beIN Sports 1 HD",
-      "beIN Sports MENA 9 HD",
-      "Canal+ Sport 1 Polska HD",
-      "Cytavision Sports 8 HD",
-      "DAZN 3 Portugal HD",
-      "DAZN Belgium",
-      "DAZN Deutsch",
-      "DAZN España",
-      "DAZN France",
-      "DAZN Italia",
-      "DAZN Japan",
-      "DAZN LaLiga HD",
-      "DAZN Portugal",
-      "Digi 4K UHD",
-      "Digi Sport",
-      "Disney+ Danmark",
-      "Disney+ Suomi",
-      "Disney+ Sverige",
-      "ESPN+ USA",
-      "Fast Sports",
-      "M+ LaLiga HD",
-      "M+ LaLiga HDR",
-      "Magenta Hellas Sport 3 League",
-      "MAX Sport 4 Bulgaria HD",
-      "Megogo Futbol 1",
-      "New World Sport 3 Togo",
-      "Premier Sports 1 UK HD",
-      "Premier Sports GB Player HD",
-      "Prima Sport RO PPV 2",
-      "S Sport 1 Türkiye HD",
-      "S Sport+ Streaming",
-      "Setanta Sports Moldova HD",
-      "Setanta Sports Qazaqstan HD",
-      "SportKlub 3 Slovenija",
-      "SportKlub 6 Hrvatska",
-      "Spíler 2 TV Hungary HD",
-      "ST Sports Premium HD",
-      "SuperSport 2 Albania HD",
-      "SuperSport LaLiga HD",
-      "SuperSport MáXimo 3A HD",
-      "TV2 Play Norge",
-      "TV2 Sport Premium HD",
-      "ViaPlay Norge HD",
-      "Ziggo Sport 5"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "19:00",
-    "End_Time": "21:30",
-    "League": "La Liga",
-    "Matchup": "Sabadell vs Granada",
-    "Services": [
-      "DAZN España",
-      "LaLiga Hypermotion HD",
-      "LaLiga TV Bar 2"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
     "Start_Time": "20:00",
     "End_Time": "22:30",
     "League": "Serie A",
@@ -191,32 +47,6 @@
       "TV4 Play Sverige",
       "TV4 Sport Live 4 HD",
       "VG+ Sport Norge"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "20:30",
-    "End_Time": "23:00",
-    "League": "Bundesliga",
-    "Matchup": "Bayer Leverkusen - Paderborn",
-    "Services": [
-      "Peacock ES",
-      "Fandango",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "20:30",
-    "End_Time": "23:00",
-    "League": "Bundesliga",
-    "Matchup": "Borussia Mönchengladbach - Borussia Dortmund",
-    "Services": [
-      "Peacock ES",
-      "Telemundo",
-      "Fandango",
-      "DAZN Canada",
-      "OneSoccer"
     ]
   },
   {
@@ -293,54 +123,6 @@
       "ViaPlay Suomi HD",
       "ViaPlay Sverige HD",
       "ViaPlay Ísland HD"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "Premier League",
-    "Matchup": "AFC Bournemouth - Nottingham Forest",
-    "Services": [
-      "Peacock",
-      "NBCSN Extra",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "Premier League",
-    "Matchup": "Chelsea - Leeds United",
-    "Services": [
-      "Peacock",
-      "NBCS Network",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "Premier League",
-    "Matchup": "Coventry City - Crystal Palace",
-    "Services": [
-      "Peacock",
-      "NBCSN Extra",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "21:00",
-    "End_Time": "23:30",
-    "League": "Premier League",
-    "Matchup": "Tottenham Hotspur - Ipswich Town",
-    "Services": [
-      "NBC Universo",
-      "USA Network",
-      "DAZN Canada"
     ]
   },
   {
@@ -602,19 +384,6 @@
       "TV2 Sport Premium HD",
       "ViaPlay Norge HD",
       "Ziggo Sport 5"
-    ]
-  },
-  {
-    "Date": "2026-11-21",
-    "Start_Time": "22:15",
-    "End_Time": "00:45",
-    "League": "Ligue 1",
-    "Matchup": "Nice - PSG",
-    "Services": [
-      "beIN USA",
-      "beIN USA Espanol",
-      "beIN Canada",
-      "beIN Canada Espanol"
     ]
   },
   {
@@ -1095,7 +864,8 @@
     "League": "MLS",
     "Matchup": "Inter Miami - Columbus Crew",
     "Services": [
-      "Inter Miami"
+      "Inter Miami",
+      "Alwan Sport 1"
     ]
   },
   {
@@ -1105,7 +875,21 @@
     "League": "MLS",
     "Matchup": "Inter Miami vs Columbus Crew",
     "Services": [
-      "Inter Miami"
+      "Inter Miami",
+      "Alwan Sport 1"
+    ]
+  },
+  {
+    "Date": "2026-11-22",
+    "Start_Time": "12:45",
+    "End_Time": "15:15",
+    "League": "Ligue 1",
+    "Matchup": "Olympique Marseille - Le Mans",
+    "Services": [
+      "beIN USA",
+      "beIN USA Espanol",
+      "beIN Canada",
+      "beIN Canada Espanol"
     ]
   },
   {
@@ -1589,19 +1373,6 @@
       "CBS Golazo Network",
       "TLN",
       "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-23",
-    "Start_Time": "01:45",
-    "End_Time": "04:15",
-    "League": "Ligue 1",
-    "Matchup": "Olympique Marseille - Le Mans",
-    "Services": [
-      "beIN USA",
-      "beIN USA Espanol",
-      "beIN Canada",
-      "beIN Canada Espanol"
     ]
   },
   {
