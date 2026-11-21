@@ -1,15 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Coventry City vs Crystal Palace" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/coventry_city_vs_crystal_palace.png" group-title=🔴 LIVE NOW, Coventry City vs Crystal Palace
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein6.m3u8
-#EXTINF:-1 tvg-name="Chelsea vs Leeds United" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/chelsea_vs_leeds_united.png" group-title=🔴 LIVE NOW, Chelsea vs Leeds United
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
-#EXTINF:-1 tvg-name="Tottenham Hotspur vs Ipswich Town" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/tottenham_hotspur_vs_ipswich_town.png" group-title=🔴 LIVE NOW, Tottenham Hotspur vs Ipswich Town
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
-#EXTINF:-1 tvg-name="Bournemouth vs Nottingham Forest" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/bournemouth_vs_nottingham_forest.png" group-title=🔴 LIVE NOW, Bournemouth vs Nottingham Forest
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein5.m3u8
 #EXTINF:-1 tvg-name="Rayo Vallecano vs Valencia - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/rayo_vallecano_vs_valencia.png" group-title=🔴 LIVE NOW, Rayo Vallecano vs Valencia - Stream 1
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein9.m3u8
 #EXTINF:-1 tvg-name="Rayo Vallecano vs Valencia - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/rayo_vallecano_vs_valencia.png" group-title=🔴 LIVE NOW, Rayo Vallecano vs Valencia - Stream 2
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fziggos5.m3u8
 #EXTINF:-1 tvg-name="Parma vs Roma" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/parma_vs_roma.png" group-title=🔴 LIVE NOW, Parma vs Roma
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fziggos2.m3u8
+#EXTINF:-1 tvg-name="Newcastle United vs Arsenal" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/newcastle_united_vs_arsenal.png" group-title=🔴 LIVE NOW, Newcastle United vs Arsenal
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
+#EXTINF:-1 tvg-name="Sevilla vs Real Betis - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/sevilla_vs_real_betis.png" group-title=🔴 LIVE NOW, Sevilla vs Real Betis - Stream 1
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
+#EXTINF:-1 tvg-name="Sevilla vs Real Betis - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/sevilla_vs_real_betis.png" group-title=🔴 LIVE NOW, Sevilla vs Real Betis - Stream 2
+https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd%7CdrmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
+#EXTINF:-1 tvg-name="Castellón vs Eldense" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/castell_n_vs_eldense.png" group-title=🔴 LIVE NOW, Castellón vs Eldense
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein4.m3u8
