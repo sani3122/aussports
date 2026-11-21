@@ -2,7 +2,7 @@
 """
 Live Sports Schedule Scraper (Livesportsontv + Footonsat)
 Converted to Strictly Bangladesh Standard Time (BST - Asia/Dhaka)
-Filtered for Football / Soccer Only (No Tennis, No Women's, No Youth)
+Filtered for Football / Soccer Only + MLS (Inter Miami Only + Custom Channel)
 Output: liveonsat_schedule_bd.json
 """
 
@@ -10,17 +10,21 @@ import asyncio
 import json
 import re
 import aiohttp
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 import pytz
 from playwright.async_api import async_playwright
 
 # ==================== CONFIGURATION ====================
-BANGLADESH_TZ = pytz.timezone("Asia/Dhaka") # GMT+6
-WITA_TZ = pytz.timezone("Asia/Makassar")    # GMT+8 (Page default render timezone)
+BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")  # GMT+6
+WITA_TZ = pytz.timezone("Asia/Makassar")     # GMT+8 (Page default render timezone)
 
 TIME_RANGE_HOURS_BEFORE = 4
 TIME_RANGE_HOURS_AFTER = 72
 OUTPUT_FILE = "liveonsat_schedule_bd.json"
+
+# Custom channel(s) to assign whenever Inter Miami plays
+INTER_MIAMI_CUSTOM_CHANNELS = ["Apple TV+"]  # Change to your desired channel name(s)
+REPLACE_INTER_MIAMI_CHANNELS = True          # True = set ONLY custom channel(s); False = add alongside scraped channels
 
 FOOTONSAT_URLS = [
     "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/premierleague.json",
@@ -41,7 +45,7 @@ ALLOWED_LEAGUES = {
     "UEFA Champions League", "UEFA Europa League", "UEFA Europa Conference League",
     "UEFA European Championship", "FIFA World Cup", "UEFA Nations League",
     "International Friendlies", "FA Cup", "Carabao Cup", "Brazilian Série A",
-    "Major League Soccer (MLS)"
+    "MLS"
 }
 
 PREMIER_LEAGUE_TEAMS = {
@@ -67,7 +71,7 @@ ALLOWED_TEAMS_PER_LEAGUE = {
     "UEFA Nations League": None,
     "Brazilian Série A": None,
     "International Friendlies": None,
-    "Major League Soccer (MLS)": {"Inter Miami"}
+    "MLS": {"inter miami"},
 }
 
 # ==================== HELPER FUNCTIONS ====================
@@ -115,6 +119,8 @@ def is_youth_or_women(matchup: str, league: str) -> bool:
 
 def normalize_league(league: str) -> str:
     league_lower = league.lower()
+    if "major league soccer" in league_lower or re.search(r'\bmls\b', league_lower):
+        return "MLS"
     if "fa cup" in league_lower:
         return "FA Cup"
     if "carabao cup" in league_lower or "league cup" in league_lower:
@@ -145,8 +151,6 @@ def normalize_league(league: str) -> str:
         return "FIFA World Cup"
     if "friendly" in league_lower:
         return "International Friendlies"
-    if "major" in league_lower:
-        return "Major League Soccer (MLS)"
     return league.strip()
 
 # ==================== TEAM NAME MAPPING ====================
@@ -182,7 +186,11 @@ TEAM_NAME_MAPPING = {
 
     # Ligue 1
     "psg": "Paris Saint-Germain", "paris saint-germain": "Paris Saint-Germain", "marseille": "Marseille",
-    "lyon": "Lyon", "monaco": "Monaco", "lille": "Lille", "nice": "Nice", "rennes": "Rennes"
+    "lyon": "Lyon", "monaco": "Monaco", "lille": "Lille", "nice": "Nice", "rennes": "Rennes",
+
+    # MLS
+    "inter miami": "Inter Miami", "inter miami cf": "Inter Miami",
+    "columbus crew": "Columbus Crew",
 }
 
 def normalize_team_name(name: str) -> str:
@@ -219,15 +227,25 @@ def normalize_matchup(matchup: str):
 def is_match_allowed(league: str, matchup: str) -> bool:
     if league not in ALLOWED_LEAGUES:
         return False
-    if league == "International Friendlies":
-        return True
-    if league == "Brazilian Série A":
+    if league in {"International Friendlies", "Brazilian Série A"}:
         return True
     allowed_teams = ALLOWED_TEAMS_PER_LEAGUE.get(league)
     if allowed_teams is None:
         return True
     matchup_lower = matchup.lower()
     return any(team in matchup_lower for team in allowed_teams)
+
+def apply_custom_channels(matchup: str, channels: list) -> list:
+    """Assigns INTER_MIAMI_CUSTOM_CHANNELS whenever Inter Miami is in the matchup."""
+    if "inter miami" in matchup.lower():
+        if REPLACE_INTER_MIAMI_CHANNELS:
+            return list(INTER_MIAMI_CUSTOM_CHANNELS)
+        merged = list(INTER_MIAMI_CUSTOM_CHANNELS)
+        for ch in channels:
+            if ch not in merged:
+                merged.append(ch)
+        return merged
+    return list(dict.fromkeys(channels))
 
 # ==================== LIVESPORTSONTV CONFIG (FOOTBALL ONLY) ====================
 LEAGUES_CONFIG = {
@@ -245,6 +263,7 @@ LEAGUES_CONFIG = {
     "International Friendlies": {"url": "https://www.livesportsontv.com/league/international-friendly-2", "teams": None},
     "FA Cup": {"url": "https://www.livesportsontv.com/league/fa-cup", "teams": None, "custom_filter": "premier_league_only"},
     "Carabao Cup": {"url": "https://www.livesportsontv.com/league/league-cup", "teams": None, "custom_filter": "premier_league_only"},
+    "MLS": {"url": "https://www.livesportsontv.com/league/mls", "teams": {"inter miami"}},
 }
 
 EXTRACT_JS = r"""
@@ -277,7 +296,7 @@ EXTRACT_JS = r"""
     const extractChannels = (eventElement) => {
         const channels = [];
         const seen = new Set();
-        const add = (name, type, url) => {
+        const add = (name) => {
             name = (name || '').replace(/\s+/g, ' ').trim();
             if (!name) return;
             const low = name.toLowerCase();
@@ -338,7 +357,6 @@ async def scrape_livesportsontv(ref_bd_time: datetime):
 async def scrape_league(league_name: str, cfg: dict, ref_bd_time: datetime):
     url = cfg["url"]
     team_filter = cfg.get("teams")
-    custom_filter = cfg.get("custom_filter")
     games = []
 
     async with async_playwright() as p:
@@ -359,11 +377,14 @@ async def scrape_league(league_name: str, cfg: dict, ref_bd_time: datetime):
                     continue
                 hour, minute = int(match.group(1)), int(match.group(2))
                 meridiem = match.group(3).upper()
-                if meridiem == 'PM' and hour != 12: hour += 12
-                elif meridiem == 'AM' and hour == 12: hour = 0
+                if meridiem == 'PM' and hour != 12:
+                    hour += 12
+                elif meridiem == 'AM' and hour == 12:
+                    hour = 0
 
                 event_date = parse_short_date(raw.get('date', ''), ref_bd_time.date())
-                if not event_date: continue
+                if not event_date:
+                    continue
 
                 page_dt = WITA_TZ.localize(datetime(event_date.year, event_date.month, event_date.day, hour, minute))
                 bd_start_dt = page_dt.astimezone(BANGLADESH_TZ)
@@ -382,13 +403,15 @@ async def scrape_league(league_name: str, cfg: dict, ref_bd_time: datetime):
                 if team_filter and not any(t.lower() in matchup.lower() for t in team_filter):
                     continue
 
+                services = apply_custom_channels(norm_matchup, raw.get('channels', []))
+
                 games.append({
                     "Date": bd_start_dt.strftime("%Y-%m-%d"),
                     "Start_Time": bd_start_dt.strftime("%H:%M"),
                     "End_Time": bd_end_dt.strftime("%H:%M"),
                     "League": league_display,
                     "Matchup": norm_matchup,
-                    "Services": raw.get('channels', [])
+                    "Services": services
                 })
         except Exception as e:
             print(f"Error scraping {league_name}: {e}")
@@ -427,16 +450,19 @@ def parse_footonsat_items(items, ref_bd_time):
             dt_end = dt_bd + timedelta(hours=2, minutes=30)
             if is_within_time_range(dt_bd, ref_bd_time):
                 league_raw = match_obj['compet'].strip()
-                if not is_youth_or_women(match_obj['match'], league_raw):
+                raw_match = match_obj['match'].strip()
+                if not is_youth_or_women(raw_match, league_raw):
                     league = normalize_league(league_raw)
-                    if is_match_allowed(league, match_obj['match']):
+                    norm_matchup = normalize_matchup(raw_match)
+                    if is_match_allowed(league, norm_matchup):
+                        services = apply_custom_channels(norm_matchup, channels_list)
                         matches.append({
                             "Date": dt_bd.strftime("%Y-%m-%d"),
                             "Start_Time": dt_bd.strftime("%H:%M"),
                             "End_Time": dt_end.strftime("%H:%M"),
                             "League": league,
-                            "Matchup": normalize_matchup(match_obj['match'].strip()),
-                            "Services": channels_list.copy()
+                            "Matchup": norm_matchup,
+                            "Services": services
                         })
         except Exception:
             pass
@@ -452,8 +478,7 @@ def parse_footonsat_items(items, ref_bd_time):
             ch_name = re.sub(r'[📺]', '', ch_name).strip()
             if ch_name:
                 current_channels.append(ch_name)
-                
-    # Handle the very last item in the JSON array
+
     if current_match:
         helper_append(current_match, current_channels)
 
@@ -470,7 +495,6 @@ async def main():
     games_foot = await fetch_footonsat_data(ref_bd_time)
     print(f"🛰️ Fetched from Footonsat: {len(games_foot)} matches")
 
-    # Merge & Deduplicate
     unique = {}
     for g in games_live + games_foot:
         key = (g["Date"], g["Start_Time"], g["League"], g["Matchup"])
@@ -481,13 +505,14 @@ async def main():
                 "End_Time": g["End_Time"],
                 "League": g["League"],
                 "Matchup": g["Matchup"],
-                "Services": list(g["Services"])
+                "Services": apply_custom_channels(g["Matchup"], list(g["Services"]))
             }
         else:
             existing = set(unique[key]["Services"])
             new_services = [s for s in g["Services"] if s not in existing]
             if new_services:
                 unique[key]["Services"].extend(new_services)
+            unique[key]["Services"] = apply_custom_channels(unique[key]["Matchup"], unique[key]["Services"])
 
     final = list(unique.values())
     final.sort(key=lambda x: (x["Date"], x["Start_Time"]))
