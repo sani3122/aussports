@@ -1,13 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Newcastle United vs Arsenal" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/newcastle_united_vs_arsenal.png" group-title=🔴 LIVE NOW, Newcastle United vs Arsenal
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
-#EXTINF:-1 tvg-name="Sevilla vs Real Betis - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/sevilla_vs_real_betis.png" group-title=🔴 LIVE NOW, Sevilla vs Real Betis - Stream 1
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
-#EXTINF:-1 tvg-name="Sevilla vs Real Betis - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/sevilla_vs_real_betis.png" group-title=🔴 LIVE NOW, Sevilla vs Real Betis - Stream 2
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd%7CdrmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
-#EXTINF:-1 tvg-name="Castellón vs Eldense" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/castell_n_vs_eldense.png" group-title=🔴 LIVE NOW, Castellón vs Eldense
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein4.m3u8
 #EXTINF:-1 tvg-name="Palmeiras vs Flamengo" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/palmeiras_vs_flamengo.png" group-title=🔴 LIVE NOW, Palmeiras vs Flamengo
 https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd%7CdrmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
 #EXTINF:-1 tvg-name="Napoli vs Torino" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/napoli_vs_torino.png" group-title=🔴 LIVE NOW, Napoli vs Torino
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fziggos2.m3u8
+#EXTINF:-1 tvg-name="Real Madrid vs Celta Vigo" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/real_madrid_vs_celta_vigo.png" group-title=🔴 LIVE NOW, Real Madrid vs Celta Vigo
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
+#EXTINF:-1 tvg-name="Tenerife vs Mallorca" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/tenerife_vs_mallorca.png" group-title=🔴 LIVE NOW, Tenerife vs Mallorca
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein8.m3u8
