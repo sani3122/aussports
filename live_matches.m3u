@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Liverpool vs Manchester United" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/liverpool_vs_manchester_united.png" group-title=🔴 LIVE NOW, Liverpool vs Manchester United
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
 #EXTINF:-1 tvg-name="Osasuna vs Málaga - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/osasuna_vs_m_laga.png" group-title=🔴 LIVE NOW, Osasuna vs Málaga - Stream 1
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein2.m3u8
 #EXTINF:-1 tvg-name="Osasuna vs Málaga - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/osasuna_vs_m_laga.png" group-title=🔴 LIVE NOW, Osasuna vs Málaga - Stream 2
