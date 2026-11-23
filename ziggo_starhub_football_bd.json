@@ -54,6 +54,16 @@
   },
   {
     "Date": "2026-11-25",
+    "Start_Time": "01:50",
+    "End_Time": "04:20",
+    "League": "Football",
+    "Matchup": "Real Madrid vs PSV",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-25",
     "Start_Time": "01:55",
     "End_Time": "04:25",
     "League": "Football",
@@ -80,16 +90,6 @@
     "Matchup": "Como vs AEK",
     "Services": [
       "Ziggo Sport 6"
-    ]
-  },
-  {
-    "Date": "2026-11-25",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "Football",
-    "Matchup": "Real Madrid vs PSV",
-    "Services": [
-      "Ziggo Sport 2"
     ]
   },
   {
