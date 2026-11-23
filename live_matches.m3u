@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Al Shamal vs Al Ahli" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/al_shamal_vs_al_ahli.png" group-title=🔴 LIVE NOW, Al Shamal vs Al Ahli
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
-#EXTINF:-1 tvg-name="Al Ain vs Esteghlal Tehran" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/al_ain_vs_esteghlal_tehran.png" group-title=🔴 LIVE NOW, Al Ain vs Esteghlal Tehran
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein2.m3u8
-#EXTINF:-1 tvg-name="Tractor Sazi vs Al Wasl" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/tractor_sazi_vs_al_wasl.png" group-title=🔴 LIVE NOW, Tractor Sazi vs Al Wasl
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
 #EXTINF:-1 tvg-name="Air Force Club vs Al Gharafa" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/air_force_club_vs_al_gharafa.png" group-title=🔴 LIVE NOW, Air Force Club vs Al Gharafa
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
 #EXTINF:-1 tvg-name="Al Ittihad vs Pakhtakor" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/al_ittihad_vs_pakhtakor.png" group-title=🔴 LIVE NOW, Al Ittihad vs Pakhtakor
