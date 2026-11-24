@@ -258,6 +258,16 @@
   },
   {
     "Date": "2026-11-28",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "Premier League",
+    "Matchup": "Nottingham Forest vs Chelsea",
+    "Services": [
+      "Hub Premier 1"
+    ]
+  },
+  {
+    "Date": "2026-11-28",
     "Start_Time": "18:55",
     "End_Time": "21:25",
     "League": "Football",
@@ -274,6 +284,27 @@
     "Matchup": "Frosinone Calcio vs Parma Calcio",
     "Services": [
       "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-28",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Leeds United vs Coventry City",
+    "Services": [
+      "Hub Premier 2"
+    ]
+  },
+  {
+    "Date": "2026-11-28",
+    "Start_Time": "21:00",
+    "End_Time": "23:30",
+    "League": "Premier League",
+    "Matchup": "Manchester United vs Brentford",
+    "Services": [
+      "Hub Premier 1",
+      "Hub Premier 3"
     ]
   },
   {
@@ -309,6 +340,16 @@
     ]
   },
   {
+    "Date": "2026-11-28",
+    "Start_Time": "23:30",
+    "End_Time": "02:00",
+    "League": "Premier League",
+    "Matchup": "Ipswich Town vs Aston Villa",
+    "Services": [
+      "Hub Premier 1"
+    ]
+  },
+  {
     "Date": "2026-11-29",
     "Start_Time": "01:40",
     "End_Time": "04:10",
@@ -341,6 +382,16 @@
   },
   {
     "Date": "2026-11-29",
+    "Start_Time": "18:00",
+    "End_Time": "20:30",
+    "League": "Premier League",
+    "Matchup": "Everton vs Liverpool",
+    "Services": [
+      "Hub Premier 1"
+    ]
+  },
+  {
+    "Date": "2026-11-29",
     "Start_Time": "18:55",
     "End_Time": "21:25",
     "League": "Football",
@@ -361,12 +412,63 @@
   },
   {
     "Date": "2026-11-29",
+    "Start_Time": "20:05",
+    "End_Time": "22:35",
+    "League": "Premier League",
+    "Matchup": "Brighton and Hove Albion vs Newcastle United",
+    "Services": [
+      "Hub Premier 2"
+    ]
+  },
+  {
+    "Date": "2026-11-29",
+    "Start_Time": "20:05",
+    "End_Time": "22:35",
+    "League": "Premier League",
+    "Matchup": "Crystal Palace vs Hull City",
+    "Services": [
+      "Hub Premier 4"
+    ]
+  },
+  {
+    "Date": "2026-11-29",
+    "Start_Time": "20:05",
+    "End_Time": "22:35",
+    "League": "Premier League",
+    "Matchup": "Fulham vs Bournemouth",
+    "Services": [
+      "Hub Premier 3"
+    ]
+  },
+  {
+    "Date": "2026-11-29",
+    "Start_Time": "20:05",
+    "End_Time": "22:35",
+    "League": "Premier League",
+    "Matchup": "Sunderland vs Tottenham Hotspur",
+    "Services": [
+      "Hub Premier 1",
+      "Hub Premier 5"
+    ]
+  },
+  {
+    "Date": "2026-11-29",
     "Start_Time": "21:10",
     "End_Time": "23:40",
     "League": "Football",
     "Matchup": "Deportivo de A Coruña vs FC Barcelona",
     "Services": [
       "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-11-29",
+    "Start_Time": "22:30",
+    "End_Time": "01:00",
+    "League": "Premier League",
+    "Matchup": "Arsenal vs Manchester City",
+    "Services": [
+      "Hub Premier 1"
     ]
   },
   {
