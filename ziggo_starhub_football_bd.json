@@ -314,8 +314,7 @@
     "League": "Football",
     "Matchup": "Málaga CF vs Athletic Club",
     "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
+      "Ziggo Sport 3"
     ]
   },
   {
@@ -335,8 +334,7 @@
     "League": "Football",
     "Matchup": "Elche vs Atlético Madrid",
     "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
+      "Ziggo Sport 3"
     ]
   },
   {
@@ -347,6 +345,17 @@
     "Matchup": "Ipswich Town vs Aston Villa",
     "Services": [
       "Hub Premier 1"
+    ]
+  },
+  {
+    "Date": "2026-11-29",
+    "Start_Time": "00:30",
+    "End_Time": "03:00",
+    "League": "Football",
+    "Matchup": "Elche vs Atlético Madrid",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
     ]
   },
   {
