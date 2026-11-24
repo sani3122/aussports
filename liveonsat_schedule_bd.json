@@ -1,81 +1,6 @@
 [
   {
     "Date": "2026-11-24",
-    "Start_Time": "18:15",
-    "End_Time": "20:45",
-    "League": "UEFA Champions League",
-    "Matchup": "Công An Hà Nôi vs Vissel Kobe",
-    "Services": [
-      "Astro Arena Bola 2 HD",
-      "Azam Sports 2 HD",
-      "beIN Sports MENA 3 HD",
-      "beIN Sports MENA English 2 HD",
-      "Canal 11 Portugal HD",
-      "DAZN Japan",
-      "Nova Sport Bulgaria HD",
-      "Q Sport Football HD",
-      "Silk Sport 1 HD",
-      "Spor Smart Türkiye HD",
-      "Sport 1 Baltic",
-      "Sport 1 Ukraine",
-      "SportKlub 1 Hrvatska HD",
-      "SportKlub 3 Slovenija",
-      "TV Start Triumph HD",
-      "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-11-24",
-    "Start_Time": "18:15",
-    "End_Time": "20:45",
-    "League": "UEFA Champions League",
-    "Matchup": "Ratchaburi vs Johor Darul Ta'zim",
-    "Services": [
-      "Astro Arena Bola HD",
-      "beIN Sports MENA 4 HD",
-      "DAZN Japan",
-      "Diema Sport 3 HD",
-      "SportKlub 1 Slovenija HD",
-      "SportKlub 3 Hrvatska",
-      "TV Start Russia HD",
-      "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-11-24",
-    "Start_Time": "18:15",
-    "End_Time": "20:45",
-    "League": "UEFA Champions League",
-    "Matchup": "Shanghai Port vs Buriram United",
-    "Services": [
-      "Astro Grandstand HD",
-      "beIN Sports MENA 2 HD",
-      "beIN Sports MENA English 1 HD",
-      "DAZN Japan",
-      "Spor Smart 2 Türkiye HD",
-      "Sport 2 Baltic",
-      "Sport 2 Ukraine",
-      "SportKlub 2 Hrvatska",
-      "SportKlub 2 Slovenija",
-      "TV Start Russia HD",
-      "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-11-24",
-    "Start_Time": "19:45",
-    "End_Time": "22:15",
-    "League": "UEFA Champions League",
-    "Matchup": "East Bengal vs Al Hussein",
-    "Services": [
-      "beIN Sports MENA 1 HD",
-      "SportKlub 4 Hrvatska",
-      "SportKlub 4 Slovenija",
-      "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-11-24",
     "Start_Time": "22:00",
     "End_Time": "00:30",
     "League": "UEFA Champions League",
@@ -114,31 +39,6 @@
       "SportKlub 4 Hrvatska",
       "SportKlub 4 Slovenija",
       "YouTube: The AFC Hub"
-    ]
-  },
-  {
-    "Date": "2026-11-24",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Champions League",
-    "Matchup": "Bodø / Glimt - LASK",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-24",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Champions League",
-    "Matchup": "Galatasaray - Aston Villa",
-    "Services": [
-      "Paramount+",
-      "TUDN",
-      "ViX",
-      "DAZN Canada"
     ]
   },
   {
