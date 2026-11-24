@@ -6,12 +6,9 @@
     "League": "Twenty20 International",
     "Matchup": "Australia vs England",
     "Services": [
-      "Australia v England TV Channels and Start Time",
-      "Twenty20 International Cricket",
-      "Australia v England Broadcast on TNT Sports 1",
-      "Australia v England Broadcast on HBO Max",
-      "TNT Sports 1",
-      "HBO Max"
+      "tnt",
+      "HBO Max",
+      "TNT Sports 1"
     ]
   },
   {
@@ -21,12 +18,9 @@
     "League": "Twenty20 International",
     "Matchup": "Australia vs England",
     "Services": [
-      "Australia v England TV Channels and Start Time",
-      "Twenty20 International Cricket",
-      "Australia v England Broadcast on TNT Sports 1",
-      "Australia v England Broadcast on HBO Max",
-      "TNT Sports 1",
-      "HBO Max"
+      "tnt",
+      "HBO Max",
+      "TNT Sports 1"
     ]
   },
   {
@@ -36,14 +30,107 @@
     "League": "Twenty20 International",
     "Matchup": "Australia vs England",
     "Services": [
-      "Australia v England TV Channels and Start Time",
-      "Twenty20 International Cricket",
-      "Australia v England Broadcast on TNT Sports 1",
-      "Australia v England Broadcast on TNT Sports 3",
-      "Australia v England Broadcast on HBO Max",
+      "tnt",
+      "HBO Max",
       "TNT Sports 1",
-      "TNT Sports 3",
+      "TNT Sports 3"
+    ]
+  },
+  {
+    "Date": "2026-12-02",
+    "Start_Time": "14:15",
+    "End_Time": "18:15",
+    "League": "Twenty20 International",
+    "Matchup": "Australia vs England",
+    "Services": [
+      "tnt",
+      "HBO Max",
+      "TNT Sports 1"
+    ]
+  },
+  {
+    "Date": "2026-12-10",
+    "Start_Time": "22:00",
+    "End_Time": "02:00",
+    "League": "Twenty20 International",
+    "Matchup": "South Africa vs Bangladesh",
+    "Services": [
+      "Sky Sports Cricket"
+    ]
+  },
+  {
+    "Date": "2026-12-12",
+    "Start_Time": "18:30",
+    "End_Time": "22:30",
+    "League": "Twenty20 International",
+    "Matchup": "South Africa vs Bangladesh",
+    "Services": []
+  },
+  {
+    "Date": "2026-12-13",
+    "Start_Time": "18:30",
+    "End_Time": "22:30",
+    "League": "Twenty20 International",
+    "Matchup": "South Africa vs Bangladesh",
+    "Services": [
+      "Sky Sports Cricket"
+    ]
+  },
+  {
+    "Date": "2026-12-22",
+    "Start_Time": "19:30",
+    "End_Time": "23:30",
+    "League": "Twenty20 International",
+    "Matchup": "India vs Sri Lanka",
+    "Services": [
+      "tnt",
       "HBO Max"
     ]
+  },
+  {
+    "Date": "2026-12-24",
+    "Start_Time": "19:30",
+    "End_Time": "23:30",
+    "League": "Twenty20 International",
+    "Matchup": "India vs Sri Lanka",
+    "Services": [
+      "tnt",
+      "HBO Max"
+    ]
+  },
+  {
+    "Date": "2026-12-27",
+    "Start_Time": "19:30",
+    "End_Time": "23:30",
+    "League": "Twenty20 International",
+    "Matchup": "India vs Sri Lanka",
+    "Services": [
+      "tnt",
+      "HBO Max"
+    ]
+  },
+  {
+    "Date": "2027-01-26",
+    "Start_Time": "12:00",
+    "End_Time": "16:00",
+    "League": "Twenty20 International",
+    "Matchup": "New Zealand vs Sri Lanka",
+    "Services": []
+  },
+  {
+    "Date": "2027-01-29",
+    "Start_Time": "09:00",
+    "End_Time": "13:00",
+    "League": "Twenty20 International",
+    "Matchup": "New Zealand vs Sri Lanka",
+    "Services": []
+  },
+  {
+    "Date": "2027-01-31",
+    "Start_Time": "06:00",
+    "End_Time": "10:00",
+    "League": "Twenty20 International",
+    "Matchup": "New Zealand vs Sri Lanka",
+    "Services": []
   }
 ]
