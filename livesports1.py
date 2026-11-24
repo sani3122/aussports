@@ -45,7 +45,7 @@ ALLOWED_LEAGUES = {
     "UEFA Champions League", "UEFA Europa League", "UEFA Europa Conference League",
     "UEFA European Championship", "FIFA World Cup", "UEFA Nations League",
     "International Friendlies", "FA Cup", "Carabao Cup", "Brazilian Série A",
-    "MLS"
+    "MLS", "English Championship"
 }
 
 PREMIER_LEAGUE_TEAMS = {
@@ -72,6 +72,7 @@ ALLOWED_TEAMS_PER_LEAGUE = {
     "Brazilian Série A": None,
     "International Friendlies": None,
     "MLS": {"inter miami"},
+    "English Championship": {"sheffield united"}
 }
 
 # ==================== HELPER FUNCTIONS ====================
@@ -127,6 +128,8 @@ def normalize_league(league: str) -> str:
         return "Carabao Cup"
     if "premier league" in league_lower:
         return "Premier League"
+    if "english championship" in league_lower or "championship" in league_lower:
+        return "English Championship"
     if "serie a" in league_lower and "brazil" not in league_lower and "brazilian" not in league_lower:
         return "Serie A"
     if "brazilian" in league_lower or "brazil" in league_lower:
@@ -187,10 +190,6 @@ TEAM_NAME_MAPPING = {
     # Ligue 1
     "psg": "Paris Saint-Germain", "paris saint-germain": "Paris Saint-Germain", "marseille": "Marseille",
     "lyon": "Lyon", "monaco": "Monaco", "lille": "Lille", "nice": "Nice", "rennes": "Rennes",
-
-    # MLS
-    "inter miami": "Inter Miami", "inter miami cf": "Inter Miami",
-    "columbus crew": "Columbus Crew",
 }
 
 def normalize_team_name(name: str) -> str:
