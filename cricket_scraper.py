@@ -18,22 +18,18 @@ URL = "https://www.wheresthematch.com/twenty20-international-cricket-on-tv/"
 UK_TZ = pytz.timezone("Europe/London")
 BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")
 
-TIME_RANGE_HOURS_BEFORE = 4
-TIME_RANGE_HOURS_AFTER = 168  # 7 days ahead so upcoming T20I series are included
+# Set TIME_RANGE_HOURS_AFTER = None to include ALL upcoming fixtures on the page
+TIME_RANGE_HOURS_BEFORE = 6
+TIME_RANGE_HOURS_AFTER = 2160  # ~90 days ahead (covers Dec fixtures in schedule)
 T20_DURATION_HOURS = 4
 OUTPUT_FILE = "cricket_schedule_bd.json"
 
 # ==================== DATE & TIME PARSERS ====================
 def parse_uk_date(date_text: str, ref_uk_date):
-    """
-    Parses strings like:
-    'Today Tue 24th November 2026' or 'Fri 27th November 2026' or 'Wed 2nd December 2026'
-    """
     if not date_text:
         return None
     cleaned = re.sub(r'\bToday\b', '', date_text, flags=re.IGNORECASE).strip()
     cleaned = re.sub(r'\s+', ' ', cleaned)
-    # Remove ordinal suffixes: 1st, 2nd, 3rd, 4th, 24th -> 1, 2, 3, 4, 24
     cleaned = re.sub(r'\b(\d{1,2})(st|nd|rd|th)\b', r'\1', cleaned, flags=re.IGNORECASE)
 
     formats = [
@@ -48,7 +44,6 @@ def parse_uk_date(date_text: str, ref_uk_date):
         except ValueError:
             continue
 
-    # Fallback without year
     no_year = re.sub(r'\s+\d{4}$', '', cleaned).strip()
     for fmt in ("%a %d %B", "%d %B", "%a %d %b", "%d %b"):
         try:
@@ -83,84 +78,106 @@ def parse_time_24h_or_12h(time_text: str):
 
 def normalize_matchup(fixture_text: str) -> str:
     text = re.sub(r'\s+', ' ', fixture_text or '').strip()
-    # Normalize "Australia v England" -> "Australia vs England"
     text = re.sub(r'\s+v(?:s)?\s+', ' vs ', text, flags=re.IGNORECASE)
     return text
 
 
 def is_within_range(bd_dt: datetime, ref_bd_dt: datetime) -> bool:
     start = ref_bd_dt - timedelta(hours=TIME_RANGE_HOURS_BEFORE)
+    if TIME_RANGE_HOURS_AFTER is None:
+        return bd_dt >= start
     end = ref_bd_dt + timedelta(hours=TIME_RANGE_HOURS_AFTER)
     return start <= bd_dt <= end
 
 
-# ==================== DOM EXTRACTOR ====================
+# ==================== CLEAN DOM EXTRACTOR ====================
 EXTRACT_JS = r"""
 () => {
     const results = [];
     const rows = Array.from(document.querySelectorAll('table tr, [class*="fixture"], [class*="Fixture"], tr'));
 
+    // Normalize known channel labels cleanly
+    const cleanChannelName = (raw) => {
+        if (!raw) return null;
+        let s = raw.replace(/\s+/g, ' ').trim();
+        if (!s || s.length > 40) return null;
+
+        // Reject headings, sentences, promos, and placeholders
+        if (/tv channels|start time|broadcast on|twenty20 international|get sky sports|watch live|download|t\.?b\.?c\.?|^\s*sky\s*$/i.test(s)) {
+            return null;
+        }
+
+        const low = s.toLowerCase();
+        if (low.includes('tnt sports 1')) return 'TNT Sports 1';
+        if (low.includes('tnt sports 2')) return 'TNT Sports 2';
+        if (low.includes('tnt sports 3')) return 'TNT Sports 3';
+        if (low.includes('tnt sports 4')) return 'TNT Sports 4';
+        if (low.includes('tnt sports')) return 'TNT Sports';
+        if (low.includes('sky sports cricket')) return 'Sky Sports Cricket';
+        if (low.includes('sky sports main event')) return 'Sky Sports Main Event';
+        if (low.includes('sky sports')) return 'Sky Sports';
+        if (low.includes('hbo max') || low === 'hbomax') return 'HBO Max';
+        if (low.includes('willow')) return 'Willow Cricket';
+        if (low.includes('sony ten') || low.includes('sony sports')) return 'Sony Sports';
+        if (low.includes('star sports')) return 'Star Sports';
+
+        return s;
+    };
+
     for (const row of rows) {
         const text = (row.innerText || '').trim();
         if (!text) continue;
 
-        // Skip promo/ad rows
-        if (/get sky sports|watch live!|cookie|privacy/i.test(text) && !/\d{1,2}:\d{2}/.test(text)) {
+        if (/get sky sports|watch live!|download the wheresthematch/i.test(text) && !/\d{1,2}:\d{2}/.test(text)) {
             continue;
         }
 
         const timeMatch = text.match(/\b(\d{1,2}:\d{2}(?:\s*(?:AM|PM))?)\b/i);
         if (!timeMatch) continue;
 
-        // Find fixture teams like "Australia v England" or "Australia vs England"
         let matchup = '';
         const vMatch = text.match(/([A-Za-z][A-Za-z\s\.\'-]{1,35}?)\s+(?:v|vs)\s+([A-Za-z][A-Za-z\s\.\'-]{1,35}?)(?=\s+(?:Twenty20|ODI|Test|Today|Mon|Tue|Wed|Thu|Fri|Sat|Sun|\d{1,2}(?:st|nd|rd|th)|\d{1,2}:\d{2})|\n|$)/i);
         if (vMatch) {
             matchup = `${vMatch[1].trim()} vs ${vMatch[2].trim()}`;
         }
 
-        // Find date string like "Tue 24th November 2026"
         const dateMatch = text.match(/(?:Today\s+)?(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+\d{1,2}(?:st|nd|rd|th)\s+[A-Za-z]+\s+\d{4}/i)
             || text.match(/\d{1,2}(?:st|nd|rd|th)\s+[A-Za-z]+\s+\d{4}/i);
 
-        // Extract broadcasters from text or image alts
         const channels = [];
         const seen = new Set();
-        const addChannel = (ch) => {
-            const clean = (ch || '').replace(/\s+/g, ' ').trim();
-            if (!clean) return;
-            const low = clean.toLowerCase();
-            if (['t.b.c.', 'tbc', 'sky', 'get sky sports & watch live!'].includes(low)) return;
-            if (clean.length < 2 || clean.length > 50) return;
-            if (!seen.has(low)) {
-                seen.add(low);
-                channels.push(clean);
+        const addChannel = (rawName) => {
+            const norm = cleanChannelName(rawName);
+            if (!norm) return;
+            const key = norm.toLowerCase();
+            if (!seen.has(key)) {
+                seen.add(key);
+                channels.push(norm);
             }
         };
 
-        // Check images inside row (e.g., TNT Sports, Sky Sports Cricket, HBO Max)
+        // 1. Extract from channel images (alt / title / src)
         const imgs = row.querySelectorAll('img');
         for (const img of imgs) {
             const alt = (img.getAttribute('alt') || '').trim();
             const title = (img.getAttribute('title') || '').trim();
             const src = (img.getAttribute('src') || '').toLowerCase();
-            const label = alt || title;
-            if (label && !/flag|ball|play|icon|arrow/i.test(label)) {
-                addChannel(label);
-            } else if (src) {
-                if (src.includes('tnt')) addChannel('TNT Sports');
-                else if (src.includes('sky') && src.includes('cricket')) addChannel('Sky Sports Cricket');
-                else if (src.includes('hbo')) addChannel('HBO Max');
+
+            if (alt || title) {
+                addChannel(alt || title);
+            }
+            if (src) {
+                if (src.includes('tnt')) addChannel(src.match(/tnt[^a-z0-9]?[1-4]?/i)?.[0] || 'TNT Sports');
+                if (src.includes('sky') && src.includes('cricket')) addChannel('Sky Sports Cricket');
+                if (src.includes('hbo')) addChannel('HBO Max');
             }
         }
 
-        // Also check lines for known channel names
+        // 2. Extract short broadcaster text tokens only (avoid full sentences)
         const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
         for (const line of lines) {
-            if (/tnt sports|sky sports|hbo\s?max|tbc|t\.b\.c\.|willow|sony|star sports/i.test(line)) {
-                if (!/get sky sports/i.test(line)) {
-                    addChannel(line);
-                }
+            if (line.length <= 35 && /tnt sports|sky sports cricket|hbo\s?max|willow|sony|star sports/i.test(line)) {
+                addChannel(line);
             }
         }
 
@@ -184,7 +201,7 @@ async def scrape_t20i_wheresthematch():
     ref_bd_now = datetime.now(BANGLADESH_TZ)
     ref_uk_now = ref_bd_now.astimezone(UK_TZ)
 
-    print(f"🏏 Starting WherestheMatch T20I Scraper...")
+    print("🏏 Starting WherestheMatch T20I Scraper...")
     print(f"🕒 BD Now: {ref_bd_now.strftime('%Y-%m-%d %H:%M:%S')} | UK Now: {ref_uk_now.strftime('%Y-%m-%d %H:%M:%S')}")
 
     raw_items = []
@@ -259,4 +276,4 @@ async def scrape_t20i_wheresthematch():
 
 if __name__ == "__main__":
     asyncio.run(scrape_t20i_wheresthematch())
-  
+    
