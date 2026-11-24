@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Shabab Al Ahli vs Al Qadisiyah" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/shabab_al_ahli_vs_al_qadisiyah.png" group-title="🔴 LIVE NOW", Shabab Al Ahli vs Al Qadisiyah
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein2.m3u8
-#EXTINF:-1 tvg-name="Al Seeb vs Al Shorta" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/al_seeb_vs_al_shorta.png" group-title="🔴 LIVE NOW", Al Seeb vs Al Shorta
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
 #EXTINF:-1 tvg-name="Galatasaray vs Aston Villa - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/galatasaray_vs_aston_villa.png" group-title="🔴 LIVE NOW", Galatasaray vs Aston Villa - Stream 1
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
 #EXTINF:-1 tvg-name="Galatasaray vs Aston Villa - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/galatasaray_vs_aston_villa.png" group-title="🔴 LIVE NOW", Galatasaray vs Aston Villa - Stream 2
