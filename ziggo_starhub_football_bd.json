@@ -1,78 +1,5 @@
 [
   {
-    "Date": "2026-11-24",
-    "Start_Time": "23:35",
-    "End_Time": "02:05",
-    "League": "Football",
-    "Matchup": "Galatasaray AS vs Aston Villa",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport 3",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-24",
-    "Start_Time": "23:40",
-    "End_Time": "02:10",
-    "League": "Football",
-    "Matchup": "FK Bodo/Glimt vs Lask",
-    "Services": [
-      "Ziggo Sport 4"
-    ]
-  },
-  {
-    "Date": "2026-11-25",
-    "Start_Time": "01:50",
-    "End_Time": "04:20",
-    "League": "Football",
-    "Matchup": "Feyenoord vs FC Porto",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-25",
-    "Start_Time": "01:50",
-    "End_Time": "04:20",
-    "League": "Football",
-    "Matchup": "Real Madrid vs PSV",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-25",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Arsenal vs Borussia Dortmund",
-    "Services": [
-      "Ziggo Sport 3"
-    ]
-  },
-  {
-    "Date": "2026-11-25",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Manchester City vs Napoli",
-    "Services": [
-      "Ziggo Sport 5"
-    ]
-  },
-  {
-    "Date": "2026-11-25",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Como vs AEK",
-    "Services": [
-      "Ziggo Sport 6"
-    ]
-  },
-  {
     "Date": "2026-11-25",
     "Start_Time": "23:40",
     "End_Time": "02:10",
@@ -558,6 +485,39 @@
     "End_Time": "04:25",
     "League": "Football",
     "Matchup": "RCD Espanyol vs Getafe CF",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-12-01",
+    "Start_Time": "22:55",
+    "End_Time": "01:25",
+    "League": "Football",
+    "Matchup": "VFB Stuttgart vs Dynamo Dresden",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-12-02",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
+    "League": "Football",
+    "Matchup": "Bayern München vs Hertha BSC",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport 3",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-12-02",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Internazionale vs Genoa",
     "Services": [
       "Ziggo Sport 2"
     ]
