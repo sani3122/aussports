@@ -1,0 +1,5 @@
+aiohttp
+pytz
+playwright
+requests
+Pillow
