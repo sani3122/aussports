@@ -1,1 +1,49 @@
-b
+[
+  {
+    "Date": "2026-11-24",
+    "Start_Time": "14:15",
+    "End_Time": "18:15",
+    "League": "Twenty20 International",
+    "Matchup": "Australia vs England",
+    "Services": [
+      "Australia v England TV Channels and Start Time",
+      "Twenty20 International Cricket",
+      "Australia v England Broadcast on TNT Sports 1",
+      "Australia v England Broadcast on HBO Max",
+      "TNT Sports 1",
+      "HBO Max"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "14:15",
+    "End_Time": "18:15",
+    "League": "Twenty20 International",
+    "Matchup": "Australia vs England",
+    "Services": [
+      "Australia v England TV Channels and Start Time",
+      "Twenty20 International Cricket",
+      "Australia v England Broadcast on TNT Sports 1",
+      "Australia v England Broadcast on HBO Max",
+      "TNT Sports 1",
+      "HBO Max"
+    ]
+  },
+  {
+    "Date": "2026-11-29",
+    "Start_Time": "14:15",
+    "End_Time": "18:15",
+    "League": "Twenty20 International",
+    "Matchup": "Australia vs England",
+    "Services": [
+      "Australia v England TV Channels and Start Time",
+      "Twenty20 International Cricket",
+      "Australia v England Broadcast on TNT Sports 1",
+      "Australia v England Broadcast on TNT Sports 3",
+      "Australia v England Broadcast on HBO Max",
+      "TNT Sports 1",
+      "TNT Sports 3",
+      "HBO Max"
+    ]
+  }
+]
