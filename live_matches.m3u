@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Kashima Antlers vs Jeonbuk Motors" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/kashima_antlers_vs_jeonbuk_motors.png" group-title="🔴 LIVE NOW", Kashima Antlers vs Jeonbuk Motors
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
+#EXTINF:-1 tvg-name="Persib Bandung vs FC Seoul" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/persib_bandung_vs_fc_seoul.png" group-title="🔴 LIVE NOW", Persib Bandung vs FC Seoul
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein2.m3u8
