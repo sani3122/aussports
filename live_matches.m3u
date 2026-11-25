@@ -1,14 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Kuwait SC vs Al Wahda" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/kuwait_sc_vs_al_wahda.png" group-title="🔴 LIVE NOW", Kuwait SC vs Al Wahda
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein6.m3u8
-#EXTINF:-1 tvg-name="Al Faisaly vs Al Rayyan - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/al_faisaly_vs_al_rayyan.png" group-title="🔴 LIVE NOW", Al Faisaly vs Al Rayyan - Stream 1
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein2.m3u8
-#EXTINF:-1 tvg-name="Al Faisaly vs Al Rayyan - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/al_faisaly_vs_al_rayyan.png" group-title="🔴 LIVE NOW", Al Faisaly vs Al Rayyan - Stream 2
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
-#EXTINF:-1 tvg-name="Muharraq vs Arkadag" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/muharraq_vs_arkadag.png" group-title="🔴 LIVE NOW", Muharraq vs Arkadag
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein5.m3u8
-#EXTINF:-1 tvg-name="Al Jazira vs Gol Gohar" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/al_jazira_vs_gol_gohar.png" group-title="🔴 LIVE NOW", Al Jazira vs Gol Gohar
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
 #EXTINF:-1 tvg-name="Sabah vs Barcelona - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/sabah_vs_barcelona.png" group-title="🔴 LIVE NOW", Sabah vs Barcelona - Stream 1
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
 #EXTINF:-1 tvg-name="Sabah vs Barcelona - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/sabah_vs_barcelona.png" group-title="🔴 LIVE NOW", Sabah vs Barcelona - Stream 2
