@@ -1,77 +1,5 @@
 [
   {
-    "Date": "2026-11-25",
-    "Start_Time": "23:40",
-    "End_Time": "02:10",
-    "League": "Football",
-    "Matchup": "Slavia Praag vs Villarreal CF",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-25",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "Football",
-    "Matchup": "Sabah vs FC Barcelona",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Club Brugge vs Liverpool",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Lille vs Bayern München",
-    "Services": [
-      "Ziggo Sport 3"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Atlético Madrid vs Viking",
-    "Services": [
-      "Ziggo Sport 5"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Sporting CP vs Manchester United",
-    "Services": [
-      "Ziggo Sport 6"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "Football",
-    "Matchup": "Paris Saint-Germain vs AS Roma",
-    "Services": [
-      "Ziggo Sport 1",
-      "Ziggo Sport Kanaal 14"
-    ]
-  },
-  {
     "Date": "2026-11-26",
     "Start_Time": "21:25",
     "End_Time": "23:55",
@@ -520,6 +448,59 @@
     "Matchup": "Internazionale vs Genoa",
     "Services": [
       "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-12-02",
+    "Start_Time": "22:55",
+    "End_Time": "01:25",
+    "League": "Football",
+    "Matchup": "Bayer Leverkusen vs RB Leipzig",
+    "Services": [
+      "Ziggo Sport 2"
+    ]
+  },
+  {
+    "Date": "2026-12-03",
+    "Start_Time": "00:00",
+    "End_Time": "02:30",
+    "League": "Football",
+    "Matchup": "Real Sociedad vs Real Madrid",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-12-03",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
+    "League": "Football",
+    "Matchup": "Eintracht Frankfurt vs Borussia Dortmund",
+    "Services": [
+      "Ziggo Sport 2",
+      "Ziggo Sport 4"
+    ]
+  },
+  {
+    "Date": "2026-12-03",
+    "Start_Time": "01:55",
+    "End_Time": "04:25",
+    "League": "Football",
+    "Matchup": "Como vs Cremonese",
+    "Services": [
+      "Ziggo Sport 3"
+    ]
+  },
+  {
+    "Date": "2026-12-03",
+    "Start_Time": "02:30",
+    "End_Time": "05:00",
+    "League": "Football",
+    "Matchup": "FC Barcelona vs Atlético Madrid",
+    "Services": [
+      "Ziggo Sport 1",
+      "Ziggo Sport Kanaal 14"
     ]
   }
 ]
