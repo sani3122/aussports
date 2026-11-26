@@ -1,207 +1,5 @@
 [
   {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa League",
-    "Matchup": "Olympiakos Piraeus - AC Milan",
-    "Services": [
-      "Paramount+",
-      "UniMás",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa League",
-    "Matchup": "Olympique Marseille - Levski Sofia",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada",
-      "OneSoccer"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa League",
-    "Matchup": "Viktoria Plzeň - Benfica",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa League",
-    "Matchup": "Union Saint-Gilloise - Lech Poznań",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa League",
-    "Matchup": "Dinamo Zagreb - Bayer Leverkusen",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa League",
-    "Matchup": "FC Red Bull Salzburg - Ararat-Armenia",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa League",
-    "Matchup": "Celta de Vigo - AFC Bournemouth",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa League",
-    "Matchup": "Beşiktaş - Hapoel Be'er Sheva",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Brighton & Hove Albion - Universitatea Craiova",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada",
-      "OneSoccer"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Brann - AGF",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Jablonec - Lugano",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Ajax - Thun",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Pafos FC - FC Midtjylland",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Hearts - Monaco",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Kauno Žalgiris - Riga",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "FC Iberia 1999 - Getafe",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-26",
-    "Start_Time": "23:45",
-    "End_Time": "02:15",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Egnatia Rrogozhinë - Lincoln Red Imps",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
     "Date": "2026-11-27",
     "Start_Time": "02:00",
     "End_Time": "04:30",
@@ -1616,6 +1414,105 @@
       "ViaPlay Suomi HD",
       "ViaPlay Sverige HD",
       "ViaPlay Ísland HD"
+    ]
+  },
+  {
+    "Date": "2026-11-30",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "Serie A",
+    "Matchup": "Como - Juventus",
+    "Services": [
+      "Paramount+",
+      "Telemundo",
+      "DAZN Canada"
+    ]
+  },
+  {
+    "Date": "2026-11-30",
+    "Start_Time": "01:45",
+    "End_Time": "04:15",
+    "League": "Serie A",
+    "Matchup": "Como 1907 vs Juventus",
+    "Services": [
+      "Arena Premium 2 BiH HD",
+      "Arena Premium 3 Srbija HD",
+      "Arena Sport 1 Hrvatska HD",
+      "Arena Sport 1 Slovenija HD",
+      "beIN Sports Australia 3 HD",
+      "DAZN 1 Italia HD",
+      "DAZN Belgium",
+      "DAZN Deutsch",
+      "DAZN España",
+      "DAZN France",
+      "DAZN Great Britain",
+      "DAZN Ireland",
+      "DAZN Italia",
+      "Digi Sport 3 Romania",
+      "Eleven Sports 2 Polska HD",
+      "HBO Max",
+      "MATCH! Futbol 1 HD",
+      "MATCH! Russia HD",
+      "Megogo Futbol 1",
+      "MTV Katsomon+",
+      "Paramount+ USA",
+      "Peacock Premium USA",
+      "Prima Sport RO 2 HD",
+      "S Sport+ Streaming",
+      "Sport TV3 Portugal HD",
+      "SuperSport Football HD",
+      "SuperSport Kickoff HD",
+      "SuperSport MáXimo 1 HD",
+      "TNT Sports 1 HD",
+      "Tring Sport 1 HD",
+      "TV2 Play Danmark",
+      "TV2 Sport X Dansk HD",
+      "TV4 Fotboll HD",
+      "TV4 Play Sverige",
+      "VG+ Sport Norge"
+    ]
+  },
+  {
+    "Date": "2026-11-30",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "La Liga",
+    "Matchup": "Real Sociedad vs Sevilla",
+    "Services": [
+      "Arena Premium 1 Srbija HD",
+      "Arena Premium 3 BiH HD",
+      "beIN Sports Australia 2 HD",
+      "beIN Sports MENA 6 HD",
+      "beIN Sports MENA English 1 HD",
+      "Canal+ Sport 1 Polska HD",
+      "Canal+ Sport 6 Polska HD",
+      "DAZN 2 Portugal HD",
+      "DAZN Belgium",
+      "DAZN Deutsch",
+      "DAZN España",
+      "DAZN France",
+      "DAZN Italia",
+      "DAZN Japan",
+      "DAZN LaLiga HD",
+      "DAZN Portugal",
+      "Digi Sport 4 Romania",
+      "Disney+ Danmark",
+      "Disney+ Suomi",
+      "Disney+ Sverige",
+      "ESPN+ USA",
+      "Fast Sports",
+      "LaLiga TV Bar HD",
+      "MATCH! Futbol 2 HD",
+      "Megogo Futbol 2",
+      "Premier Sports 1 Ireland HD",
+      "Premier Sports 1 UK HD",
+      "Premier Sports GB Player HD",
+      "Prima Sport RO 4 HD",
+      "S Sport+ Streaming",
+      "Spíler 2 TV Hungary HD",
+      "SuperSport LaLiga HD",
+      "TV2 Play Norge",
+      "ViaPlay Norge HD"
     ]
   }
 ]
