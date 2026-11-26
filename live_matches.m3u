@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Tampines Rovers vs Shanghai Shenhua" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/tampines_rovers_vs_shanghai_shenhua.png" group-title="🔴 LIVE NOW", Tampines Rovers vs Shanghai Shenhua
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein4.m3u8
+#EXTINF:-1 tvg-name="Kuching City vs Phnom Penh Crown" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/kuching_city_vs_phnom_penh_crown.png" group-title="🔴 LIVE NOW", Kuching City vs Phnom Penh Crown
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein3.m3u8
+#EXTINF:-1 tvg-name="Gangwon vs Kitchee" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/gangwon_vs_kitchee.png" group-title="🔴 LIVE NOW", Gangwon vs Kitchee
+https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein2.m3u8
