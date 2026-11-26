@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Kairat Almaty vs Mjällby AIF - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/kairat_almaty_vs_mj_llby_aif.png" group-title="🔴 LIVE NOW", Kairat Almaty vs Mjällby AIF - Stream 1
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein2.m3u8
-#EXTINF:-1 tvg-name="Kairat Almaty vs Mjällby AIF - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/kairat_almaty_vs_mj_llby_aif.png" group-title="🔴 LIVE NOW", Kairat Almaty vs Mjällby AIF - Stream 2
-https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Ftntsports4.m3u8
 #EXTINF:-1 tvg-name="Olympiacos vs AC Milan - Stream 1" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/olympiacos_vs_ac_milan.png" group-title="🔴 LIVE NOW", Olympiacos vs AC Milan - Stream 1
 https://proxy.acc-mail-sani.workers.dev/proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsani3122%2FWhy%2Frefs%2Fheads%2Fmain%2Fchannels%2Fbein1.m3u8
 #EXTINF:-1 tvg-name="Olympiacos vs AC Milan - Stream 2" tvg-logo="https://raw.githubusercontent.com/sani3122/aussports/main/generated_logos/olympiacos_vs_ac_milan.png" group-title="🔴 LIVE NOW", Olympiacos vs AC Milan - Stream 2
