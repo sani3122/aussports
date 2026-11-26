@@ -14,7 +14,7 @@ import pytz
 from playwright.async_api import async_playwright
 
 # ==================== CONFIGURATION ====================
-URL = "https://www.wheresthematch.com/twenty20-international-cricket-on-tv/"
+URL = "https://www.wheresthematch.com/cricket-today/"
 UK_TZ = pytz.timezone("Europe/London")
 BANGLADESH_TZ = pytz.timezone("Asia/Dhaka")
 
