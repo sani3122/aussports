@@ -32,9 +32,6 @@ FOOTONSAT_URLS = [
     "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/laliga.json",
     "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/bundesliga.json",
     "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/ligue1.json",
-    "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/championsleague.json",
-    "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/europaleague.json",
-    "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/ConferenceLeague.json",
     "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/worldcup.json",
     "https://raw.githubusercontent.com/fairbird/footonsat-api/refs/heads/main/today.json"
 ]
@@ -42,8 +39,7 @@ FOOTONSAT_URLS = [
 # ==================== ALLOWED LEAGUES (FOOTBALL ONLY) ====================
 ALLOWED_LEAGUES = {
     "Premier League", "Serie A", "La Liga", "Bundesliga", "Ligue 1",
-    "UEFA Champions League", "UEFA Europa League", "UEFA Europa Conference League",
-    "UEFA European Championship", "FIFA World Cup", "UEFA Nations League",
+    "UEFA Champions League", "FIFA World Cup", "UEFA Nations League",
     "International Friendlies", "FA Cup", "Carabao Cup", "Brazilian Série A",
     "MLS", "English Championship"
 }
