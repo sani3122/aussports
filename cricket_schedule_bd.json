@@ -1,6 +1,63 @@
 [
   {
     "Date": "2026-11-27",
+    "Start_Time": "14:00",
+    "End_Time": "18:00",
+    "League": "Twenty20 International",
+    "Matchup": "South Africa vs Bangladesh",
+    "Services": [
+      "Test Match Cricket - Live Cricket",
+      "Sky Sports Cricket"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "14:15",
+    "End_Time": "18:15",
+    "League": "Twenty20 International",
+    "Matchup": "Australia vs England",
+    "Services": [
+      "tnt",
+      "HBO Max",
+      "TNT Sports 1"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "16:00",
+    "End_Time": "20:00",
+    "League": "Twenty20 International",
+    "Matchup": "Pakistan A vs Bangladesh A",
+    "Services": [
+      "Asia Cup Rising Stars - Live Cricket",
+      "Sony Max"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "16:10",
+    "End_Time": "20:10",
+    "League": "Twenty20 International",
+    "Matchup": "Perth Scorchers Women vs Hobart Hurricanes Women",
+    "Services": [
+      "Women's Big Bash League - Live Cricket"
+    ]
+  },
+  {
+    "Date": "2026-11-27",
+    "Start_Time": "20:30",
+    "End_Time": "00:30",
+    "League": "Twenty20 International",
+    "Matchup": "Sharjah Warriors vs Dubai Capitals",
+    "Services": [
+      "International League T20 - Live Cricket",
+      "tnt",
+      "HBO Max",
+      "TNT Sports 1"
+    ]
+  },
+  {
+    "Date": "2026-11-28",
     "Start_Time": "04:00",
     "End_Time": "08:00",
     "League": "Twenty20 International",
@@ -9,9 +66,7 @@
       "Test Match Cricket - Live Cricket",
       "tnt",
       "HBO Max",
-      "TNT Sports 1",
-      "TNT Sports 4",
-      "TNT Sports"
+      "TNT Sports 1"
     ]
   }
 ]
