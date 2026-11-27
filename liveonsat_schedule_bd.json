@@ -1,214 +1,17 @@
 [
   {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa League",
-    "Matchup": "Juventus - Omonia Nicosia",
+    "Date": "2026-11-28",
+    "Start_Time": "01:30",
+    "End_Time": "04:00",
+    "League": "La Liga",
+    "Matchup": "Leganés vs Sabadell",
     "Services": [
-      "Paramount+",
-      "DAZN",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa League",
-    "Matchup": "Lyon - Lillestrøm",
-    "Services": [
-      "Paramount+",
-      "DAZN",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa League",
-    "Matchup": "Ferencvaros - Celje",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa League",
-    "Matchup": "Sparta Praha - AZ",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa League",
-    "Matchup": "Crystal Palace - Real Sociedad",
-    "Services": [
-      "Paramount+",
-      "TUDN",
-      "UniMás",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa League",
-    "Matchup": "TSG 1899 Hoffenheim - Sturm Graz",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa League",
-    "Matchup": "Torreense - Celtic",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa League",
-    "Matchup": "NEC - Rennes",
-    "Services": [
-      "Paramount+",
-      "DAZN",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa League",
-    "Matchup": "OFI - Anderlecht",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Sporting Braga - KuPS",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Freiburg - FC Twente",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Gent - Red Star Belgrade",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Borac Banja Luka - Atalanta",
-    "Services": [
-      "Paramount+",
-      "ViX",
-      "DAZN Canada"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Hajduk Split - Sint-Truiden",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "FC Nordsjælland - Panathinaikos",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "Inter Club d'Escaldes - FC København",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "02:00",
-    "End_Time": "04:30",
-    "League": "UEFA Europa Conference League",
-    "Matchup": "CSKA Sofia - Trabzonspor",
-    "Services": [
-      "Paramount+",
-      "ViX"
-    ]
-  },
-  {
-    "Date": "2026-11-27",
-    "Start_Time": "05:00",
-    "End_Time": "07:30",
-    "League": "Brazilian Série A",
-    "Matchup": "São Paulo vs Remo",
-    "Services": [
-      "Fanatiz EU",
-      "MATCH! Futbol 3 HD"
+      "DAZN España",
+      "Esport 3 Catalunya",
+      "LaLiga Hypermotion HD",
+      "MATCH! Futbol 3 HD",
+      "Premier Sports GB Player HD",
+      "Prima Sport RO PPV 2"
     ]
   },
   {
@@ -231,10 +34,12 @@
     "League": "Premier League",
     "Matchup": "Nottingham Forest vs Chelsea",
     "Services": [
+      "Arena M1 Premium MKD HD",
       "Arena Premium 1 BiH HD",
       "Arena Premium 1 Slovenija",
       "Arena Premium 1 Srbija HD",
       "Arena Sport 2 Hrvatska HD",
+      "Astro Sports UHD",
       "beIN Connect MENA",
       "beIN Connect Türkiye",
       "beIN MENA 4K UHD",
@@ -250,24 +55,33 @@
       "DAZN Canada",
       "DAZN España",
       "DAZN Portugal",
+      "ESPN 1 Brazil HD",
+      "GEM Sport 1 HD",
       "Hub Premier 1 HD",
       "Monomax Streaming",
+      "NOW Sports HK 1 4K",
+      "Play Sports 1 Belgium",
       "Premier League+",
       "See Dansk HD",
       "Setanta Sports Ukraine HD",
       "Sky Go UK",
+      "Sky Sport 3 Austria HD",
       "Sky Sport 8 NZ HD",
       "Sky Sport Max Italia HD",
+      "Sky Sport Premier League DE HD",
       "Sky Sports Main Event HD",
       "Sky Sports Main Event UHD",
       "Sky Sports Premier League HD",
       "Sky UK Ultra HD 1",
       "SuperSport 3 Albania HD",
       "SuperSport MáXimo 1 HD",
+      "SuperSport MáXimo 2A HD",
       "SuperSport Premier League HD",
       "SÝN Sport 1 Ísland HD",
+      "V Sport Premier League HD",
       "V Sport Premium HD",
       "V Sport Ultra 4K UHD",
+      "ViaPlay 2 Urheilu HD",
       "ViaPlay Danmark HD",
       "ViaPlay Nederland HD",
       "ViaPlay Norge HD",
@@ -315,8 +129,34 @@
       "Spíler 2 TV Hungary HD",
       "SuperSport 2 Albania HD",
       "SuperSport LaLiga HD",
+      "SuperSport MáXimo 3A HD",
       "TV2 Play Norge",
+      "TV2 Sport 1 Norge HD",
       "ViaPlay Norge HD"
+    ]
+  },
+  {
+    "Date": "2026-11-28",
+    "Start_Time": "02:00",
+    "End_Time": "04:30",
+    "League": "International Friendlies",
+    "Matchup": "France vs Venezuela",
+    "Services": [
+      "France 4 HD"
+    ]
+  },
+  {
+    "Date": "2026-11-28",
+    "Start_Time": "05:00",
+    "End_Time": "07:30",
+    "League": "Brazilian Série A",
+    "Matchup": "Fluminense vs Cruzeiro",
+    "Services": [
+      "Arena M1 Premium MKD HD",
+      "Arena Premium 1 Srbija HD",
+      "Canal 11 Portugal HD",
+      "Fanatiz EU",
+      "MATCH! Futbol 3 HD"
     ]
   },
   {
@@ -337,10 +177,12 @@
     "League": "La Liga",
     "Matchup": "Real Betis vs Rayo Vallecano",
     "Services": [
+      "Arena M1 Premium MKD HD",
       "Arena Premium 3 BiH HD",
       "Arena Premium 3 Srbija HD",
       "beIN Sports MENA 5 HD",
       "Canal+ Sport 6 Polska HD",
+      "DAZN 2 Bar Deutsch HD",
       "DAZN 3 Portugal HD",
       "DAZN Belgium",
       "DAZN Deutsch",
@@ -363,6 +205,7 @@
       "Premier Sports GB Player HD",
       "Prima Sport RO 2 HD",
       "S Sport+ Streaming",
+      "Setanta Sports Qazaqstan HD",
       "Spíler 2 TV Hungary HD",
       "SuperSport 2 Albania HD",
       "SuperSport LaLiga HD",
@@ -402,12 +245,14 @@
       "Digi Sport 3 Romania",
       "Eleven Sports 2 Polska HD",
       "OneFootball",
+      "Play Sports 2 Belgium",
       "Prima Sport RO 4 HD",
       "S Sport+ Streaming",
       "See Dansk HD",
       "Setanta Sports+ Ukraine HD",
       "Sky Sport Max Italia HD",
       "Sport TV1 Slovenija",
+      "Tring Sport 4 HD",
       "V Sport Extra Sverige HD",
       "ViaPlay Danmark HD",
       "ViaPlay Nederland HD",
@@ -448,6 +293,7 @@
     "League": "Premier League",
     "Matchup": "Leeds United vs Coventry City",
     "Services": [
+      "Arena M2 Premium MKD HD",
       "Arena Premium 1 BiH HD",
       "Arena Premium 2 Srbija HD",
       "Arena Sport 3 Hrvatska HD",
@@ -465,7 +311,9 @@
       "DAZN Portugal",
       "Hub Premier 2 HD",
       "Monomax Streaming",
+      "Play Sports 3 Belgium",
       "Premier League+",
+      "Setanta Sports Qazaqstan HD",
       "Sky Sport MIX Italia HD",
       "Sky Sport Select NZ HD",
       "SuperSport 4 Albania HD",
@@ -489,6 +337,7 @@
     "League": "Premier League",
     "Matchup": "Manchester United vs Brentford",
     "Services": [
+      "Arena M1 Premium MKD HD",
       "Arena Premium 1 Srbija HD",
       "Arena Sport 1 BiH HD",
       "Arena Sport 1 Hrvatska HD",
@@ -507,13 +356,16 @@
       "DAZN Canada",
       "DAZN España",
       "DAZN Portugal",
+      "GEM Sport 1 HD",
       "Hub Premier 1 HD",
       "Hub Premier 3 HD",
       "Monomax Streaming",
+      "Play Sports 1 Belgium",
       "Premier League+",
       "Premier Sports 1 Ireland HD",
       "Setanta Sports Ukraine HD",
       "Sky Sport 8 NZ HD",
+      "Sky Sport Italia 4K UHD",
       "Sky Sport Uno Italia HD",
       "SuperSport 3 Albania HD",
       "SuperSport Africa HD",
@@ -541,6 +393,7 @@
       "beIN Sports MENA 5 HD",
       "Canal+ Sport 1 Polska HD",
       "Canal+ Sport 6 Polska HD",
+      "DAZN 2 Bar Deutsch HD",
       "DAZN 3 Portugal HD",
       "DAZN Belgium",
       "DAZN Deutsch",
@@ -640,6 +493,7 @@
     "League": "Premier League",
     "Matchup": "Ipswich Town vs Aston Villa",
     "Services": [
+      "Arena M2 Premium MKD HD",
       "Arena Premium 2 Srbija HD",
       "Arena Sport 1 BiH HD",
       "Arena Sport 1 Hrvatska HD",
@@ -659,6 +513,7 @@
       "DAZN Portugal",
       "Hub Premier 1 HD",
       "Monomax Streaming",
+      "Play Sports 1 Belgium",
       "Premier League+",
       "Setanta Sports Ukraine HD",
       "Sky Go UK",
@@ -687,10 +542,13 @@
     "League": "La Liga",
     "Matchup": "Elche vs Atletico Madrid",
     "Services": [
+      "Arena M1 Premium MKD HD",
       "Arena Premium 3 BiH HD",
       "Arena Premium 3 Srbija HD",
       "beIN Sports MENA 5 HD",
       "Canal+ Sport 6 Polska HD",
+      "DAZN 1 Belgium",
+      "DAZN 2 Bar Deutsch HD",
       "DAZN 2 Portugal HD",
       "DAZN Belgium",
       "DAZN Deutsch",
@@ -716,6 +574,7 @@
       "Premier Sports GB Player HD",
       "Prima Sport RO 2 HD",
       "S Sport+ Streaming",
+      "Setanta Sports Qazaqstan HD",
       "Spíler 2 TV Hungary HD",
       "SuperSport 2 Albania HD",
       "SuperSport LaLiga HD",
@@ -730,7 +589,6 @@
     "League": "Ligue 1",
     "Matchup": "PSG - Lorient",
     "Services": [
-      "beIN USA",
       "beIN USA Espanol",
       "beIN SPORTS 4",
       "beIN Canada Espanol"
@@ -784,6 +642,7 @@
     "League": "La Liga",
     "Matchup": "Real Madrid vs Alavés",
     "Services": [
+      "Arena M1 Premium MKD HD",
       "Arena Premium 1 Srbija HD",
       "Arena Premium 3 BiH HD",
       "beIN Sports Australia 2 HD",
@@ -791,8 +650,10 @@
       "beIN Sports MENA English 1 HD",
       "beIN Sports MENA French 1 HD",
       "Canal+ Sport 6 Polska HD",
+      "DAZN 1 Belgium",
       "DAZN 1 Italia HD",
       "DAZN 1 Portugal HD",
+      "DAZN 2 Bar Deutsch HD",
       "DAZN Belgium",
       "DAZN Deutsch",
       "DAZN France",
@@ -806,6 +667,7 @@
       "Disney+ UK",
       "ESPN+ USA",
       "Fast Sports",
+      "GEM Sport 1 HD",
       "LaLiga TV Bar HD",
       "M+ LaLiga HD",
       "M+ LaLiga HDR",
@@ -841,10 +703,12 @@
     "League": "Premier League",
     "Matchup": "Everton vs Liverpool",
     "Services": [
+      "Arena M1 Premium MKD HD",
       "Arena Premium 1 BiH HD",
       "Arena Premium 1 Srbija HD",
       "Arena Sport 1 Hrvatska HD",
       "Arena Sport 1 Slovenija HD",
+      "Astro Sports UHD",
       "beIN Connect MENA",
       "beIN Connect Türkiye",
       "beIN MENA 4K UHD",
@@ -862,12 +726,16 @@
       "HBO Max",
       "Hub Premier 1 HD",
       "Monomax Streaming",
+      "NOW Sports HK 1 4K",
+      "Play Sports 1 Belgium",
       "Premier League+",
       "Prime Video Dansk",
       "Prime Video Sverige",
       "Setanta Sports Ukraine HD",
       "Sky Sport 8 NZ HD",
       "Sky Sport Arena Italia HD",
+      "Sky Sport Deutsch UHD",
+      "Sky Sport Italia 4K UHD",
       "SuperSport Premier League HD",
       "SÝN Sport 1 Ísland HD",
       "TNT Sports 1 HD",
@@ -914,6 +782,7 @@
       "Premier Sports GB Player HD",
       "Prima Sport RO 5 HD",
       "S Sport+ Streaming",
+      "Setanta Sports Qazaqstan HD",
       "Spíler 2 TV Hungary HD",
       "SuperSport LaLiga HD",
       "TV2 Play Norge",
@@ -963,6 +832,7 @@
       "BBC Sport Website",
       "beIN Sports Australia 3 HD",
       "DAZN 1 Italia HD",
+      "DAZN 2 Bar Deutsch HD",
       "DAZN Belgium",
       "DAZN Deutsch",
       "DAZN España",
@@ -1003,6 +873,7 @@
       "Arena Sport 4 BiH HD",
       "Arena Sport 9 Srbija HD",
       "beIN Sports MENA 9 HD",
+      "DAZN 2 Belgium",
       "Eleven Sports 3 Polska HD",
       "Ligue 1+",
       "Megogo Futbol 3",
@@ -1077,6 +948,7 @@
       "DAZN Portugal",
       "Hub Premier 2 HD",
       "Monomax Streaming",
+      "Play Sports 2 Belgium",
       "Premier League+",
       "Sky Go UK",
       "Sky Sport 6 NZ HD",
@@ -1180,6 +1052,7 @@
       "beIN Sports MENA French 1 HD",
       "Canal+ Sport 1 Polska HD",
       "Canal+ Sport 6 Polska HD",
+      "DAZN 1 Belgium",
       "DAZN 2 Portugal HD",
       "DAZN Belgium",
       "DAZN Deutsch",
@@ -1203,6 +1076,7 @@
       "Premier Sports GB Player HD",
       "Prima Sport RO 1 HD",
       "S Sport+ Streaming",
+      "Setanta Sports Qazaqstan HD",
       "Spíler 2 TV Hungary HD",
       "SuperSport LaLiga HD",
       "TV2 Play Norge",
@@ -1228,10 +1102,12 @@
     "League": "Premier League",
     "Matchup": "Arsenal vs Manchester City",
     "Services": [
+      "Arena M1 Premium MKD HD",
       "Arena Premium 1 Srbija HD",
       "Arena Sport 1 Hrvatska HD",
       "Arena Sport 1 Slovenija HD",
       "Arena Sport 2 BiH HD",
+      "Astro Sports UHD",
       "beIN Connect MENA",
       "beIN Connect Türkiye",
       "beIN Sports MENA 1 HD",
@@ -1250,6 +1126,8 @@
       "M+ Liga de Campeones HD",
       "M+ Vamos 1 España HD",
       "Monomax Streaming",
+      "NOW Sports HK 1 4K",
+      "Play Sports 1 Belgium",
       "Premier League+",
       "See Dansk HD",
       "Setanta Sports Ukraine HD",
@@ -1297,6 +1175,7 @@
       "Arena Sport 3 Hrvatska HD",
       "Arena Sport 3 Slovenija HD",
       "beIN Sports Australia 3 HD",
+      "DAZN 2 Belgium",
       "DAZN Belgium",
       "DAZN Deutsch",
       "DAZN España",
@@ -1390,6 +1269,7 @@
       "Arena Premium 4 BiH HD",
       "Arena Premium 4 Srbija HD",
       "beIN Sports France 2 HD",
+      "DAZN 1 Bar Deutsch HD",
       "DAZN 3 Portugal HD",
       "DAZN Deutsch",
       "DAZN Portugal",
@@ -1400,12 +1280,14 @@
       "M+ Vamos 1 España HD",
       "OneFootball",
       "Orange Fútbol 3 HD",
+      "Play Sports 2 Belgium",
       "Prima Sport RO 3 HD",
       "Prime Video UK PPV",
       "S Sport+ Streaming",
       "Setanta Sports Ukraine HD",
       "Sky Sport Arena Italia HD",
       "Sport TV2 Slovenija",
+      "Tring Sport 4 HD",
       "TV3 MAX Dansk HD",
       "V Sport Football HD",
       "ViaPlay Danmark HD",
@@ -1441,6 +1323,7 @@
       "Arena Sport 1 Slovenija HD",
       "beIN Sports Australia 3 HD",
       "DAZN 1 Italia HD",
+      "DAZN 2 Belgium",
       "DAZN Belgium",
       "DAZN Deutsch",
       "DAZN España",
@@ -1509,6 +1392,7 @@
       "Premier Sports GB Player HD",
       "Prima Sport RO 4 HD",
       "S Sport+ Streaming",
+      "Setanta Sports Qazaqstan HD",
       "Spíler 2 TV Hungary HD",
       "SuperSport LaLiga HD",
       "TV2 Play Norge",
