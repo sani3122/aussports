@@ -1,16 +1,6 @@
 [
   {
     "Date": "2026-11-28",
-    "Start_Time": "01:55",
-    "End_Time": "04:25",
-    "League": "Football",
-    "Matchup": "Levante UD vs Racing Santander",
-    "Services": [
-      "Ziggo Sport 2"
-    ]
-  },
-  {
-    "Date": "2026-11-28",
     "Start_Time": "02:00",
     "End_Time": "04:30",
     "League": "Premier League",
@@ -410,6 +400,16 @@
     "Services": [
       "Ziggo Sport 1",
       "Ziggo Sport Kanaal 14"
+    ]
+  },
+  {
+    "Date": "2026-12-05",
+    "Start_Time": "01:40",
+    "End_Time": "04:10",
+    "League": "Football",
+    "Matchup": "Bologna vs AS Roma",
+    "Services": [
+      "Ziggo Sport 2"
     ]
   }
 ]
